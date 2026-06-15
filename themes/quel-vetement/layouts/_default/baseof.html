@@ -1,14 +1,31 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode | default "fr" }}">
+<html lang="{{ .Site.Language.Locale | default "fr" }}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+    <title>{{ with .Params.seoTitle }}{{ . }}{{ else }}{{ if $.IsHome }}{{ $.Site.Title }}{{ else }}{{ $.Title }} | {{ $.Site.Title }}{{ end }}{{ end }}</title>
     <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="{{ "/favicon.svg" | relURL }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ "/favicon-32x32.png" | relURL }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ "/favicon-16x16.png" | relURL }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ "/apple-touch-icon.png" | relURL }}">
+    <meta name="theme-color" content="#1b2a4a">
 
     {{ partial "seo-head.html" . }}
 
-    <!-- Google Fonts — ADAPTER LES POLICES AU PROJET -->
+    {{ with .Site.Params.ga_id }}
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '{{ . }}');
+    </script>
+    {{ end }}
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Lora:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -20,11 +37,9 @@
 </head>
 <body>
     {{ partial "header.html" . }}
-
     <main>
         {{ block "main" . }}{{ end }}
     </main>
-
     {{ partial "footer.html" . }}
 </body>
 </html>

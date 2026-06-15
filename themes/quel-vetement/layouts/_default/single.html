@@ -13,9 +13,7 @@
                 {{ end }}
             </div>
             <h1>{{ .Title }}</h1>
-            {{ with .Description }}
-            <p class="article-description">{{ . }}</p>
-            {{ end }}
+            {{ with .Description }}<p class="article-description">{{ . }}</p>{{ end }}
             {{ with .Params.author }}
             <div class="article-author">
                 <span class="author-label">Par</span>
@@ -34,6 +32,10 @@
         <div class="container container-narrow">
             {{ .Content }}
         </div>
+    </div>
+
+    <div class="container container-narrow">
+        {{ partial "related-articles.html" . }}
     </div>
 
     <footer class="article-footer">

@@ -1,4 +1,17 @@
+# Quel Vêtement
+# https://quel-vetement.fr
+
 User-agent: *
 Allow: /
+
+Disallow: /admin/
+
+# Tags : contenu maigre / duplication avec les catégories, en noindex côté HTML
+Disallow: /tags/
+
+# Majestic (MJ12bot) : autorisation explicite
+User-agent: MJ12bot
+Allow: /
+Crawl-delay: 5
 
 Sitemap: https://quel-vetement.fr/sitemap.xml

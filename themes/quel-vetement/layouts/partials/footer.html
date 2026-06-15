@@ -6,7 +6,7 @@
                 <p>{{ .Site.Params.description }}</p>
             </div>
             <div class="footer-col">
-                <h4>Categories</h4>
+                <h4>Catégories</h4>
                 <ul>
                     {{ range .Site.Taxonomies.categories }}
                     <li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a></li>
@@ -14,16 +14,17 @@
                 </ul>
             </div>
             <div class="footer-col">
-                <h4>Navigation</h4>
+                <h4>Informations</h4>
                 <ul>
-                    {{ range .Site.Menus.main }}
-                    <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
-                    {{ end }}
+                    <li><a href="{{ "/a-propos/" | relURL }}">À propos</a></li>
+                    <li><a href="{{ "/contact/" | relURL }}">Contact</a></li>
+                    <li><a href="{{ "/mentions-legales/" | relURL }}">Mentions légales</a></li>
+                    <li><a href="{{ "/plan-du-site/" | relURL }}">Plan du site</a></li>
                 </ul>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; {{ now.Year }} {{ .Site.Title }}. Tous droits reserves.</p>
+            <p>&copy; {{ now.Year }} {{ .Site.Title }}. Tous droits réservés.</p>
         </div>
     </div>
 </footer>

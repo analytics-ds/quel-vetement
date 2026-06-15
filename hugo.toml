@@ -1,22 +1,67 @@
 baseURL = "https://quel-vetement.fr/"
-languageCode = "fr-fr"
 title = "Quel Vêtement"
 theme = "quel-vetement"
-summaryLength = 30
+languageCode = "fr-fr"
+defaultContentLanguage = "fr"
+defaultContentLanguageInSubdir = false
+enableRobotsTXT = false
 enableEmoji = true
+summaryLength = 30
+# buildFuture = false : Hugo cache les articles datés dans le futur.
+# Combiné au cron GitHub Actions (mardi/vendredi), permet la publication
+# automatique à la date prévue (publishDate).
+buildFuture = false
+
+[languages]
+  [languages.fr]
+    locale = "fr-FR"
+    weight = 1
+    [languages.fr.params]
+      description = "Comparatifs, guides d'achat et conseils style pour bien choisir ses vêtements d'homme, du costume au lin."
 
 [taxonomies]
   category = "categories"
   tag = "tags"
-
-[markup.goldmark.renderer]
-  unsafe = true
+  author = "authors"
 
 [params]
+  theme_name = "quel-vetement"
   description = "Comparatifs, guides d'achat et conseils style pour bien choisir ses vêtements d'homme, du costume au lin."
   author_name = "Maxime Coste"
   author_url = ""
   author_job_title = "Rédacteur mode homme"
+  ga_id = ""
+  color_primary = "#1b2a4a"
+  color_primary_light = "#2e4673"
+  color_background = "#ffffff"
+  color_background_alt = "#f4f5f8"
+  color_accent = "#b5895a"
+  color_cta = "#b5895a"
+  color_text = "#1a1d24"
+  font_heading = "Playfair Display"
+  font_body = "Lora"
+  font_ui = "Inter"
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 2
+    ordered = false
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+  page = ["HTML"]
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[minify]
+  disableXML = true
 
 [[menus.main]]
   name = "Accueil"
