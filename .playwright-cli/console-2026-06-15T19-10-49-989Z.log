@@ -1,0 +1,173 @@
+[      52ms] [ERROR] Failed to find a valid digest in the 'integrity' attribute for resource 'http://localhost:1313/_mirror/use.fontawesome.com/releases/v5.5.0/css/all.css' with computed SHA-384 integrity 'k5wtpZ9F0Nl1VnjduloZEN7kVHEZv5JJDYL4UtQRgg2r15eHv9E8W2m8geCtkpM3'. The resource has been blocked. @ http://localhost:1313/:0
+[      52ms] [ERROR] Refused to apply style from 'http://localhost:1313/_mirror/quel-vetement.com/wp-content/plugins/em-pop/public/css/em-pop-public.css' because its MIME type ('text/plain') is not a supported stylesheet MIME type, and strict MIME checking is enabled. @ http://localhost:1313/:0
+[      53ms] [ERROR] Refused to apply style from 'http://localhost:1313/_mirror/quel-vetement.com/wp-content/plugins/em-ig-explore/public/css/em-ig-explore-public.css' because its MIME type ('text/plain') is not a supported stylesheet MIME type, and strict MIME checking is enabled. @ http://localhost:1313/:0
+[      53ms] [ERROR] Refused to apply style from 'http://localhost:1313/_mirror/quel-vetement.com/wp-content/themes/quel-vetement/style.css' because its MIME type ('text/plain') is not a supported stylesheet MIME type, and strict MIME checking is enabled. @ http://localhost:1313/:0
+[      55ms] [ERROR] Refused to apply style from 'http://localhost:1313/_mirror/quel-vetement.com/wp-content/uploads/maxmegamenu/style.css' because its MIME type ('text/plain') is not a supported stylesheet MIME type, and strict MIME checking is enabled. @ http://localhost:1313/:0
+[      55ms] [ERROR] Refused to apply style from 'http://localhost:1313/_mirror/quel-vetement.com/wp-includes/css/dashicons.min.css' because its MIME type ('text/plain') is not a supported stylesheet MIME type, and strict MIME checking is enabled. @ http://localhost:1313/:0
+[      62ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:1313/_mirror/quel-vetement.com/wp-includes/js/jquery/jquery.min.js:0
+[      62ms] [ERROR] Refused to execute script from 'http://localhost:1313/_mirror/quel-vetement.com/wp-includes/js/jquery/jquery.min.js' because its MIME type ('text/plain') is not executable, and strict MIME type checking is enabled. @ http://localhost:1313/:0
+[      65ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:1313/_mirror/quel-vetement.com/wp-includes/js/jquery/jquery-migrate.min.js:0
+[      65ms] [ERROR] Refused to execute script from 'http://localhost:1313/_mirror/quel-vetement.com/wp-includes/js/jquery/jquery-migrate.min.js' because its MIME type ('text/plain') is not executable, and strict MIME type checking is enabled. @ http://localhost:1313/:0
+[      65ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:1313/_mirror/quel-vetement.com/wp-content/plugins/em-ig-explore/public/js/em-ig-explore-public.js:0
+[      65ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:1313/_mirror/quel-vetement.com/wp-content/themes/quel-vetement/js/slick.min.js:0
+[      65ms] [ERROR] Refused to execute script from 'http://localhost:1313/_mirror/quel-vetement.com/wp-content/plugins/em-ig-explore/public/js/em-ig-explore-public.js' because its MIME type ('text/plain') is not executable, and strict MIME type checking is enabled. @ http://localhost:1313/:0
+[      65ms] [ERROR] Refused to execute script from 'http://localhost:1313/_mirror/quel-vetement.com/wp-content/themes/quel-vetement/js/slick.min.js' because its MIME type ('text/plain') is not executable, and strict MIME type checking is enabled. @ http://localhost:1313/:0
+[     118ms] ReferenceError: jQuery is not defined
+    at http://localhost:1313/:50:1
+[     129ms] ReferenceError: jQuery is not defined
+    at http://localhost:1313/:1111:5
+[      95ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:1313/_mirror/quel-vetement.com/wp-content/plugins/em-pop/public/js/em-pop-public.js:0
+[      95ms] [ERROR] Refused to execute script from 'http://localhost:1313/_mirror/quel-vetement.com/wp-content/plugins/em-pop/public/js/em-pop-public.js' because its MIME type ('text/plain') is not executable, and strict MIME type checking is enabled. @ http://localhost:1313/:0
+[      95ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:1313/_mirror/quel-vetement.com/wp-content/themes/quel-vetement/js/skip-link-focus-fix.js:0
+[      95ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:1313/_mirror/quel-vetement.com/wp-includes/js/hoverIntent.min.js:0
+[      95ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:1313/_mirror/quel-vetement.com/wp-content/themes/quel-vetement/js/tabbed-content.js:0
+[      95ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:1313/_mirror/quel-vetement.com/wp-content/plugins/megamenu/js/maxmegamenu.js:0
+[      96ms] [ERROR] Refused to execute script from 'http://localhost:1313/_mirror/quel-vetement.com/wp-content/themes/quel-vetement/js/skip-link-focus-fix.js' because its MIME type ('text/plain') is not executable, and strict MIME type checking is enabled. @ http://localhost:1313/:0
+[      96ms] [ERROR] Refused to execute script from 'http://localhost:1313/_mirror/quel-vetement.com/wp-content/themes/quel-vetement/js/tabbed-content.js' because its MIME type ('text/plain') is not executable, and strict MIME type checking is enabled. @ http://localhost:1313/:0
+[     184ms] ReferenceError: jQuery is not defined
+    at http://localhost:1313/:1477:8
+[      96ms] [ERROR] Refused to execute script from 'http://localhost:1313/_mirror/quel-vetement.com/wp-includes/js/hoverIntent.min.js' because its MIME type ('text/plain') is not executable, and strict MIME type checking is enabled. @ http://localhost:1313/:0
+[      96ms] [ERROR] Refused to execute script from 'http://localhost:1313/_mirror/quel-vetement.com/wp-content/plugins/megamenu/js/maxmegamenu.js' because its MIME type ('text/plain') is not executable, and strict MIME type checking is enabled. @ http://localhost:1313/:0
+[     184ms] ReferenceError: jQuery is not defined
+    at http://localhost:1313/:1531:5
+[     176ms] [WARNING] Hotjar not launching due to suspicious userAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36 @ http://static.hotjar.com/c/hotjar-1205355.js?sv=5:2
+[     546ms] [LOG] %c
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░░░░░░░░ SUBSTACK WANTS YOU ░░░░░░░░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▓▓▓▓▓▓▓▓▓▓▓▒░░░░░░░░▒▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▓▓▓▓▓▓▓▒▒░░░░░░░░░░░░░░▒▒▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▓▓▓▓▒░░░░░░░░░░░░░░░░░░░░░░▒▓▓▓▓▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▒░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▒▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░░░░░░░░░░ TO BUILD A NEW ECONOMIC ENGINE FOR CULTURE ░░░░░░░░░░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+                   https://substack.com/jobs
+ font-family:monospace @ http://localhost:1313/_mirror/substackcdn.com/bundle/static/js/main.02daa630.js:0
+[     628ms] [LOG] %c
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░░░░░░░░ SUBSTACK WANTS YOU ░░░░░░░░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▓▓▓▓▓▓▓▓▓▓▓▒░░░░░░░░▒▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▓▓▓▓▓▓▓▒▒░░░░░░░░░░░░░░▒▒▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▓▓▓▓▒░░░░░░░░░░░░░░░░░░░░░░▒▓▓▓▓▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▒░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▒▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░░░░░░░░░░ TO BUILD A NEW ECONOMIC ENGINE FOR CULTURE ░░░░░░░░░░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+                   https://substack.com/jobs
+ font-family:monospace @ http://localhost:1313/_mirror/substackcdn.com/bundle/static/js/main.02daa630.js:0
+[     653ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:1313/api/v1/archive?sort=new&search=&offset=0&limit=12:0
+[     654ms] [ERROR] Failed to load tab: Error: Not Found
+    at v.<anonymous> (http://localhost:1313/_mirror/substackcdn.com/bundle/static/js/70780.653e284f.js:1:47574)
+    at e.emit (http://localhost:1313/_mirror/substackcdn.com/bundle/static/js/70780.653e284f.js:1:2314)
+    at e.onreadystatechange (http://localhost:1313/_mirror/substackcdn.com/bundle/static/js/70780.653e284f.js:1:51384) @ http://localhost:1313/_mirror/substackcdn.com/bundle/static/js/42927.3076d471.js:0
+[     658ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:1313/cdn-cgi/challenge-platform/scripts/jsd/main.js:0
+[     658ms] [ERROR] Refused to execute script from 'http://localhost:1313/cdn-cgi/challenge-platform/scripts/jsd/main.js' because its MIME type ('text/plain') is not executable, and strict MIME type checking is enabled. @ about:blank:0
+[     659ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:1313/api/v1/archive?sort=new&search=&offset=0&limit=12:0
+[     659ms] [ERROR] Failed to load tab: Error: Not Found
+    at v.<anonymous> (http://localhost:1313/_mirror/substackcdn.com/bundle/static/js/70780.653e284f.js:1:47574)
+    at e.emit (http://localhost:1313/_mirror/substackcdn.com/bundle/static/js/70780.653e284f.js:1:2314)
+    at e.onreadystatechange (http://localhost:1313/_mirror/substackcdn.com/bundle/static/js/70780.653e284f.js:1:51384) @ http://localhost:1313/_mirror/substackcdn.com/bundle/static/js/42927.3076d471.js:0
+[     660ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:1313/cdn-cgi/challenge-platform/scripts/jsd/main.js:0
+[     661ms] [ERROR] Refused to execute script from 'http://localhost:1313/cdn-cgi/challenge-platform/scripts/jsd/main.js' because its MIME type ('text/plain') is not executable, and strict MIME type checking is enabled. @ about:blank:0
+[     798ms] [LOG] %c
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░░░░░░░░ SUBSTACK WANTS YOU ░░░░░░░░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▓▓▓▓▓▓▓▓▓▓▓▒░░░░░░░░▒▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▓▓▓▓▓▓▓▒▒░░░░░░░░░░░░░░▒▒▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▓▓▓▓▒░░░░░░░░░░░░░░░░░░░░░░▒▓▓▓▓▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▒░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▒▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░░░░░░░░░░ TO BUILD A NEW ECONOMIC ENGINE FOR CULTURE ░░░░░░░░░░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+                   https://substack.com/jobs
+ font-family:monospace @ https://substackcdn.com/bundle/static/js/7470.e51f53ed.js:0
+[     809ms] [LOG] %c
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░░░░░░░░ SUBSTACK WANTS YOU ░░░░░░░░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▓▓▓▓▓▓▓▓▓▓▓▒░░░░░░░░▒▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▓▓▓▓▓▓▓▒▒░░░░░░░░░░░░░░▒▒▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▓▓▓▓▒░░░░░░░░░░░░░░░░░░░░░░▒▓▓▓▓▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░▓▒░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▒▓░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░░░░░░░░░░ TO BUILD A NEW ECONOMIC ENGINE FOR CULTURE ░░░░░░░░░░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+                   https://substack.com/jobs
+ font-family:monospace @ https://substackcdn.com/bundle/static/js/7470.e51f53ed.js:0
+[     810ms] [ERROR] Access to XMLHttpRequest at 'http://widgets.rewardstyle.com/stps/5427535.html' from origin 'http://localhost:1313' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://localhost:1313/:0
+[     810ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://widgets.rewardstyle.com/stps/5427535.html:0
+[     810ms] [ERROR] Access to XMLHttpRequest at 'http://widgets.rewardstyle.com/stps/5415400.html' from origin 'http://localhost:1313' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://localhost:1313/:0
+[     810ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://widgets.rewardstyle.com/stps/5415400.html:0
+[   60555ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:1313/api/v1/firehose/batch?_=1781550710540&d=eyJldmVudCI6IlBhZ2VzIiwidGltZXN0YW1wIjoiMjAyNi0wNi0xNVQxOToxMDo1MC41MzNaIiwicHJvcGVydGllcyI6eyJicm93c2VyU2Vzc2lvbklkIjoiMGE1enRhNGk4OGg5IiwiaWZyYW1lVmlzaXRJZCI6eyJpZCI6ImRlNzIyZTRjLTM2MDctNDE3ZS05ZTdjLTE4NTc4M2UyYTQ0ZSIsInRpbWVzdGFtcCI6IjIwMjYtMDYtMTVUMTk6MTA6NTAuNDQ3WiJ9fSwiY29udGV4dCI6eyJjbGllbnRfdHlwZSI6IndlYiIsImRpc3BsYXlNb2RlIjoiYnJvd3NlciIsInBhZ2UiOnsicmVmZXJyZXIiOiJodHRwOi8vbG9jYWxob3N0OjEzMTMvIiwidGl0bGUiOiJRdWVsIFbDqnRlbWVudCB8IEFteSB8IFN1YnN0YWNrIiwidXJsIjoiaHR0cDovL2xvY2FsaG9zdDoxMzEzL19taXJyb3IvdGhlZmFzaGlvbmphY2tzb24uc3Vic3RhY2suY29tL2VtYmVkLmh0bWwiLCJoZWlnaHQiOjE1MCwid2lkdGgiOjQ4MH0sImNhbXBhaWduIjp7fSwidGltZXpvbmUiOiJFdXJvcGUvUGFyaXMiLCJzY3JlZW4iOnsiaGVpZ2h0Ijo3MjAsIndpZHRoIjoxMjgwfSwic3Vic3RhY2tDb2xvclNjaGVtZSI6ImF1dG8iLCJzeXN0ZW1Db2xvclNjaGVtZSI6ImxpZ2h0In19%2CeyJldmVudCI6IlN1YmRvbWFpbiBJc2xhbmQgVmlzaXRlZCIsInRpbWVzdGFtcCI6IjIwMjYtMDYtMTVUMTk6MTA6NTAuNTY1WiIsInByb3BlcnRpZXMiOnsiYnJvd3NlclNlc3Npb25JZCI6IjBhNXp0YTRpODhoOSIsImlmcmFtZVZpc2l0SWQiOnsiaWQiOiJkZTcyMmU0Yy0zNjA3LTQxN2UtOWU3Yy0xODU3ODNlMmE0NGUiLCJ0aW1lc3RhbXAiOiIyMDI2LTA2LTE1VDE5OjEwOjUwLjQ0N1oifSwiaG9tZXBhZ2VfdHlwZSI6Im1hZ2F6aW5leSIsInN1YmRvbWFpbiI6InRoZWZhc2hpb25qYWNrc29uIiwicHVibGljYXRpb25faWQiOjU0NTA5NzV9LCJjb250ZXh0Ijp7ImNsaWVudF90eXBlIjoid2ViIiwiZGlzcGxheU1vZGUiOiJicm93c2VyIiwicGFnZSI6eyJyZWZlcnJlciI6Imh0dHA6Ly9sb2NhbGhvc3Q6MTMxMy8iLCJ0aXRsZSI6IlF1ZWwgVsOqdGVtZW50IHwgQW15IHwgU3Vic3RhY2siLCJ1cmwiOiJodHRwOi8vbG9jYWxob3N0OjEzMTMvX21pcnJvci90aGVmYXNoaW9uamFja3Nvbi5zdWJzdGFjay5jb20vZW1iZWQuaHRtbCIsImhlaWdodCI6MTUwLCJ3aWR0aCI6NDgwfSwiY2FtcGFpZ24iOnt9LCJ0aW1lem9uZSI6IkV1cm9wZS9QYXJpcyIsInNjcmVlbiI6eyJoZWlnaHQiOjcyMCwid2lkdGgiOjEyODB9LCJzdWJzdGFja0NvbG9yU2NoZW1lIjoiYXV0byIsInN5c3RlbUNvbG9yU2NoZW1lIjoibGlnaHQifX0%3D%2CeyJldmVudCI6IkNvb2tpZSBCYW5uZXIgU2VlbiIsInRpbWVzdGFtcCI6IjIwMjYtMDYtMTVUMTk6MTA6NTAuNjM5WiIsInByb3BlcnRpZXMiOnsiYnJvd3NlclNlc3Npb25JZCI6IjBhNXp0YTRpODhoOSIsImlmcmFtZVZpc2l0SWQiOnsiaWQiOiJkZTcyMmU0Yy0zNjA3LTQxN2UtOWU3Yy0xODU3ODNlMmE0NGUiLCJ0aW1lc3RhbXAiOiIyMDI2LTA2LTE1VDE5OjEwOjUwLjQ0N1oifX0sImNvbnRleHQiOnsiY2xpZW50X3R5cGUiOiJ3ZWIiLCJkaXNwbGF5TW9kZSI6ImJyb3dzZXIiLCJwYWdlIjp7InJlZmVycmVyIjoiaHR0cDovL2xvY2FsaG9zdDoxMzEzLyIsInRpdGxlIjoiUXVlbCBWw6p0ZW1lbnQgfCBBbXkgfCBTdWJzdGFjayIsInVybCI6Imh0dHA6Ly9sb2NhbGhvc3Q6MTMxMy9fbWlycm9yL3RoZWZhc2hpb25qYWNrc29uLnN1YnN0YWNrLmNvbS9lbWJlZC5odG1sIiwiaGVpZ2h0IjoxNTAsIndpZHRoIjo0ODB9LCJjYW1wYWlnbiI6e30sInRpbWV6b25lIjoiRXVyb3BlL1BhcmlzIiwic2NyZWVuIjp7ImhlaWdodCI6NzIwLCJ3aWR0aCI6MTI4MH0sInN1YnN0YWNrQ29sb3JTY2hlbWUiOiJhdXRvIiwic3lzdGVtQ29sb3JTY2hlbWUiOiJsaWdodCJ9fQ%3D%3D%2CeyJldmVudCI6IkZpcmVob3NlIEJhdGNoIFNlbnQiLCJ0aW1lc3RhbXAiOiIyMDI2LTA2LTE1VDE5OjExOjUwLjUzOVoiLCJwcm9wZXJ0aWVzIjp7ImJyb3dzZXJTZXNzaW9uSWQiOiIwYTV6dGE0aTg4aDkiLCJpZnJhbWVWaXNpdElkIjp7ImlkIjoiZGU3MjJlNGMtMzYwNy00MTdlLTllN2MtMTg1NzgzZTJhNDRlIiwidGltZXN0YW1wIjoiMjAyNi0wNi0xNVQxOToxMDo1MC40NDdaIn0sImRhdGFTaXplIjoyNTEyLCJiYXRjaFNpemUiOjMsImJhdGNoVHlwZSI6ImludGVydmFsIn0sImNvbnRleHQiOnsiY2xpZW50X3R5cGUiOiJ3ZWIiLCJkaXNwbGF5TW9kZSI6ImJyb3dzZXIiLCJwYWdlIjp7InJlZmVycmVyIjoiaHR0cDovL2xvY2FsaG9zdDoxMzEzLyIsInRpdGxlIjoiUXVlbCBWw6p0ZW1lbnQgfCBBbXkgfCBTdWJzdGFjayIsInVybCI6Imh0dHA6Ly9sb2NhbGhvc3Q6MTMxMy9fbWlycm9yL3RoZWZhc2hpb25qYWNrc29uLnN1YnN0YWNrLmNvbS9lbWJlZC5odG1sIiwiaGVpZ2h0IjoxNTAsIndpZHRoIjo0ODB9LCJjYW1wYWlnbiI6e30sInRpbWV6b25lIjoiRXVyb3BlL1BhcmlzIiwic2NyZWVuIjp7ImhlaWdodCI6NzIwLCJ3aWR0aCI6MTI4MH0sInN1YnN0YWNrQ29sb3JTY2hlbWUiOiJhdXRvIiwic3lzdGVtQ29sb3JTY2hlbWUiOiJsaWdodCJ9fQ%3D%3D:0
+[   60637ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:1313/api/v1/firehose/batch?_=1781550710623&d=eyJldmVudCI6IlBhZ2VzIiwidGltZXN0YW1wIjoiMjAyNi0wNi0xNVQxOToxMDo1MC42MTZaIiwicHJvcGVydGllcyI6eyJicm93c2VyU2Vzc2lvbklkIjoiYmR6dG90czB5bSIsImlmcmFtZVZpc2l0SWQiOnsiaWQiOiJlNjZmM2YwNS04MTgzLTQ0MDItOWFmMS0xNjZhMTAyNmMyYjgiLCJ0aW1lc3RhbXAiOiIyMDI2LTA2LTE1VDE5OjEwOjUwLjU4OVoifX0sImNvbnRleHQiOnsiY2xpZW50X3R5cGUiOiJ3ZWIiLCJkaXNwbGF5TW9kZSI6ImJyb3dzZXIiLCJwYWdlIjp7InJlZmVycmVyIjoiaHR0cDovL2xvY2FsaG9zdDoxMzEzLyIsInRpdGxlIjoiUXVlbCBWw6p0ZW1lbnQgfCBBbXkgfCBTdWJzdGFjayIsInVybCI6Imh0dHA6Ly9sb2NhbGhvc3Q6MTMxMy9fbWlycm9yL3RoZWZhc2hpb25qYWNrc29uLnN1YnN0YWNrLmNvbS9lbWJlZC5odG1sIiwiaGVpZ2h0IjoxNTAsIndpZHRoIjo0ODB9LCJjYW1wYWlnbiI6e30sInRpbWV6b25lIjoiRXVyb3BlL1BhcmlzIiwic2NyZWVuIjp7ImhlaWdodCI6NzIwLCJ3aWR0aCI6MTI4MH0sInN1YnN0YWNrQ29sb3JTY2hlbWUiOiJhdXRvIiwic3lzdGVtQ29sb3JTY2hlbWUiOiJsaWdodCJ9fQ%3D%3D%2CeyJldmVudCI6IlN1YmRvbWFpbiBJc2xhbmQgVmlzaXRlZCIsInRpbWVzdGFtcCI6IjIwMjYtMDYtMTVUMTk6MTA6NTAuNjMxWiIsInByb3BlcnRpZXMiOnsiYnJvd3NlclNlc3Npb25JZCI6ImJkenRvdHMweW0iLCJpZnJhbWVWaXNpdElkIjp7ImlkIjoiZTY2ZjNmMDUtODE4My00NDAyLTlhZjEtMTY2YTEwMjZjMmI4IiwidGltZXN0YW1wIjoiMjAyNi0wNi0xNVQxOToxMDo1MC41ODlaIn0sImhvbWVwYWdlX3R5cGUiOiJtYWdhemluZXkiLCJzdWJkb21haW4iOiJ0aGVmYXNoaW9uamFja3NvbiIsInB1YmxpY2F0aW9uX2lkIjo1NDUwOTc1fSwiY29udGV4dCI6eyJjbGllbnRfdHlwZSI6IndlYiIsImRpc3BsYXlNb2RlIjoiYnJvd3NlciIsInBhZ2UiOnsicmVmZXJyZXIiOiJodHRwOi8vbG9jYWxob3N0OjEzMTMvIiwidGl0bGUiOiJRdWVsIFbDqnRlbWVudCB8IEFteSB8IFN1YnN0YWNrIiwidXJsIjoiaHR0cDovL2xvY2FsaG9zdDoxMzEzL19taXJyb3IvdGhlZmFzaGlvbmphY2tzb24uc3Vic3RhY2suY29tL2VtYmVkLmh0bWwiLCJoZWlnaHQiOjE1MCwid2lkdGgiOjQ4MH0sImNhbXBhaWduIjp7fSwidGltZXpvbmUiOiJFdXJvcGUvUGFyaXMiLCJzY3JlZW4iOnsiaGVpZ2h0Ijo3MjAsIndpZHRoIjoxMjgwfSwic3Vic3RhY2tDb2xvclNjaGVtZSI6ImF1dG8iLCJzeXN0ZW1Db2xvclNjaGVtZSI6ImxpZ2h0In19%2CeyJldmVudCI6IkNvb2tpZSBCYW5uZXIgU2VlbiIsInRpbWVzdGFtcCI6IjIwMjYtMDYtMTVUMTk6MTA6NTAuNjUyWiIsInByb3BlcnRpZXMiOnsiYnJvd3NlclNlc3Npb25JZCI6ImJkenRvdHMweW0iLCJpZnJhbWVWaXNpdElkIjp7ImlkIjoiZTY2ZjNmMDUtODE4My00NDAyLTlhZjEtMTY2YTEwMjZjMmI4IiwidGltZXN0YW1wIjoiMjAyNi0wNi0xNVQxOToxMDo1MC41ODlaIn19LCJjb250ZXh0Ijp7ImNsaWVudF90eXBlIjoid2ViIiwiZGlzcGxheU1vZGUiOiJicm93c2VyIiwicGFnZSI6eyJyZWZlcnJlciI6Imh0dHA6Ly9sb2NhbGhvc3Q6MTMxMy8iLCJ0aXRsZSI6IlF1ZWwgVsOqdGVtZW50IHwgQW15IHwgU3Vic3RhY2siLCJ1cmwiOiJodHRwOi8vbG9jYWxob3N0OjEzMTMvX21pcnJvci90aGVmYXNoaW9uamFja3Nvbi5zdWJzdGFjay5jb20vZW1iZWQuaHRtbCIsImhlaWdodCI6MTUwLCJ3aWR0aCI6NDgwfSwiY2FtcGFpZ24iOnt9LCJ0aW1lem9uZSI6IkV1cm9wZS9QYXJpcyIsInNjcmVlbiI6eyJoZWlnaHQiOjcyMCwid2lkdGgiOjEyODB9LCJzdWJzdGFja0NvbG9yU2NoZW1lIjoiYXV0byIsInN5c3RlbUNvbG9yU2NoZW1lIjoibGlnaHQifX0%3D%2CeyJldmVudCI6IkZpcmVob3NlIEJhdGNoIFNlbnQiLCJ0aW1lc3RhbXAiOiIyMDI2LTA2LTE1VDE5OjExOjUwLjYyMVoiLCJwcm9wZXJ0aWVzIjp7ImJyb3dzZXJTZXNzaW9uSWQiOiJiZHp0b3RzMHltIiwiaWZyYW1lVmlzaXRJZCI6eyJpZCI6ImU2NmYzZjA1LTgxODMtNDQwMi05YWYxLTE2NmExMDI2YzJiOCIsInRpbWVzdGFtcCI6IjIwMjYtMDYtMTVUMTk6MTA6NTAuNTg5WiJ9LCJkYXRhU2l6ZSI6MjUwNCwiYmF0Y2hTaXplIjozLCJiYXRjaFR5cGUiOiJpbnRlcnZhbCJ9LCJjb250ZXh0Ijp7ImNsaWVudF90eXBlIjoid2ViIiwiZGlzcGxheU1vZGUiOiJicm93c2VyIiwicGFnZSI6eyJyZWZlcnJlciI6Imh0dHA6Ly9sb2NhbGhvc3Q6MTMxMy8iLCJ0aXRsZSI6IlF1ZWwgVsOqdGVtZW50IHwgQW15IHwgU3Vic3RhY2siLCJ1cmwiOiJodHRwOi8vbG9jYWxob3N0OjEzMTMvX21pcnJvci90aGVmYXNoaW9uamFja3Nvbi5zdWJzdGFjay5jb20vZW1iZWQuaHRtbCIsImhlaWdodCI6MTUwLCJ3aWR0aCI6NDgwfSwiY2FtcGFpZ24iOnt9LCJ0aW1lem9uZSI6IkV1cm9wZS9QYXJpcyIsInNjcmVlbiI6eyJoZWlnaHQiOjcyMCwid2lkdGgiOjEyODB9LCJzdWJzdGFja0NvbG9yU2NoZW1lIjoiYXV0byIsInN5c3RlbUNvbG9yU2NoZW1lIjoibGlnaHQifX0%3D:0

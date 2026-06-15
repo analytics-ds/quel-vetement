@@ -1,0 +1,24 @@
+[    2415ms] ReferenceError: jQuery is not defined
+    at http://localhost:1313/:1:15276
+[    2442ms] ReferenceError: jQuery is not defined
+    at http://localhost:1313/:1:75254
+[    2516ms] [ERROR] Framing 'https://thefashionjackson.substack.com/' violates the following Content Security Policy directive: "frame-ancestors 'self' https://*.substack.com https://substack.com". The request has been blocked.
+ @ :0
+[    2518ms] [WARNING] Hotjar not launching due to suspicious userAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36 @ https://static.hotjar.com/c/hotjar-1205355.js?sv=5:2
+[    2868ms] [ERROR] Framing 'https://thefashionjackson.substack.com/' violates the following Content Security Policy directive: "frame-ancestors 'self' https://*.substack.com https://substack.com". The request has been blocked.
+ @ :0
+[    3836ms] ReferenceError: jQuery is not defined
+    at http://localhost:1313/:4:1407
+[    4126ms] ReferenceError: jQuery is not defined
+    at http://localhost:1313/:4:2462
+[    4129ms] [ERROR] Access to XMLHttpRequest at 'http://widgets.rewardstyle.com/stps/5427535.html' from origin 'http://localhost:1313' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://localhost:1313/:0
+[    4129ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://widgets.rewardstyle.com/stps/5427535.html:0
+[    4129ms] [ERROR] Access to XMLHttpRequest at 'http://widgets.rewardstyle.com/stps/5415400.html' from origin 'http://localhost:1313' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://localhost:1313/:0
+[    4129ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://widgets.rewardstyle.com/stps/5415400.html:0
+[    8929ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ chrome-error://chromewebdata/:0
+[    8933ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ chrome-error://chromewebdata/:0
+[    8929ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ chrome-error://chromewebdata/:0
+[    8933ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ chrome-error://chromewebdata/:0
+[   12305ms] Uncaught TypeError: Cannot read properties of undefined (reading '0')
+    at sizeCheck (http://widgets.rewardstyle.com/js/shopthepost.js:278:38)
+    at <anonymous> (http://widgets.rewardstyle.com/js/shopthepost.js:321:12)

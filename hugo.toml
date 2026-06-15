@@ -159,4 +159,5 @@ buildFuture = false
   filename = "sitemap.xml"
 
 [minify]
+  disableHTML = true
   disableXML = true
