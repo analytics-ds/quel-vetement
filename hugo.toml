@@ -1,0 +1,60 @@
+baseURL = "https://quel-vetement.fr/"
+languageCode = "fr-fr"
+title = "Quel Vêtement"
+theme = "quel-vetement"
+summaryLength = 30
+enableEmoji = true
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[params]
+  description = "Comparatifs, guides d'achat et conseils style pour bien choisir ses vêtements d'homme, du costume au lin."
+  author_name = "Maxime Coste"
+  author_url = ""
+  author_job_title = "Rédacteur mode homme"
+
+[[menus.main]]
+  name = "Accueil"
+  url = "/"
+  weight = 1
+[[menus.main]]
+  name = "Costume"
+  url = "/categories/costume/"
+  weight = 2
+[[menus.main]]
+  name = "Lin"
+  url = "/categories/lin/"
+  weight = 3
+[[menus.main]]
+  name = "Chemises"
+  url = "/categories/chemises/"
+  weight = 4
+[[menus.main]]
+  name = "Pulls et gilets"
+  url = "/categories/pulls-et-gilets/"
+  weight = 5
+[[menus.main]]
+  name = "Pantalons et jeans"
+  url = "/categories/pantalons-et-jeans/"
+  weight = 6
+[[menus.main]]
+  name = "T-shirts et polos"
+  url = "/categories/t-shirts-et-polos/"
+  weight = 7
+[[menus.main]]
+  name = "Vestes et manteaux"
+  url = "/categories/vestes-et-manteaux/"
+  weight = 8
+[[menus.main]]
+  name = "Accessoires"
+  url = "/categories/accessoires/"
+  weight = 9
+[[menus.main]]
+  name = "Le Blog"
+  url = "/blog/"
+  weight = 10

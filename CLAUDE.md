@@ -1,3 +1,25 @@
+# Quel Vêtement
+
+PBN mode homme (client Celio) construit avec Hugo, déployé sur GitHub Pages.
+
+## Contexte du site
+
+- **Nom** : Quel Vêtement
+- **Description** : Comparatifs, guides d'achat et conseils style pour bien choisir ses vêtements d'homme, du costume au lin.
+- **Client cible (à pousser en comparatifs)** : Celio
+- **Domaine** : quel-vetement.fr (à brancher : ajouter static/CNAME + custom domain Pages une fois le DNS pointé)
+- **URL Pages (avant domaine)** : https://analytics-ds.github.io/quel-vetement/
+- **Repo** : https://github.com/analytics-ds/quel-vetement
+- **Langue** : FR
+- **Thème Hugo** : `quel-vetement`
+- **Couleurs** : primary `#1b2a4a` (navy), primary-light `#2e4673`, accent/CTA `#b5895a` (camel), fond `#ffffff` / `#f4f5f8`, texte `#1a1d24`
+- **Polices** : Playfair Display (titres), Lora (corps), Inter (UI)
+- **Catégories** (façon menu Celio) : Costume, Lin, Chemises, Pulls et gilets, Pantalons et jeans, T-shirts et polos, Vestes et manteaux, Accessoires
+- **Auteur** : Maxime Coste, Rédacteur mode homme
+- **État** : structure + 8 articles seed (1 par catégorie). Comparatifs Celio à produire via `/create-article`.
+
+---
+
 # Hugo Site Factory
 
 Ce repo est un template pour creer des sites blogs statiques avec Hugo, optimises SEO/GEO, heberges gratuitement sur GitHub Pages.
