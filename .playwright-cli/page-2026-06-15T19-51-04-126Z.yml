@@ -1,0 +1,443 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - navigation [ref=e6]:
+      - link [ref=e8] [cursor=pointer]:
+        - /url: /
+        - img [ref=e9]
+      - search [ref=e13]:
+        - generic [ref=e14]:
+          - button "Photos" [ref=e16] [cursor=pointer]:
+            - generic [ref=e17]:
+              - img [ref=e18]
+              - generic [ref=e21]: Photos
+              - img [ref=e22]
+          - searchbox "Search for free photos" [ref=e24]: man choosing clothes wardrobe
+          - button [ref=e26] [cursor=pointer]:
+            - img [ref=e28]
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - link "Explore" [ref=e32] [cursor=pointer]:
+            - /url: /discover/
+            - generic [ref=e33]: Explore
+          - img [ref=e34]
+        - link "License" [ref=e36] [cursor=pointer]:
+          - /url: /license/
+          - generic [ref=e37]: License
+        - button [ref=e39] [cursor=pointer]:
+          - img [ref=e40]
+        - button "Join" [ref=e42] [cursor=pointer]:
+          - generic [ref=e44]: Join
+    - main [ref=e45]:
+      - generic [ref=e46]:
+        - generic [ref=e50]:
+          - paragraph [ref=e52] [cursor=pointer]: Any
+          - generic [ref=e53] [cursor=pointer]:
+            - img [ref=e55]
+            - paragraph [ref=e57]: Horizontal
+          - generic [ref=e58] [cursor=pointer]:
+            - img [ref=e60]
+            - paragraph [ref=e62]: Vertical
+          - generic [ref=e63] [cursor=pointer]:
+            - img [ref=e65]
+            - paragraph [ref=e67]: Square
+        - generic [ref=e71]:
+          - paragraph [ref=e73] [cursor=pointer]: Any
+          - paragraph [ref=e75] [cursor=pointer]: "0"
+          - generic [ref=e76] [cursor=pointer]:
+            - img [ref=e78]
+            - paragraph [ref=e80]: "1"
+          - generic [ref=e81] [cursor=pointer]:
+            - img [ref=e83]
+            - paragraph [ref=e85]: "2"
+          - generic [ref=e86] [cursor=pointer]:
+            - img [ref=e88]
+            - paragraph [ref=e90]: 3+
+        - generic [ref=e94]:
+          - paragraph [ref=e96] [cursor=pointer]: Any
+          - generic [ref=e97] [cursor=pointer]:
+            - img [ref=e99]
+            - paragraph [ref=e101]: Baby
+          - generic [ref=e102] [cursor=pointer]:
+            - img [ref=e104]
+            - paragraph [ref=e106]: Child
+          - generic [ref=e107] [cursor=pointer]:
+            - img [ref=e109]
+            - paragraph [ref=e111]: Teenager
+          - generic [ref=e112] [cursor=pointer]:
+            - img [ref=e114]
+            - paragraph [ref=e116]: Adult
+          - generic [ref=e117] [cursor=pointer]:
+            - img [ref=e119]
+            - paragraph [ref=e121]: Senior adult
+        - generic [ref=e124]:
+          - generic [ref=e125]:
+            - slider [ref=e128] [cursor=pointer]
+            - slider [ref=e129] [cursor=pointer]
+          - generic [ref=e130]:
+            - generic [ref=e131]:
+              - paragraph [ref=e132]: Minimum
+              - paragraph [ref=e133]: 1,080px
+            - generic [ref=e134]:
+              - paragraph [ref=e135]: Maximum
+              - paragraph [ref=e136]: 20,000px+
+        - generic [ref=e139]:
+          - generic [ref=e140]:
+            - slider [ref=e143] [cursor=pointer]
+            - slider [ref=e144] [cursor=pointer]
+          - generic [ref=e145]:
+            - generic [ref=e146]:
+              - paragraph [ref=e147]: Minimum
+              - paragraph [ref=e148]: 1,080px
+            - generic [ref=e149]:
+              - paragraph [ref=e150]: Maximum
+              - paragraph [ref=e151]: 20,000px+
+        - generic [ref=e155]:
+          - button [ref=e156] [cursor=pointer]:
+            - generic [ref=e157]:
+              - textbox [ref=e162]:
+                - /placeholder: Enter hex code
+              - img [ref=e163]
+          - button [ref=e165] [cursor=pointer]:
+            - generic [ref=e166]:
+              - img [ref=e167]
+              - textbox [ref=e171]: "#000000"
+        - generic [ref=e175]:
+          - paragraph [ref=e177] [cursor=pointer]: Any
+          - generic [ref=e178] [cursor=pointer]:
+            - img [ref=e180]
+            - paragraph [ref=e182]: Last 24 hours
+          - generic [ref=e183] [cursor=pointer]:
+            - img [ref=e185]
+            - paragraph [ref=e187]: Last week
+          - generic [ref=e188] [cursor=pointer]:
+            - img [ref=e190]
+            - paragraph [ref=e192]: Last month
+          - generic [ref=e193] [cursor=pointer]:
+            - img [ref=e195]
+            - paragraph [ref=e197]: Last year
+        - main "main-content" [ref=e198]:
+          - generic [ref=e199]:
+            - generic [ref=e200]:
+              - heading "Choose your language:" [level=5] [ref=e201]
+              - generic [ref=e203]:
+                - link "English English" [ref=e205] [cursor=pointer]:
+                  - /url: /search/man%20choosing%20clothes%20wardrobe/
+                  - generic [ref=e206]:
+                    - img "English" [ref=e207]
+                    - generic [ref=e208]: English
+                - link "Français Français" [ref=e209] [cursor=pointer]:
+                  - /url: /fr-fr/chercher/man%20choosing%20clothes%20wardrobe/
+                  - generic [ref=e210]:
+                    - img "Français" [ref=e211]
+                    - generic [ref=e212]: Français
+                - button [ref=e213] [cursor=pointer]:
+                  - img [ref=e215]
+            - heading "Free Man Choosing Clothes Wardrobe Photos" [level=1] [ref=e220]
+            - generic [ref=e223]:
+              - generic:
+                - img
+              - link "Photos 10K" [ref=e225] [cursor=pointer]:
+                - /url: /search/man%20choosing%20clothes%20wardrobe/
+                - text: Photos
+                - generic [ref=e226]: 10K
+              - link "Videos 10K" [ref=e227] [cursor=pointer]:
+                - /url: /search/videos/man%20choosing%20clothes%20wardrobe/
+                - text: Videos
+                - generic [ref=e228]: 10K
+              - link "Users 10K" [ref=e229] [cursor=pointer]:
+                - /url: /search/users/man%20choosing%20clothes%20wardrobe/
+                - text: Users
+                - generic [ref=e230]: 10K
+              - generic:
+                - img
+            - button "Filters" [ref=e234] [cursor=pointer]:
+              - generic [ref=e240]: Filters
+            - generic [ref=e241]:
+              - generic [ref=e243]:
+                - generic [ref=e244]:
+                  - article [ref=e247]:
+                    - link "Free A man in casual wear selects from a stylish clothing rack in a minimalist studio setting. Stock Photo" [ref=e248] [cursor=pointer]:
+                      - /url: /photo/man-in-white-shirt-holding-a-red-shirt-8346043/
+                      - img "Free A man in casual wear selects from a stylish clothing rack in a minimalist studio setting. Stock Photo" [ref=e249]
+                  - article [ref=e254]:
+                    - link "Free A woman assists a man with choosing clothes, showing care and companionship. Stock Photo" [ref=e255] [cursor=pointer]:
+                      - /url: /photo/photo-of-woman-holding-man-s-arm-7188583/
+                      - img "Free A woman assists a man with choosing clothes, showing care and companionship. Stock Photo" [ref=e256]
+                  - article [ref=e261]:
+                    - link "Free Woman stands in fitting room holding clothes and looking confident in a clothing store. Stock Photo" [ref=e262] [cursor=pointer]:
+                      - /url: /photo/woman-holding-clothes-6069556/
+                      - img "Free Woman stands in fitting room holding clothes and looking confident in a clothing store. Stock Photo" [ref=e263]
+                  - article [ref=e268]:
+                    - link "Free A woman with curly hair selects clothes from a hanger rack in a minimalist indoor setting. Stock Photo" [ref=e269] [cursor=pointer]:
+                      - /url: /photo/woman-with-clothes-on-hangers-12911855/
+                      - img "Free A woman with curly hair selects clothes from a hanger rack in a minimalist indoor setting. Stock Photo" [ref=e270]
+                  - article [ref=e275]:
+                    - link "Free Stylish man exploring options in a modern urban fashion store. Stock Photo" [ref=e276] [cursor=pointer]:
+                      - /url: /photo/a-man-doing-shopping-7679743/
+                      - img "Free Stylish man exploring options in a modern urban fashion store. Stock Photo" [ref=e277]
+                - generic [ref=e280]:
+                  - article [ref=e283]:
+                    - link "Free A woman helps a visually impaired man choose an outfit in a wardrobe. Stock Photo" [ref=e284] [cursor=pointer]:
+                      - /url: /photo/photo-of-man-choosing-clothes-7188582/
+                      - img "Free A woman helps a visually impaired man choose an outfit in a wardrobe. Stock Photo" [ref=e285]
+                  - article [ref=e290]:
+                    - link "Free Back view of a man shopping for clothes, looking at a white shirt in a store. Stock Photo" [ref=e291] [cursor=pointer]:
+                      - /url: /photo/man-standing-and-watching-clothes-on-hangers-17282464/
+                      - img "Free Back view of a man shopping for clothes, looking at a white shirt in a store. Stock Photo" [ref=e292]
+                  - article [ref=e297]:
+                    - link "Free Woman holding a jacket, reflecting in a store mirror, deciding on her outfit. Stock Photo" [ref=e298] [cursor=pointer]:
+                      - /url: /photo/woman-choosing-outfit-in-clothing-store-mirror-36730415/
+                      - img "Free Woman holding a jacket, reflecting in a store mirror, deciding on her outfit. Stock Photo" [ref=e299]
+                  - article [ref=e304]:
+                    - link "Free A couple exploring shoe options in a trendy clothing store, showcasing a stylish atmosphere. Stock Photo" [ref=e305] [cursor=pointer]:
+                      - /url: /photo/a-man-in-a-turtleneck-holding-a-shoe-6238518/
+                      - img "Free A couple exploring shoe options in a trendy clothing store, showcasing a stylish atmosphere. Stock Photo" [ref=e306]
+                  - article [ref=e311]:
+                    - link "Free Two men selecting stylish suits in a boutique store, focusing on elegance and style. Stock Photo" [ref=e312] [cursor=pointer]:
+                      - /url: /photo/men-picking-a-suit-in-a-suit-shop-6050440/
+                      - img "Free Two men selecting stylish suits in a boutique store, focusing on elegance and style. Stock Photo" [ref=e313]
+                  - article [ref=e318]:
+                    - link "Free Young woman browsing clothing rack, selecting outfits indoors. Stock Photo" [ref=e319] [cursor=pointer]:
+                      - /url: /photo/woman-browsing-through-clothes-on-the-clothing-rack-12911845/
+                      - img "Free Young woman browsing clothing rack, selecting outfits indoors. Stock Photo" [ref=e320]
+                - generic [ref=e323]:
+                  - article [ref=e326]:
+                    - link "Free Two people enjoying shopping at home, browsing clothes on a rack, smiling and interacting. Stock Photo" [ref=e327] [cursor=pointer]:
+                      - /url: /photo/a-couple-choosing-clothes-from-a-clothing-rack-5975570/
+                      - img "Free Two people enjoying shopping at home, browsing clothes on a rack, smiling and interacting. Stock Photo" [ref=e328]
+                  - article [ref=e333]:
+                    - link "Free A visually impaired man with a female assistant selecting a sweater indoors. Stock Photo" [ref=e334] [cursor=pointer]:
+                      - /url: /photo/photo-of-man-glides-his-hand-on-black-sweater-7188586/
+                      - img "Free A visually impaired man with a female assistant selecting a sweater indoors. Stock Photo" [ref=e335]
+                  - article [ref=e340]:
+                    - link "Free Two men choosing a suit in a stylish clothing boutique. Indoor shopping scene. Stock Photo" [ref=e341] [cursor=pointer]:
+                      - /url: /photo/men-in-a-boutique-choosing-a-suit-6050428/
+                      - img "Free Two men choosing a suit in a stylish clothing boutique. Indoor shopping scene. Stock Photo" [ref=e342]
+                  - article [ref=e347]:
+                    - link "Free Asian woman choosing clothes in a fashion showroom. Casual studio setting. Stock Photo" [ref=e348] [cursor=pointer]:
+                      - /url: /photo/woman-in-white-long-sleeve-shirt-9594942/
+                      - img "Free Asian woman choosing clothes in a fashion showroom. Casual studio setting. Stock Photo" [ref=e349]
+                  - link [ref=e353] [cursor=pointer]:
+                    - /url: /collections/clothes-collection-q6sdth9/
+                    - article [ref=e354]:
+                      - list [ref=e356]:
+                        - listitem [ref=e357]:
+                          - img [ref=e358]
+                        - listitem [ref=e359]:
+                          - img [ref=e360]
+                        - listitem [ref=e361]:
+                          - img [ref=e362]
+                      - generic [ref=e363]:
+                        - heading "Clothes Collection" [level=4] [ref=e364]
+                        - generic [ref=e365]:
+                          - img [ref=e366]
+                          - paragraph [ref=e368]: "68"
+                  - article [ref=e371]:
+                    - link "Free Woman trying on a coat in a fitting room, checking in the mirror. Stock Photo" [ref=e372] [cursor=pointer]:
+                      - /url: /photo/woman-shopping-and-trying-on-stylish-coat-36730416/
+                      - img "Free Woman trying on a coat in a fitting room, checking in the mirror. Stock Photo" [ref=e373]
+                  - article [ref=e378]:
+                    - link "Free African American woman selecting clothes from a wardrobe, trying on a coat. Stock Photo" [ref=e379] [cursor=pointer]:
+                      - /url: /photo/woman-standing-next-to-a-clothing-rack-and-putting-on-a-coat-12911857/
+                      - img "Free African American woman selecting clothes from a wardrobe, trying on a coat. Stock Photo" [ref=e380]
+                - generic [ref=e383]:
+                  - article [ref=e386]:
+                    - link "Free A man with visual impairment exploring clothes with a woman's help in a store. Stock Photo" [ref=e387] [cursor=pointer]:
+                      - /url: /photo/photo-of-woman-helping-man-choose-clothes-7188588/
+                      - img "Free A man with visual impairment exploring clothes with a woman's help in a store. Stock Photo" [ref=e388]
+                  - article [ref=e393]:
+                    - link "Free Adult holding a plaid Sportex shirt on a hanger in a wardrobe, showcasing casual menswear style. Stock Photo" [ref=e394] [cursor=pointer]:
+                      - /url: /photo/brown-black-and-white-plaid-button-up-shirt-4062841/
+                      - img "Free Adult holding a plaid Sportex shirt on a hanger in a wardrobe, showcasing casual menswear style. Stock Photo" [ref=e395]
+                  - article [ref=e400]:
+                    - link "Free Man shopping for jackets in a trendy fashion store with skateboard decor. Stock Photo" [ref=e401] [cursor=pointer]:
+                      - /url: /photo/a-man-holding-gray-suit-jacket-on-a-hanger-7679667/
+                      - img "Free Man shopping for jackets in a trendy fashion store with skateboard decor. Stock Photo" [ref=e402]
+                  - article [ref=e407]:
+                    - link "Free Two young men browsing clothes on racks in a trendy boutique store setting. Stock Photo" [ref=e408] [cursor=pointer]:
+                      - /url: /photo/man-in-white-shirt-checking-clothes-haning-on-a-clothes-rack-5975576/
+                      - img "Free Two young men browsing clothes on racks in a trendy boutique store setting. Stock Photo" [ref=e409]
+                  - article [ref=e414]:
+                    - link "Free Bearded man choosing a suit jacket from stairway hanger, showcasing elegance. Stock Photo" [ref=e415] [cursor=pointer]:
+                      - /url: /photo/man-selecting-suit-jacket-from-staircase-hanger-32427329/
+                      - img "Free Bearded man choosing a suit jacket from stairway hanger, showcasing elegance. Stock Photo" [ref=e416]
+                  - article [ref=e421]:
+                    - link "Free Woman browsing colorful clothes in a boutique, exploring fashion options. Stock Photo" [ref=e422] [cursor=pointer]:
+                      - /url: /photo/woman-holding-an-orange-jacket-8396303/
+                      - img "Free Woman browsing colorful clothes in a boutique, exploring fashion options. Stock Photo" [ref=e423]
+                  - article [ref=e428]:
+                    - link "Free A woman browsing clothes on a rack in a stylish, well-lit boutique setting. Stock Photo" [ref=e429] [cursor=pointer]:
+                      - /url: /photo/woman-looking-at-white-blouse-5418932/
+                      - img "Free A woman browsing clothes on a rack in a stylish, well-lit boutique setting. Stock Photo" [ref=e430]
+              - button "Load More" [ref=e434] [cursor=pointer]:
+                - generic [ref=e436]: Load More
+            - navigation [ref=e437]:
+              - generic [ref=e439]:
+                - link "1" [ref=e441]:
+                  - /url: /search/man%20choosing%20clothes%20wardrobe/
+                  - generic [ref=e443]: "1"
+                - link "2" [ref=e444] [cursor=pointer]:
+                  - /url: /search/man%20choosing%20clothes%20wardrobe/?page=2
+                  - generic [ref=e446]: "2"
+                - link "3" [ref=e447] [cursor=pointer]:
+                  - /url: /search/man%20choosing%20clothes%20wardrobe/?page=3
+                  - generic [ref=e449]: "3"
+                - link "4" [ref=e450] [cursor=pointer]:
+                  - /url: /search/man%20choosing%20clothes%20wardrobe/?page=4
+                  - generic [ref=e452]: "4"
+                - link "5" [ref=e453] [cursor=pointer]:
+                  - /url: /search/man%20choosing%20clothes%20wardrobe/?page=5
+                  - generic [ref=e455]: "5"
+                - link "6" [ref=e456] [cursor=pointer]:
+                  - /url: /search/man%20choosing%20clothes%20wardrobe/?page=6
+                  - generic [ref=e458]: "6"
+                - link "Next" [ref=e459] [cursor=pointer]:
+                  - /url: /search/man%20choosing%20clothes%20wardrobe/?page=2
+                  - generic [ref=e461]: Next
+    - contentinfo [ref=e463]:
+      - separator [ref=e464]
+      - generic [ref=e465]:
+        - generic [ref=e466]:
+          - heading "Where stories come together." [level=2] [ref=e467]
+          - generic [ref=e468]:
+            - link "Download on iOS" [ref=e469] [cursor=pointer]:
+              - /url: https://itunes.apple.com/us/app/pexels/id1434330413/
+              - generic [ref=e471]: Download on iOS
+            - link "Download on Android" [ref=e472] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=com.pexels.app
+              - generic [ref=e474]: Download on Android
+          - list [ref=e475]:
+            - listitem [ref=e476]:
+              - link "Instagram" [ref=e477] [cursor=pointer]:
+                - /url: https://www.instagram.com/pexels/
+                - img [ref=e478]
+            - listitem [ref=e480]:
+              - link "Threads" [ref=e481] [cursor=pointer]:
+                - /url: https://www.threads.net/@pexels/
+                - img [ref=e482]
+            - listitem [ref=e484]:
+              - link "YouTube" [ref=e485] [cursor=pointer]:
+                - /url: https://www.youtube.com/pexelsphotos/
+                - img [ref=e486]
+            - listitem [ref=e488]:
+              - link "TikTok" [ref=e489] [cursor=pointer]:
+                - /url: https://www.tiktok.com/@pexels/
+                - img [ref=e490]
+            - listitem [ref=e492]:
+              - link "LinkedIn" [ref=e493] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/pexels/
+                - img [ref=e494]
+            - listitem [ref=e496]:
+              - link "X" [ref=e497] [cursor=pointer]:
+                - /url: https://x.com/pexels/
+                - img [ref=e498]
+        - generic [ref=e500]:
+          - list [ref=e501]:
+            - heading "Pexels" [level=3] [ref=e502]
+            - listitem [ref=e503]:
+              - link "Free Stock Photos" [ref=e504] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e505]:
+              - link "Free Videos" [ref=e506] [cursor=pointer]:
+                - /url: /videos/
+            - listitem [ref=e507]:
+              - link "Popular searches" [ref=e508] [cursor=pointer]:
+                - /url: /popular-searches/
+            - listitem [ref=e509]:
+              - link "Collections" [ref=e510] [cursor=pointer]:
+                - /url: /discover/
+            - listitem [ref=e511]:
+              - link "Challenges" [ref=e512] [cursor=pointer]:
+                - /url: /challenges/
+            - listitem [ref=e513]:
+              - link "Leaderboard" [ref=e514] [cursor=pointer]:
+                - /url: /leaderboard/
+            - listitem [ref=e515]:
+              - link "Other plugins & apps" [ref=e516] [cursor=pointer]:
+                - /url: /pro/
+          - list [ref=e517]:
+            - heading "Company" [level=3] [ref=e518]
+            - listitem [ref=e519]:
+              - link "About" [ref=e520] [cursor=pointer]:
+                - /url: /about/
+            - listitem [ref=e521]:
+              - link "Blog" [ref=e522] [cursor=pointer]:
+                - /url: /blog/
+            - listitem [ref=e523]:
+              - link "Help Center" [ref=e524] [cursor=pointer]:
+                - /url: https://help.pexels.com/hc/en-us/
+            - listitem [ref=e525]:
+              - link "Report content" [ref=e526] [cursor=pointer]:
+                - /url: /report/
+            - listitem [ref=e527]:
+              - link "Become a Hero" [ref=e528] [cursor=pointer]:
+                - /url: /hero/
+            - listitem [ref=e529]:
+              - link "Partner with Pexels" [ref=e530] [cursor=pointer]:
+                - /url: /become-a-partner/
+            - listitem [ref=e531]:
+              - link "Image & Video API" [ref=e532] [cursor=pointer]:
+                - /url: /api/
+            - listitem [ref=e533]: Sign Up
+        - list [ref=e534]:
+          - listitem [ref=e535]:
+            - heading "Free Stock Photos" [level=3] [ref=e536]
+          - listitem [ref=e537]:
+            - generic [ref=e539]:
+              - link "Black and white photography" [ref=e541] [cursor=pointer]:
+                - /url: /search/black%20and%20white/
+              - link "Happy birthday images" [ref=e542] [cursor=pointer]:
+                - /url: /search/happy%20birthday/
+              - link "Free business videos" [ref=e543] [cursor=pointer]:
+                - /url: /search/videos/business/
+              - link "Happy new year images" [ref=e544] [cursor=pointer]:
+                - /url: /search/happy%20new%20year/
+              - link "Cool wallpapers" [ref=e545] [cursor=pointer]:
+                - /url: /search/cool%20wallpaper/
+              - link "Best HD wallpapers" [ref=e546] [cursor=pointer]:
+                - /url: /search/hd%20wallpaper/
+              - link "Galaxy wallpaper" [ref=e547] [cursor=pointer]:
+                - /url: /search/galaxy%20wallpaper/
+              - link "Lock screen wallpaper" [ref=e548] [cursor=pointer]:
+                - /url: /search/lock%20screen%20wallpaper/
+              - link "iPhone wallpaper" [ref=e549] [cursor=pointer]:
+                - /url: /search/iphone%20wallpaper/
+              - link "4K wallpaper" [ref=e550] [cursor=pointer]:
+                - /url: /search/4k%20wallpaper/
+              - link "Samsung wallpaper" [ref=e551] [cursor=pointer]:
+                - /url: /search/samsung%20wallpaper/
+              - link "Love wallpaper" [ref=e552] [cursor=pointer]:
+                - /url: /search/love%20wallpaper/
+              - link "Mobile wallpaper" [ref=e553] [cursor=pointer]:
+                - /url: /search/mobile%20wallpaper/
+      - generic [ref=e555]:
+        - generic [ref=e556]: © 2026 Pexels
+        - generic [ref=e558]:
+          - generic:
+            - img
+          - link "Terms of Use" [ref=e560] [cursor=pointer]:
+            - /url: /terms-of-service/
+          - link "Privacy Policy" [ref=e561] [cursor=pointer]:
+            - /url: /privacy-policy/
+          - link "License" [ref=e562] [cursor=pointer]:
+            - /url: /license/
+          - link "Imprint" [ref=e563] [cursor=pointer]:
+            - /url: /imprint/
+          - link "Cookies Policy" [ref=e564] [cursor=pointer]:
+            - /url: /cookies/
+          - generic:
+            - img
+        - button "English" [ref=e567] [cursor=pointer]:
+          - generic [ref=e568]:
+            - img [ref=e569]
+            - generic [ref=e571]: English
+      - separator [ref=e572]
+  - alert [ref=e573]
+  - region "Cookie banner" [ref=e574]:
+    - alertdialog "Confidentialité" [ref=e575]:
+      - generic [ref=e577]:
+        - paragraph [ref=e580]: En cliquant sur « Accepter tous les cookies », vous acceptez le stockage de cookies sur votre appareil pour améliorer la navigation sur le site, analyser son utilisation et contribuer à nos efforts de marketing.
+        - generic [ref=e582]:
+          - button "Paramètres des cookies" [active] [ref=e583] [cursor=pointer]
+          - button "Tout refuser" [ref=e584] [cursor=pointer]
+          - button "Autoriser tous les cookies" [ref=e585] [cursor=pointer]

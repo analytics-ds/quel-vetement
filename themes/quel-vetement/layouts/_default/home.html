@@ -1,17 +1,17 @@
 {{ define "main" }}
-<section class="hero" style="background-image: linear-gradient(rgba(27,42,74,0.58), rgba(27,42,74,0.7)), url('{{ "/images/hero.webp" | relURL }}');">
-    <div class="hero-content">
+<section class="hero-split">
+    <div class="hero-text">
         <span class="hero-badge">{{ i18n "hero_badge" }}</span>
         <h1>{{ i18n "hero_title" }}</h1>
         <p class="hero-description">{{ i18n "hero_description" }}</p>
         <a href="#situations" class="btn-primary">{{ i18n "explore_blog" }}</a>
     </div>
+    <div class="hero-visual" style="background-image:url('{{ "/images/hero-editorial.webp" | relURL }}');"></div>
 </section>
 
-<section class="concept-section">
-    <div class="container container-narrow concept-inner">
-        <span class="concept-eyebrow">{{ i18n "concept_title" }}</span>
-        <p class="concept-text">{{ i18n "concept_text" }}</p>
+<section class="seo-section">
+    <div class="container container-narrow seo-content">
+        {{ .Content }}
     </div>
 </section>
 
@@ -38,10 +38,7 @@
             {{ range $sits }}
             <div class="situation-card">
                 <div class="situation-card-img" style="background-image:url('{{ printf "/images/situations/%s.webp" .img | relURL }}');"></div>
-                <div class="situation-card-body">
-                    <h3>{{ .n }}</h3>
-                    <p>{{ .r }}</p>
-                </div>
+                <div class="situation-card-body"><h3>{{ .n }}</h3><p>{{ .r }}</p></div>
             </div>
             {{ end }}
         </div>
@@ -53,7 +50,7 @@
         <h2 class="section-title">{{ i18n "categories_title" }}</h2>
         <div class="grid-categories">
             {{ range .Site.Taxonomies.categories }}
-            <a href="{{ .Page.RelPermalink }}" class="category-card" style="background-image: linear-gradient(rgba(27,42,74,0.15), rgba(27,42,74,0.78)), url('{{ with .Page.Params.image }}{{ . | relURL }}{{ end }}');">
+            <a href="{{ .Page.RelPermalink }}" class="category-card" style="background-image: linear-gradient(rgba(26,29,36,0.12), rgba(26,29,36,0.72)), url('{{ with .Page.Params.image }}{{ . | relURL }}{{ end }}');">
                 <div class="category-card-inner"><h3>{{ .Page.Title }}</h3><span class="category-count">{{ .Count }} {{ if gt .Count 1 }}articles{{ else }}article{{ end }}</span></div>
             </a>
             {{ end }}

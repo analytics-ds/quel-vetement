@@ -160,3 +160,40 @@ a{color:var(--primary);text-decoration:none;transition:color .2s}
 .situation-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-lg)}
 .situation-card h3{font-family:var(--font-heading);font-size:1.3rem;font-weight:700;color:var(--primary);margin-bottom:.5rem}
 .situation-card p{font-size:.98rem;color:var(--text-light);line-height:1.65}
+
+/* ===== LOOK ÉDITORIAL (surcharges) ===== */
+/* Header clair */
+.site-header{background:#fff;box-shadow:0 1px 0 var(--border)}
+.site-logo{color:var(--primary)}
+.site-logo:hover{color:var(--accent)}
+.nav-link{color:var(--text-light)}
+.nav-link:hover,.nav-link.active{color:var(--primary);border-bottom-color:var(--accent)}
+.hamburger,.hamburger::before,.hamburger::after{background:var(--primary)}
+.lang-option{color:var(--text-light)}
+.lang-option.active{color:#fff;background:var(--accent)}
+@media(max-width:860px){.site-nav{background:#fff;border-top:1px solid var(--border)}}
+
+/* Hero split éditorial */
+.hero-split{display:grid;grid-template-columns:1.05fr 1fr;min-height:78vh;background:var(--background)}
+.hero-text{display:flex;flex-direction:column;justify-content:center;padding:3.5rem clamp(1.5rem,6vw,6rem)}
+.hero-text .hero-badge{align-self:flex-start;background:var(--accent);color:#fff;margin-bottom:1.4rem}
+.hero-text h1{font-family:var(--font-heading);font-size:clamp(2.1rem,3.8vw,3.5rem);font-weight:900;line-height:1.12;color:var(--primary)}
+.hero-text .hero-description{font-size:1.15rem;color:var(--text-light);max-width:520px;margin:1.3rem 0 2rem;line-height:1.7}
+.hero-visual{background-size:cover;background-position:center top;min-height:55vh}
+
+/* Section SEO */
+.seo-section{padding:4.5rem 0;background:var(--white)}
+.seo-content h2{font-family:var(--font-heading);font-size:1.9rem;font-weight:800;color:var(--primary);margin:2.4rem 0 1rem}
+.seo-content h2:first-child{margin-top:0}
+.seo-content p{font-size:1.08rem;line-height:1.8;color:var(--text);margin-bottom:1.2rem}
+.seo-content strong{color:var(--primary)}
+
+/* rythme des fonds */
+.categories-section{background:var(--white)}
+.latest-section{background:var(--background-alt)}
+
+@media(max-width:768px){
+  .hero-split{grid-template-columns:1fr;min-height:auto}
+  .hero-visual{min-height:46vh;order:-1}
+  .hero-text{padding:3rem 1.5rem}
+}
