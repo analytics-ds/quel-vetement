@@ -87,22 +87,6 @@ Ce repo ne contient pas de site. Il contient les **instructions et templates** p
         └── seo-head.html         ← Meta tags SEO + JSON-LD (OG, Twitter, canonical, schemas)
 ```
 
-## Contexte du site
-
-> Cette section est remplie automatiquement par le skill `/create-site`.
-> Elle permet a Claude de connaitre le contexte du site pour les futures actions.
-
-- **Nom du site** : [non defini]
-- **Description** : [non defini]
-- **URL** : [non defini]
-- **Couleurs** : [non defini]
-- **Polices** : [non defini]
-- **Categories** : [non defini]
-- **Langue** : [non defini]
-- **Auteur** : [non defini]
-- **URL auteur** : [non defini]
-- **Fonction auteur** : [non defini]
-
 ## Suivi des publications (MEMORY.md)
 
 Le fichier `MEMORY.md` a la racine trace tous les articles publies, classes par semaine. Il est mis a jour automatiquement par `/create-article`.
