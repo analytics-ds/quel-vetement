@@ -1,0 +1,446 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - navigation [ref=e6]:
+      - link [ref=e8] [cursor=pointer]:
+        - /url: /
+        - img [ref=e9]
+      - search [ref=e13]:
+        - generic [ref=e14]:
+          - button "Photos" [ref=e16] [cursor=pointer]:
+            - generic [ref=e17]:
+              - img [ref=e18]
+              - generic [ref=e21]: Photos
+              - img [ref=e22]
+          - searchbox "Search for free photos" [ref=e24]: man office shirt desk
+          - button [ref=e26] [cursor=pointer]:
+            - img [ref=e28]
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - link "Explore" [ref=e32] [cursor=pointer]:
+            - /url: /discover/
+            - generic [ref=e33]: Explore
+          - img [ref=e34]
+        - link "License" [ref=e36] [cursor=pointer]:
+          - /url: /license/
+          - generic [ref=e37]: License
+        - button [ref=e39] [cursor=pointer]:
+          - img [ref=e40]
+        - button "Join" [ref=e42] [cursor=pointer]:
+          - generic [ref=e44]: Join
+    - main [ref=e45]:
+      - generic [ref=e46]:
+        - generic [ref=e50]:
+          - paragraph [ref=e52] [cursor=pointer]: Any
+          - generic [ref=e53] [cursor=pointer]:
+            - img [ref=e55]
+            - paragraph [ref=e57]: Horizontal
+          - generic [ref=e58] [cursor=pointer]:
+            - img [ref=e60]
+            - paragraph [ref=e62]: Vertical
+          - generic [ref=e63] [cursor=pointer]:
+            - img [ref=e65]
+            - paragraph [ref=e67]: Square
+        - generic [ref=e71]:
+          - paragraph [ref=e73] [cursor=pointer]: Any
+          - paragraph [ref=e75] [cursor=pointer]: "0"
+          - generic [ref=e76] [cursor=pointer]:
+            - img [ref=e78]
+            - paragraph [ref=e80]: "1"
+          - generic [ref=e81] [cursor=pointer]:
+            - img [ref=e83]
+            - paragraph [ref=e85]: "2"
+          - generic [ref=e86] [cursor=pointer]:
+            - img [ref=e88]
+            - paragraph [ref=e90]: 3+
+        - generic [ref=e94]:
+          - paragraph [ref=e96] [cursor=pointer]: Any
+          - generic [ref=e97] [cursor=pointer]:
+            - img [ref=e99]
+            - paragraph [ref=e101]: Baby
+          - generic [ref=e102] [cursor=pointer]:
+            - img [ref=e104]
+            - paragraph [ref=e106]: Child
+          - generic [ref=e107] [cursor=pointer]:
+            - img [ref=e109]
+            - paragraph [ref=e111]: Teenager
+          - generic [ref=e112] [cursor=pointer]:
+            - img [ref=e114]
+            - paragraph [ref=e116]: Adult
+          - generic [ref=e117] [cursor=pointer]:
+            - img [ref=e119]
+            - paragraph [ref=e121]: Senior adult
+        - generic [ref=e124]:
+          - generic [ref=e125]:
+            - slider [ref=e128] [cursor=pointer]
+            - slider [ref=e129] [cursor=pointer]
+          - generic [ref=e130]:
+            - generic [ref=e131]:
+              - paragraph [ref=e132]: Minimum
+              - paragraph [ref=e133]: 1,080px
+            - generic [ref=e134]:
+              - paragraph [ref=e135]: Maximum
+              - paragraph [ref=e136]: 20,000px+
+        - generic [ref=e139]:
+          - generic [ref=e140]:
+            - slider [ref=e143] [cursor=pointer]
+            - slider [ref=e144] [cursor=pointer]
+          - generic [ref=e145]:
+            - generic [ref=e146]:
+              - paragraph [ref=e147]: Minimum
+              - paragraph [ref=e148]: 1,080px
+            - generic [ref=e149]:
+              - paragraph [ref=e150]: Maximum
+              - paragraph [ref=e151]: 20,000px+
+        - generic [ref=e155]:
+          - button [ref=e156] [cursor=pointer]:
+            - generic [ref=e157]:
+              - textbox [ref=e162]:
+                - /placeholder: Enter hex code
+              - img [ref=e163]
+          - button [ref=e165] [cursor=pointer]:
+            - generic [ref=e166]:
+              - img [ref=e167]
+              - textbox [ref=e171]: "#000000"
+        - generic [ref=e175]:
+          - paragraph [ref=e177] [cursor=pointer]: Any
+          - generic [ref=e178] [cursor=pointer]:
+            - img [ref=e180]
+            - paragraph [ref=e182]: Last 24 hours
+          - generic [ref=e183] [cursor=pointer]:
+            - img [ref=e185]
+            - paragraph [ref=e187]: Last week
+          - generic [ref=e188] [cursor=pointer]:
+            - img [ref=e190]
+            - paragraph [ref=e192]: Last month
+          - generic [ref=e193] [cursor=pointer]:
+            - img [ref=e195]
+            - paragraph [ref=e197]: Last year
+        - main "main-content" [ref=e198]:
+          - generic [ref=e199]:
+            - generic [ref=e200]:
+              - heading "Choose your language:" [level=5] [ref=e201]
+              - generic [ref=e203]:
+                - link "English English" [ref=e205] [cursor=pointer]:
+                  - /url: /search/man%20office%20shirt%20desk/
+                  - generic [ref=e206]:
+                    - img "English" [ref=e207]
+                    - generic [ref=e208]: English
+                - link "Français Français" [ref=e209] [cursor=pointer]:
+                  - /url: /fr-fr/chercher/man%20office%20shirt%20desk/
+                  - generic [ref=e210]:
+                    - img "Français" [ref=e211]
+                    - generic [ref=e212]: Français
+                - button [ref=e213] [cursor=pointer]:
+                  - img [ref=e215]
+            - heading "Free Man Office Shirt Desk Photos" [level=1] [ref=e220]
+            - generic [ref=e223]:
+              - generic:
+                - img
+              - link "Photos 10K" [ref=e225] [cursor=pointer]:
+                - /url: /search/man%20office%20shirt%20desk/?orientation=landscape
+                - text: Photos
+                - generic [ref=e226]: 10K
+              - link "Videos 10K" [ref=e227] [cursor=pointer]:
+                - /url: /search/videos/man%20office%20shirt%20desk/?orientation=landscape
+                - text: Videos
+                - generic [ref=e228]: 10K
+              - link "Users 10K" [ref=e229] [cursor=pointer]:
+                - /url: /search/users/man%20office%20shirt%20desk/
+                - text: Users
+                - generic [ref=e230]: 10K
+              - generic:
+                - img
+            - generic [ref=e233]:
+              - button "Filters (1)" [ref=e234] [cursor=pointer]:
+                - generic [ref=e240]: Filters (1)
+              - button [ref=e241] [cursor=pointer]:
+                - img [ref=e243]
+            - generic [ref=e245]:
+              - generic [ref=e247]:
+                - generic [ref=e248]:
+                  - article [ref=e251]:
+                    - link "Free Young man reading papers at desk with laptop and office decor, focused on work. Stock Photo" [ref=e252] [cursor=pointer]:
+                      - /url: /photo/man-in-shirt-sitting-at-office-and-reading-document-22046214/
+                      - img "Free Young man reading papers at desk with laptop and office decor, focused on work. Stock Photo" [ref=e253]
+                  - article [ref=e258]:
+                    - link "Free Adult man concentrating at his home office desk with computer, books, and natural light. Stock Photo" [ref=e259] [cursor=pointer]:
+                      - /url: /photo/man-in-shirt-working-in-office-10376161/
+                      - img "Free Adult man concentrating at his home office desk with computer, books, and natural light. Stock Photo" [ref=e260]
+                  - article [ref=e265]:
+                    - link "Free A bald professional man using a phone and making notes in an office environment. Stock Photo" [ref=e266] [cursor=pointer]:
+                      - /url: /photo/man-in-blue-and-white-polka-dots-dress-shirt-using-cellphone-while-looking-at-his-notebook-6334232/
+                      - img "Free A bald professional man using a phone and making notes in an office environment. Stock Photo" [ref=e267]
+                  - article [ref=e272]:
+                    - link "Free Bald man in an office thinking deeply with a pen in hand near a desk. Stock Photo" [ref=e273] [cursor=pointer]:
+                      - /url: /photo/man-sitting-and-thinking-in-office-6334193/
+                      - img "Free Bald man in an office thinking deeply with a pen in hand near a desk. Stock Photo" [ref=e274]
+                  - article [ref=e279]:
+                    - link "Free Bald adult man with glasses using smartphone at office desk. Professional workspace. Stock Photo" [ref=e280] [cursor=pointer]:
+                      - /url: /photo/a-man-with-eyeglasses-talking-on-the-phone-6334237/
+                      - img "Free Bald adult man with glasses using smartphone at office desk. Professional workspace. Stock Photo" [ref=e281]
+                  - article [ref=e286]:
+                    - link "Free A man smiling while working at an office desk with a computer and natural daylight streaming in through large windows. Stock Photo" [ref=e287] [cursor=pointer]:
+                      - /url: /photo/man-in-white-dress-shirt-sitting-on-black-rolling-chair-while-facing-black-computer-set-and-smiling-840996/
+                      - img "Free A man smiling while working at an office desk with a computer and natural daylight streaming in through large windows. Stock Photo" [ref=e288]
+                  - article [ref=e293]:
+                    - link "Free Adult man working on laptop analyzing data in modern office setting. Stock Photo" [ref=e294] [cursor=pointer]:
+                      - /url: /photo/a-man-in-gray-long-sleeve-shirt-using-a-laptop-5717796/
+                      - img "Free Adult man working on laptop analyzing data in modern office setting. Stock Photo" [ref=e295]
+                - generic [ref=e298]:
+                  - article [ref=e301]:
+                    - link "Free Smiling man in blue shirt raises hand in bright office setting. Ideal for educational themes. Stock Photo" [ref=e302] [cursor=pointer]:
+                      - /url: /photo/man-standing-with-right-hand-raised-10031266/
+                      - img "Free Smiling man in blue shirt raises hand in bright office setting. Ideal for educational themes. Stock Photo" [ref=e303]
+                  - article [ref=e308]:
+                    - link "Free A smiling man in a blue shirt stands confidently in a bright modern office. Stock Photo" [ref=e309] [cursor=pointer]:
+                      - /url: /photo/man-standing-in-classroom-and-making-gesture-with-one-hand-10031264/
+                      - img "Free A smiling man in a blue shirt stands confidently in a bright modern office. Stock Photo" [ref=e310]
+                  - article [ref=e315]:
+                    - link "Free A man multitasking with phone, laptop, and notebook on his desk at home office. Stock Photo" [ref=e316] [cursor=pointer]:
+                      - /url: /photo/a-man-sitting-at-a-desk-with-a-laptop-talking-on-the-phone-6334146/
+                      - img "Free A man multitasking with phone, laptop, and notebook on his desk at home office. Stock Photo" [ref=e317]
+                  - article [ref=e322]:
+                    - link "Free Man engaged in focused calculation work in an office environment. Stock Photo" [ref=e323] [cursor=pointer]:
+                      - /url: /photo/man-using-a-calculator-7581009/
+                      - img "Free Man engaged in focused calculation work in an office environment. Stock Photo" [ref=e324]
+                  - article [ref=e329]:
+                    - link "Free Portrait of a man working at a desk with a computer, in a dimly lit office setting. Stock Photo" [ref=e330] [cursor=pointer]:
+                      - /url: /photo/man-sitting-at-desk-in-office-19747897/
+                      - img "Free Portrait of a man working at a desk with a computer, in a dimly lit office setting. Stock Photo" [ref=e331]
+                  - article [ref=e336]:
+                    - link "Free Bald man in office holding eyeglasses, appearing deep in thought. Stock Photo" [ref=e337] [cursor=pointer]:
+                      - /url: /photo/a-man-staring-at-a-pair-of-eyeglasses-6334187/
+                      - img "Free Bald man in office holding eyeglasses, appearing deep in thought. Stock Photo" [ref=e338]
+                  - article [ref=e343]:
+                    - link "Free Serious professional man at work, engaged with monitor in an office environment for focused tasks. Stock Photo" [ref=e344] [cursor=pointer]:
+                      - /url: /photo/man-sitting-on-a-chair-in-the-office-in-front-of-the-computer-5831518/
+                      - img "Free Serious professional man at work, engaged with monitor in an office environment for focused tasks. Stock Photo" [ref=e345]
+                - generic [ref=e348]:
+                  - article [ref=e351]:
+                    - link "Free Man working on smartphone at office desk with computer, illustrating technology in business. Stock Photo" [ref=e352] [cursor=pointer]:
+                      - /url: /photo/office-worker-checking-his-phone-19747870/
+                      - img "Free Man working on smartphone at office desk with computer, illustrating technology in business. Stock Photo" [ref=e353]
+                  - article [ref=e358]:
+                    - link "Free A professional businessman with a beard and braided hair sits at his desk with a laptop and documents, working diligently. Stock Photo" [ref=e359] [cursor=pointer]:
+                      - /url: /photo/businessman-sitting-at-desk-in-his-office-10376250/
+                      - img "Free A professional businessman with a beard and braided hair sits at his desk with a laptop and documents, working diligently. Stock Photo" [ref=e360]
+                  - article [ref=e365]:
+                    - link "Free A cheerful young man in a white shirt smiling at his desk in a modern office environment. Stock Photo" [ref=e366] [cursor=pointer]:
+                      - /url: /photo/close-up-shot-of-a-man-smiling-9301461/
+                      - img "Free A cheerful young man in a white shirt smiling at his desk in a modern office environment. Stock Photo" [ref=e367]
+                  - link [ref=e371] [cursor=pointer]:
+                    - /url: /collections/desks-yyc0lfx/
+                    - article [ref=e372]:
+                      - list [ref=e374]:
+                        - listitem [ref=e375]:
+                          - img [ref=e376]
+                        - listitem [ref=e377]:
+                          - img [ref=e378]
+                        - listitem [ref=e379]:
+                          - img [ref=e380]
+                      - generic [ref=e381]:
+                        - heading "Desks" [level=4] [ref=e382]
+                        - generic [ref=e383]:
+                          - img [ref=e384]
+                          - paragraph [ref=e386]: "79"
+                  - article [ref=e389]:
+                    - link "Free Focused businessman using a laptop and phone simultaneously, working in a modern office space. Stock Photo" [ref=e390] [cursor=pointer]:
+                      - /url: /photo/man-talking-on-phone-while-using-laptop-in-office-10376209/
+                      - img "Free Focused businessman using a laptop and phone simultaneously, working in a modern office space. Stock Photo" [ref=e391]
+                - generic [ref=e394]:
+                  - article [ref=e397]:
+                    - link "Free Young man in blue shirt cleaning eyeglasses with cloth at his desk. Stock Photo" [ref=e398] [cursor=pointer]:
+                      - /url: /photo/man-cleaning-eyeglasses-6334194/
+                      - img "Free Young man in blue shirt cleaning eyeglasses with cloth at his desk. Stock Photo" [ref=e399]
+                  - article [ref=e404]:
+                    - link "Free Asian man stands in a modern office with a computer and desk, showcasing a professional work environment. Stock Photo" [ref=e405] [cursor=pointer]:
+                      - /url: /photo/woman-in-gray-button-up-shirt-and-brown-pants-sitting-on-brown-wooden-chair-6476564/
+                      - img "Free Asian man stands in a modern office with a computer and desk, showcasing a professional work environment. Stock Photo" [ref=e406]
+                  - article [ref=e411]:
+                    - link "Free Man in white shirt sitting at office desk reading documents, modern workspace. Stock Photo" [ref=e412] [cursor=pointer]:
+                      - /url: /photo/a-man-in-white-long-sleeves-reading-the-bind-of-documents-on-the-table-8297222/
+                      - img "Free Man in white shirt sitting at office desk reading documents, modern workspace. Stock Photo" [ref=e413]
+                  - article [ref=e418]:
+                    - link "Free African American man in a striped shirt sits at a desk in an office environment. Stock Photo" [ref=e419] [cursor=pointer]:
+                      - /url: /photo/a-businessman-sitting-on-a-chair-while-looking-afar-5439400/
+                      - img "Free African American man in a striped shirt sits at a desk in an office environment. Stock Photo" [ref=e420]
+                  - article [ref=e425]:
+                    - link "Free Two colleagues engaged in a friendly discussion at the office with laptops on the table. Stock Photo" [ref=e426] [cursor=pointer]:
+                      - /url: /photo/a-smiling-man-looking-at-his-colleague-7994325/
+                      - img "Free Two colleagues engaged in a friendly discussion at the office with laptops on the table. Stock Photo" [ref=e427]
+                  - article [ref=e432]:
+                    - link "Free Smiling man sitting at workstation in modern office with laptop. Stock Photo" [ref=e433] [cursor=pointer]:
+                      - /url: /photo/professional-man-in-modern-office-setting-34221334/
+                      - img "Free Smiling man sitting at workstation in modern office with laptop. Stock Photo" [ref=e434]
+              - button "Load More" [ref=e438] [cursor=pointer]:
+                - generic [ref=e440]: Load More
+            - navigation [ref=e441]:
+              - generic [ref=e443]:
+                - link "1" [ref=e445]:
+                  - /url: /search/man%20office%20shirt%20desk/?orientation=landscape
+                  - generic [ref=e447]: "1"
+                - link "2" [ref=e448] [cursor=pointer]:
+                  - /url: /search/man%20office%20shirt%20desk/?orientation=landscape&page=2
+                  - generic [ref=e450]: "2"
+                - link "3" [ref=e451] [cursor=pointer]:
+                  - /url: /search/man%20office%20shirt%20desk/?orientation=landscape&page=3
+                  - generic [ref=e453]: "3"
+                - link "4" [ref=e454] [cursor=pointer]:
+                  - /url: /search/man%20office%20shirt%20desk/?orientation=landscape&page=4
+                  - generic [ref=e456]: "4"
+                - link "5" [ref=e457] [cursor=pointer]:
+                  - /url: /search/man%20office%20shirt%20desk/?orientation=landscape&page=5
+                  - generic [ref=e459]: "5"
+                - link "6" [ref=e460] [cursor=pointer]:
+                  - /url: /search/man%20office%20shirt%20desk/?orientation=landscape&page=6
+                  - generic [ref=e462]: "6"
+                - link "Next" [ref=e463] [cursor=pointer]:
+                  - /url: /search/man%20office%20shirt%20desk/?orientation=landscape&page=2
+                  - generic [ref=e465]: Next
+    - contentinfo [ref=e467]:
+      - separator [ref=e468]
+      - generic [ref=e469]:
+        - generic [ref=e470]:
+          - heading "Where stories come together." [level=2] [ref=e471]
+          - generic [ref=e472]:
+            - link "Download on iOS" [ref=e473] [cursor=pointer]:
+              - /url: https://itunes.apple.com/us/app/pexels/id1434330413/
+              - generic [ref=e475]: Download on iOS
+            - link "Download on Android" [ref=e476] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=com.pexels.app
+              - generic [ref=e478]: Download on Android
+          - list [ref=e479]:
+            - listitem [ref=e480]:
+              - link "Instagram" [ref=e481] [cursor=pointer]:
+                - /url: https://www.instagram.com/pexels/
+                - img [ref=e482]
+            - listitem [ref=e484]:
+              - link "Threads" [ref=e485] [cursor=pointer]:
+                - /url: https://www.threads.net/@pexels/
+                - img [ref=e486]
+            - listitem [ref=e488]:
+              - link "YouTube" [ref=e489] [cursor=pointer]:
+                - /url: https://www.youtube.com/pexelsphotos/
+                - img [ref=e490]
+            - listitem [ref=e492]:
+              - link "TikTok" [ref=e493] [cursor=pointer]:
+                - /url: https://www.tiktok.com/@pexels/
+                - img [ref=e494]
+            - listitem [ref=e496]:
+              - link "LinkedIn" [ref=e497] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/pexels/
+                - img [ref=e498]
+            - listitem [ref=e500]:
+              - link "X" [ref=e501] [cursor=pointer]:
+                - /url: https://x.com/pexels/
+                - img [ref=e502]
+        - generic [ref=e504]:
+          - list [ref=e505]:
+            - heading "Pexels" [level=3] [ref=e506]
+            - listitem [ref=e507]:
+              - link "Free Stock Photos" [ref=e508] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e509]:
+              - link "Free Videos" [ref=e510] [cursor=pointer]:
+                - /url: /videos/
+            - listitem [ref=e511]:
+              - link "Popular searches" [ref=e512] [cursor=pointer]:
+                - /url: /popular-searches/
+            - listitem [ref=e513]:
+              - link "Collections" [ref=e514] [cursor=pointer]:
+                - /url: /discover/
+            - listitem [ref=e515]:
+              - link "Challenges" [ref=e516] [cursor=pointer]:
+                - /url: /challenges/
+            - listitem [ref=e517]:
+              - link "Leaderboard" [ref=e518] [cursor=pointer]:
+                - /url: /leaderboard/
+            - listitem [ref=e519]:
+              - link "Other plugins & apps" [ref=e520] [cursor=pointer]:
+                - /url: /pro/
+          - list [ref=e521]:
+            - heading "Company" [level=3] [ref=e522]
+            - listitem [ref=e523]:
+              - link "About" [ref=e524] [cursor=pointer]:
+                - /url: /about/
+            - listitem [ref=e525]:
+              - link "Blog" [ref=e526] [cursor=pointer]:
+                - /url: /blog/
+            - listitem [ref=e527]:
+              - link "Help Center" [ref=e528] [cursor=pointer]:
+                - /url: https://help.pexels.com/hc/en-us/
+            - listitem [ref=e529]:
+              - link "Report content" [ref=e530] [cursor=pointer]:
+                - /url: /report/
+            - listitem [ref=e531]:
+              - link "Become a Hero" [ref=e532] [cursor=pointer]:
+                - /url: /hero/
+            - listitem [ref=e533]:
+              - link "Partner with Pexels" [ref=e534] [cursor=pointer]:
+                - /url: /become-a-partner/
+            - listitem [ref=e535]:
+              - link "Image & Video API" [ref=e536] [cursor=pointer]:
+                - /url: /api/
+            - listitem [ref=e537]: Sign Up
+        - list [ref=e538]:
+          - listitem [ref=e539]:
+            - heading "Free Stock Photos" [level=3] [ref=e540]
+          - listitem [ref=e541]:
+            - generic [ref=e543]:
+              - link "Black and white photography" [ref=e545] [cursor=pointer]:
+                - /url: /search/black%20and%20white/
+              - link "Happy birthday images" [ref=e546] [cursor=pointer]:
+                - /url: /search/happy%20birthday/
+              - link "Free business videos" [ref=e547] [cursor=pointer]:
+                - /url: /search/videos/business/
+              - link "Happy new year images" [ref=e548] [cursor=pointer]:
+                - /url: /search/happy%20new%20year/
+              - link "Cool wallpapers" [ref=e549] [cursor=pointer]:
+                - /url: /search/cool%20wallpaper/
+              - link "Best HD wallpapers" [ref=e550] [cursor=pointer]:
+                - /url: /search/hd%20wallpaper/
+              - link "Galaxy wallpaper" [ref=e551] [cursor=pointer]:
+                - /url: /search/galaxy%20wallpaper/
+              - link "Lock screen wallpaper" [ref=e552] [cursor=pointer]:
+                - /url: /search/lock%20screen%20wallpaper/
+              - link "iPhone wallpaper" [ref=e553] [cursor=pointer]:
+                - /url: /search/iphone%20wallpaper/
+              - link "4K wallpaper" [ref=e554] [cursor=pointer]:
+                - /url: /search/4k%20wallpaper/
+              - link "Samsung wallpaper" [ref=e555] [cursor=pointer]:
+                - /url: /search/samsung%20wallpaper/
+              - link "Love wallpaper" [ref=e556] [cursor=pointer]:
+                - /url: /search/love%20wallpaper/
+              - link "Mobile wallpaper" [ref=e557] [cursor=pointer]:
+                - /url: /search/mobile%20wallpaper/
+      - generic [ref=e559]:
+        - generic [ref=e560]: © 2026 Pexels
+        - generic [ref=e562]:
+          - generic:
+            - img
+          - link "Terms of Use" [ref=e564] [cursor=pointer]:
+            - /url: /terms-of-service/
+          - link "Privacy Policy" [ref=e565] [cursor=pointer]:
+            - /url: /privacy-policy/
+          - link "License" [ref=e566] [cursor=pointer]:
+            - /url: /license/
+          - link "Imprint" [ref=e567] [cursor=pointer]:
+            - /url: /imprint/
+          - link "Cookies Policy" [ref=e568] [cursor=pointer]:
+            - /url: /cookies/
+          - generic:
+            - img
+        - button "English" [ref=e571] [cursor=pointer]:
+          - generic [ref=e572]:
+            - img [ref=e573]
+            - generic [ref=e575]: English
+      - separator [ref=e576]
+  - alert [ref=e577]
+  - region "Cookie banner" [ref=e578]:
+    - alertdialog "Confidentialité" [ref=e579]:
+      - generic [ref=e581]:
+        - paragraph [ref=e584]: En cliquant sur « Accepter tous les cookies », vous acceptez le stockage de cookies sur votre appareil pour améliorer la navigation sur le site, analyser son utilisation et contribuer à nos efforts de marketing.
+        - generic [ref=e586]:
+          - button "Paramètres des cookies" [active] [ref=e587] [cursor=pointer]
+          - button "Tout refuser" [ref=e588] [cursor=pointer]
+          - button "Autoriser tous les cookies" [ref=e589] [cursor=pointer]

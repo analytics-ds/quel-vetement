@@ -154,7 +154,9 @@ a{color:var(--primary);text-decoration:none;transition:color .2s}
 /* --- Situations section --- */
 .situations-section{padding:4.5rem 0;background:var(--background-alt)}
 .grid-situations{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.5rem}
-.situation-card{background:#fff;border:1px solid var(--border);border-left:4px solid var(--accent);border-radius:8px;padding:1.6rem;box-shadow:var(--shadow);transition:transform .25s,box-shadow .25s}
+.situation-card{background:#fff;border:1px solid var(--border);border-radius:10px;overflow:hidden;box-shadow:var(--shadow);transition:transform .25s,box-shadow .25s;display:flex;flex-direction:column}
+.situation-card-img{width:100%;padding-top:56%;background-size:cover;background-position:center;background-color:var(--background-alt)}
+.situation-card-body{padding:1.5rem;border-left:4px solid var(--accent)}
 .situation-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-lg)}
 .situation-card h3{font-family:var(--font-heading);font-size:1.3rem;font-weight:700;color:var(--primary);margin-bottom:.5rem}
 .situation-card p{font-size:.98rem;color:var(--text-light);line-height:1.65}

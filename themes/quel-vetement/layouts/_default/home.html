@@ -19,26 +19,29 @@
     <div class="container">
         <h2 class="section-title">{{ i18n "situations_title" }}</h2>
         {{ $sits := slice
-            (dict "n" "Mariage (invité)" "r" "Costume sombre, chemise blanche, derbies cirées. Cravate ou nœud selon le dress code.")
-            (dict "n" "Entretien d'embauche" "r" "Sobre et net : pantalon de costume ou chino, chemise, veste. On évite le total look trop habillé.")
-            (dict "n" "Premier rendez-vous" "r" "Soigné sans en faire trop : jean brut, chemise ou pull fin, sneakers minimalistes propres.")
-            (dict "n" "Au bureau" "r" "Smart casual : chino, chemise ou polo, pull col rond, derbies ou sneakers sobres.")
-            (dict "n" "Le week-end" "r" "T-shirt de qualité, jean ou chino, veste légère, baskets. Confort et allure.")
-            (dict "n" "Cérémonie" "r" "Costume bien coupé, chemise, chaussures de ville cirées. Accessoires discrets.")
+            (dict "n" "Mariage (invité)" "img" "mariage" "r" "Costume sombre, chemise blanche, derbies cirées. Cravate ou nœud selon le dress code.")
+            (dict "n" "Entretien d'embauche" "img" "entretien" "r" "Sobre et net : pantalon de costume ou chino, chemise, veste. On évite le total look trop habillé.")
+            (dict "n" "Premier rendez-vous" "img" "rendez-vous" "r" "Soigné sans en faire trop : jean brut, chemise ou pull fin, sneakers minimalistes propres.")
+            (dict "n" "Au bureau" "img" "bureau" "r" "Smart casual : chino, chemise ou polo, pull col rond, derbies ou sneakers sobres.")
+            (dict "n" "Le week-end" "img" "weekend" "r" "T-shirt de qualité, jean ou chino, veste légère, baskets. Confort et allure.")
+            (dict "n" "Cérémonie" "img" "ceremonie" "r" "Costume bien coupé, chemise, chaussures de ville cirées. Accessoires discrets.")
         }}
         {{ if eq .Site.Language.Lang "en" }}{{ $sits = slice
-            (dict "n" "Wedding (guest)" "r" "Dark suit, white shirt, polished derbies. Tie depending on the dress code.")
-            (dict "n" "Job interview" "r" "Clean and understated: suit trousers or chinos, a shirt and a jacket. Avoid overdressing.")
-            (dict "n" "First date" "r" "Sharp but relaxed: raw jeans, a shirt or fine knit, clean minimalist sneakers.")
-            (dict "n" "At the office" "r" "Smart casual: chinos, a shirt or polo, a crew-neck jumper, derbies or sober sneakers.")
-            (dict "n" "The weekend" "r" "A quality tee, jeans or chinos, a light jacket and sneakers. Comfort with style.")
-            (dict "n" "Ceremony" "r" "A well-cut suit, a shirt and polished dress shoes. Discreet accessories.")
+            (dict "n" "Wedding (guest)" "img" "mariage" "r" "Dark suit, white shirt, polished derbies. Tie depending on the dress code.")
+            (dict "n" "Job interview" "img" "entretien" "r" "Clean and understated: suit trousers or chinos, a shirt and a jacket. Avoid overdressing.")
+            (dict "n" "First date" "img" "rendez-vous" "r" "Sharp but relaxed: raw jeans, a shirt or fine knit, clean minimalist sneakers.")
+            (dict "n" "At the office" "img" "bureau" "r" "Smart casual: chinos, a shirt or polo, a crew-neck jumper, derbies or sober sneakers.")
+            (dict "n" "The weekend" "img" "weekend" "r" "A quality tee, jeans or chinos, a light jacket and sneakers. Comfort with style.")
+            (dict "n" "Ceremony" "img" "ceremonie" "r" "A well-cut suit, a shirt and polished dress shoes. Discreet accessories.")
         }}{{ end }}
         <div class="grid-situations">
             {{ range $sits }}
             <div class="situation-card">
-                <h3>{{ .n }}</h3>
-                <p>{{ .r }}</p>
+                <div class="situation-card-img" style="background-image:url('{{ printf "/images/situations/%s.webp" .img | relURL }}');"></div>
+                <div class="situation-card-body">
+                    <h3>{{ .n }}</h3>
+                    <p>{{ .r }}</p>
+                </div>
             </div>
             {{ end }}
         </div>

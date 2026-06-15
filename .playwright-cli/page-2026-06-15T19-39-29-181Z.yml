@@ -1,0 +1,446 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - navigation [ref=e6]:
+      - link [ref=e8] [cursor=pointer]:
+        - /url: /
+        - img [ref=e9]
+      - search [ref=e13]:
+        - generic [ref=e14]:
+          - button "Photos" [ref=e16] [cursor=pointer]:
+            - generic [ref=e17]:
+              - img [ref=e18]
+              - generic [ref=e21]: Photos
+              - img [ref=e22]
+          - searchbox "Search for free photos" [ref=e24]: business man suit interview
+          - button [ref=e26] [cursor=pointer]:
+            - img [ref=e28]
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - link "Explore" [ref=e32] [cursor=pointer]:
+            - /url: /discover/
+            - generic [ref=e33]: Explore
+          - img [ref=e34]
+        - link "License" [ref=e36] [cursor=pointer]:
+          - /url: /license/
+          - generic [ref=e37]: License
+        - button [ref=e39] [cursor=pointer]:
+          - img [ref=e40]
+        - button "Join" [ref=e42] [cursor=pointer]:
+          - generic [ref=e44]: Join
+    - main [ref=e45]:
+      - generic [ref=e46]:
+        - generic [ref=e50]:
+          - paragraph [ref=e52] [cursor=pointer]: Any
+          - generic [ref=e53] [cursor=pointer]:
+            - img [ref=e55]
+            - paragraph [ref=e57]: Horizontal
+          - generic [ref=e58] [cursor=pointer]:
+            - img [ref=e60]
+            - paragraph [ref=e62]: Vertical
+          - generic [ref=e63] [cursor=pointer]:
+            - img [ref=e65]
+            - paragraph [ref=e67]: Square
+        - generic [ref=e71]:
+          - paragraph [ref=e73] [cursor=pointer]: Any
+          - paragraph [ref=e75] [cursor=pointer]: "0"
+          - generic [ref=e76] [cursor=pointer]:
+            - img [ref=e78]
+            - paragraph [ref=e80]: "1"
+          - generic [ref=e81] [cursor=pointer]:
+            - img [ref=e83]
+            - paragraph [ref=e85]: "2"
+          - generic [ref=e86] [cursor=pointer]:
+            - img [ref=e88]
+            - paragraph [ref=e90]: 3+
+        - generic [ref=e94]:
+          - paragraph [ref=e96] [cursor=pointer]: Any
+          - generic [ref=e97] [cursor=pointer]:
+            - img [ref=e99]
+            - paragraph [ref=e101]: Baby
+          - generic [ref=e102] [cursor=pointer]:
+            - img [ref=e104]
+            - paragraph [ref=e106]: Child
+          - generic [ref=e107] [cursor=pointer]:
+            - img [ref=e109]
+            - paragraph [ref=e111]: Teenager
+          - generic [ref=e112] [cursor=pointer]:
+            - img [ref=e114]
+            - paragraph [ref=e116]: Adult
+          - generic [ref=e117] [cursor=pointer]:
+            - img [ref=e119]
+            - paragraph [ref=e121]: Senior adult
+        - generic [ref=e124]:
+          - generic [ref=e125]:
+            - slider [ref=e128] [cursor=pointer]
+            - slider [ref=e129] [cursor=pointer]
+          - generic [ref=e130]:
+            - generic [ref=e131]:
+              - paragraph [ref=e132]: Minimum
+              - paragraph [ref=e133]: 1,080px
+            - generic [ref=e134]:
+              - paragraph [ref=e135]: Maximum
+              - paragraph [ref=e136]: 20,000px+
+        - generic [ref=e139]:
+          - generic [ref=e140]:
+            - slider [ref=e143] [cursor=pointer]
+            - slider [ref=e144] [cursor=pointer]
+          - generic [ref=e145]:
+            - generic [ref=e146]:
+              - paragraph [ref=e147]: Minimum
+              - paragraph [ref=e148]: 1,080px
+            - generic [ref=e149]:
+              - paragraph [ref=e150]: Maximum
+              - paragraph [ref=e151]: 20,000px+
+        - generic [ref=e155]:
+          - button [ref=e156] [cursor=pointer]:
+            - generic [ref=e157]:
+              - textbox [ref=e162]:
+                - /placeholder: Enter hex code
+              - img [ref=e163]
+          - button [ref=e165] [cursor=pointer]:
+            - generic [ref=e166]:
+              - img [ref=e167]
+              - textbox [ref=e171]: "#000000"
+        - generic [ref=e175]:
+          - paragraph [ref=e177] [cursor=pointer]: Any
+          - generic [ref=e178] [cursor=pointer]:
+            - img [ref=e180]
+            - paragraph [ref=e182]: Last 24 hours
+          - generic [ref=e183] [cursor=pointer]:
+            - img [ref=e185]
+            - paragraph [ref=e187]: Last week
+          - generic [ref=e188] [cursor=pointer]:
+            - img [ref=e190]
+            - paragraph [ref=e192]: Last month
+          - generic [ref=e193] [cursor=pointer]:
+            - img [ref=e195]
+            - paragraph [ref=e197]: Last year
+        - main "main-content" [ref=e198]:
+          - generic [ref=e199]:
+            - generic [ref=e200]:
+              - heading "Choose your language:" [level=5] [ref=e201]
+              - generic [ref=e203]:
+                - link "English English" [ref=e205] [cursor=pointer]:
+                  - /url: /search/business%20man%20suit%20interview/
+                  - generic [ref=e206]:
+                    - img "English" [ref=e207]
+                    - generic [ref=e208]: English
+                - link "Français Français" [ref=e209] [cursor=pointer]:
+                  - /url: /fr-fr/chercher/business%20man%20suit%20interview/
+                  - generic [ref=e210]:
+                    - img "Français" [ref=e211]
+                    - generic [ref=e212]: Français
+                - button [ref=e213] [cursor=pointer]:
+                  - img [ref=e215]
+            - heading "Free Business Man Suit Interview Photos" [level=1] [ref=e220]
+            - generic [ref=e223]:
+              - generic:
+                - img
+              - link "Photos 10K" [ref=e225] [cursor=pointer]:
+                - /url: /search/business%20man%20suit%20interview/?orientation=landscape
+                - text: Photos
+                - generic [ref=e226]: 10K
+              - link "Videos 10K" [ref=e227] [cursor=pointer]:
+                - /url: /search/videos/business%20man%20suit%20interview/?orientation=landscape
+                - text: Videos
+                - generic [ref=e228]: 10K
+              - link "Users 10K" [ref=e229] [cursor=pointer]:
+                - /url: /search/users/business%20man%20suit%20interview/
+                - text: Users
+                - generic [ref=e230]: 10K
+              - generic:
+                - img
+            - generic [ref=e233]:
+              - button "Filters (1)" [ref=e234] [cursor=pointer]:
+                - generic [ref=e240]: Filters (1)
+              - button [ref=e241] [cursor=pointer]:
+                - img [ref=e243]
+            - generic [ref=e245]:
+              - generic [ref=e247]:
+                - generic [ref=e248]:
+                  - article [ref=e251]:
+                    - link "Free A man and woman engaging in a job interview in a modern office setting. Stock Photo" [ref=e252] [cursor=pointer]:
+                      - /url: /photo/man-reviewing-woman-s-resume-5439455/
+                      - img "Free A man and woman engaging in a job interview in a modern office setting. Stock Photo" [ref=e253]
+                  - article [ref=e258]:
+                    - link "Free Smiling professionals engaging in a friendly interview setting with a microphone indoors. Stock Photo" [ref=e259] [cursor=pointer]:
+                      - /url: /photo/a-man-in-corporate-attire-smiling-at-a-person-holding-a-microphone-8349343/
+                      - img "Free Smiling professionals engaging in a friendly interview setting with a microphone indoors. Stock Photo" [ref=e260]
+                  - article [ref=e265]:
+                    - link "Free Journalists conduct an interview with a senior executive in a formal office setting. Stock Photo" [ref=e266] [cursor=pointer]:
+                      - /url: /photo/an-elderly-man-having-an-interview-6950236/
+                      - img "Free Journalists conduct an interview with a senior executive in a formal office setting. Stock Photo" [ref=e267]
+                  - article [ref=e272]:
+                    - link "Free Professional business meeting in a modern office with two people discussing over documents. Stock Photo" [ref=e273] [cursor=pointer]:
+                      - /url: /photo/man-in-glasses-holding-a-folder-while-talking-to-a-woman-in-suit-7643735/
+                      - img "Free Professional business meeting in a modern office with two people discussing over documents. Stock Photo" [ref=e274]
+                  - article [ref=e279]:
+                    - link "Free Senior man in formal attire being interviewed in a conference room. Stock Photo" [ref=e280] [cursor=pointer]:
+                      - /url: /photo/man-in-black-suit-wearing-eyeglasses-being-interviewed-by-media-6950226/
+                      - img "Free Senior man in formal attire being interviewed in a conference room. Stock Photo" [ref=e281]
+                  - article [ref=e286]:
+                    - link "Free A smiling black man in formal wear sitting on a sofa indoors, exuding confidence. Stock Photo" [ref=e287] [cursor=pointer]:
+                      - /url: /photo/happy-man-in-black-suit-sitting-on-a-couch-6077675/
+                      - img "Free A smiling black man in formal wear sitting on a sofa indoors, exuding confidence. Stock Photo" [ref=e288]
+                  - article [ref=e293]:
+                    - link "Free Confident man wearing white shirt holding a suit jacket, ready in professional attire. Stock Photo" [ref=e294] [cursor=pointer]:
+                      - /url: /photo/confident-businessman-holding-suit-jacket-36899429/
+                      - img "Free Confident man wearing white shirt holding a suit jacket, ready in professional attire. Stock Photo" [ref=e295]
+                - generic [ref=e298]:
+                  - article [ref=e301]:
+                    - link "Free Businessman in suit reviews documents at a desk in a modern office setting. Stock Photo" [ref=e302] [cursor=pointer]:
+                      - /url: /photo/elegant-man-in-a-suit-sitting-at-the-table-and-holding-documents-8382253/
+                      - img "Free Businessman in suit reviews documents at a desk in a modern office setting. Stock Photo" [ref=e303]
+                  - article [ref=e308]:
+                    - link "Free Close-up of a businessman confidently seated in a stylish modern suit indoors. Stock Photo" [ref=e309] [cursor=pointer]:
+                      - /url: /photo/a-close-up-shot-of-a-man-wearing-a-suit-6077645/
+                      - img "Free Close-up of a businessman confidently seated in a stylish modern suit indoors. Stock Photo" [ref=e310]
+                  - article [ref=e315]:
+                    - link "Free Close-up of a man buttoning his jacket, showing elegance and professionalism. Stock Photo" [ref=e316] [cursor=pointer]:
+                      - /url: /photo/man-buttons-his-coat-8790753/
+                      - img "Free Close-up of a man buttoning his jacket, showing elegance and professionalism. Stock Photo" [ref=e317]
+                  - article [ref=e322]:
+                    - link "Free Young female employee with blond hair in classy suit representing project details to middle aged ethnic male manager while working together in office Stock Photo" [ref=e323] [cursor=pointer]:
+                      - /url: /photo/concentrated-multiethnic-coworkers-discussing-business-issues-in-office-5668476/
+                      - img "Free Young female employee with blond hair in classy suit representing project details to middle aged ethnic male manager while working together in office Stock Photo" [ref=e324]
+                  - article [ref=e329]:
+                    - link "Free Business professionals having a meeting in a modern office setting, showcasing diversity and collaboration. Stock Photo" [ref=e330] [cursor=pointer]:
+                      - /url: /photo/a-man-and-a-woman-having-a-conversation-6077601/
+                      - img "Free Business professionals having a meeting in a modern office setting, showcasing diversity and collaboration. Stock Photo" [ref=e331]
+                  - article [ref=e336]:
+                    - link "Free Smiling businessman in suit having coffee in a modern office environment. Stock Photo" [ref=e337] [cursor=pointer]:
+                      - /url: /photo/businessman-smiling-over-coffee-in-office-setting-36766732/
+                      - img "Free Smiling businessman in suit having coffee in a modern office environment. Stock Photo" [ref=e338]
+                  - article [ref=e343]:
+                    - link "Free Two business professionals in formal attire having a conversation during a conference interview. Stock Photo" [ref=e344] [cursor=pointer]:
+                      - /url: /photo/a-man-in-corporate-attire-talking-at-an-interview-8349429/
+                      - img "Free Two business professionals in formal attire having a conversation during a conference interview. Stock Photo" [ref=e345]
+                - generic [ref=e348]:
+                  - article [ref=e351]:
+                    - link "Free Professional businessman in a suit holding a laptop while standing at a historic doorway. Stock Photo" [ref=e352] [cursor=pointer]:
+                      - /url: /photo/photo-of-man-in-blue-suit-jacket-and-eyeglasses-standing-in-doorway-carrying-a-laptop-3769990/
+                      - img "Free Professional businessman in a suit holding a laptop while standing at a historic doorway. Stock Photo" [ref=e353]
+                  - article [ref=e358]:
+                    - link "Free Two professionals having a focused discussion during a business meeting in an office setting. Stock Photo" [ref=e359] [cursor=pointer]:
+                      - /url: /photo/professional-man-looking-at-a-document-5439445/
+                      - img "Free Two professionals having a focused discussion during a business meeting in an office setting. Stock Photo" [ref=e360]
+                  - article [ref=e365]:
+                    - link "Free A journalist interviews a businessman in a conference room, capturing a professional and political setting. Stock Photo" [ref=e366] [cursor=pointer]:
+                      - /url: /photo/television-reporter-in-front-of-a-conference-room-6950229/
+                      - img "Free A journalist interviews a businessman in a conference room, capturing a professional and political setting. Stock Photo" [ref=e367]
+                  - article [ref=e372]:
+                    - link "Free Two businessmen having a serious conversation over coffee in a stylish cafe setting. Stock Photo" [ref=e373] [cursor=pointer]:
+                      - /url: /photo/business-meeting-over-coffee-in-modern-cafe-36766001/
+                      - img "Free Two businessmen having a serious conversation over coffee in a stylish cafe setting. Stock Photo" [ref=e374]
+                  - article [ref=e379]:
+                    - link "Free Business professional sitting at a desk with documents in an office environment. Stock Photo" [ref=e380] [cursor=pointer]:
+                      - /url: /photo/man-in-a-suit-holding-a-pen-7144250/
+                      - img "Free Business professional sitting at a desk with documents in an office environment. Stock Photo" [ref=e381]
+                  - article [ref=e386]:
+                    - link "Free Business meeting with professionals in suits discussing in a modern office. Stock Photo" [ref=e387] [cursor=pointer]:
+                      - /url: /photo/business-meeting-with-professional-attire-36765728/
+                      - img "Free Business meeting with professionals in suits discussing in a modern office. Stock Photo" [ref=e388]
+                - generic [ref=e391]:
+                  - article [ref=e394]:
+                    - link "Free Professional man in formal black suit having a conversation while sitting on a sofa indoors. Stock Photo" [ref=e395] [cursor=pointer]:
+                      - /url: /photo/serious-man-in-black-suit-sitting-on-a-couch-6077599/
+                      - img "Free Professional man in formal black suit having a conversation while sitting on a sofa indoors. Stock Photo" [ref=e396]
+                  - article [ref=e401]:
+                    - link "Free Two professionals having a discussion in a stylish, contemporary office environment. Stock Photo" [ref=e402] [cursor=pointer]:
+                      - /url: /photo/a-man-and-a-woman-in-a-living-room-6077568/
+                      - img "Free Two professionals having a discussion in a stylish, contemporary office environment. Stock Photo" [ref=e403]
+                  - article [ref=e408]:
+                    - link "Free Close-up of a man in a suit and tie under striped shadows, evoking a corporate feel. Stock Photo" [ref=e409] [cursor=pointer]:
+                      - /url: /photo/close-up-of-man-in-a-suit-sitting-in-a-room-with-striped-shadows-8382593/
+                      - img "Free Close-up of a man in a suit and tie under striped shadows, evoking a corporate feel. Stock Photo" [ref=e410]
+                  - link [ref=e414] [cursor=pointer]:
+                    - /url: /collections/interviews-sjcryhn/
+                    - article [ref=e415]:
+                      - list [ref=e417]:
+                        - listitem [ref=e418]:
+                          - img [ref=e419]
+                        - listitem [ref=e420]:
+                          - img [ref=e421]
+                        - listitem [ref=e422]:
+                          - img [ref=e423]
+                      - generic [ref=e424]:
+                        - heading "Interviews" [level=4] [ref=e425]
+                        - generic [ref=e426]:
+                          - img [ref=e427]
+                          - paragraph [ref=e429]: "42"
+                  - article [ref=e432]:
+                    - link "Free Two men having a discussion over documents in a modern office setting. Stock Photo" [ref=e433] [cursor=pointer]:
+                      - /url: /photo/man-in-black-suit-jacket-holding-white-paper-7821698/
+                      - img "Free Two men having a discussion over documents in a modern office setting. Stock Photo" [ref=e434]
+              - button "Load More" [ref=e438] [cursor=pointer]:
+                - generic [ref=e440]: Load More
+            - navigation [ref=e441]:
+              - generic [ref=e443]:
+                - link "1" [ref=e445]:
+                  - /url: /search/business%20man%20suit%20interview/?orientation=landscape
+                  - generic [ref=e447]: "1"
+                - link "2" [ref=e448] [cursor=pointer]:
+                  - /url: /search/business%20man%20suit%20interview/?orientation=landscape&page=2
+                  - generic [ref=e450]: "2"
+                - link "3" [ref=e451] [cursor=pointer]:
+                  - /url: /search/business%20man%20suit%20interview/?orientation=landscape&page=3
+                  - generic [ref=e453]: "3"
+                - link "4" [ref=e454] [cursor=pointer]:
+                  - /url: /search/business%20man%20suit%20interview/?orientation=landscape&page=4
+                  - generic [ref=e456]: "4"
+                - link "5" [ref=e457] [cursor=pointer]:
+                  - /url: /search/business%20man%20suit%20interview/?orientation=landscape&page=5
+                  - generic [ref=e459]: "5"
+                - link "6" [ref=e460] [cursor=pointer]:
+                  - /url: /search/business%20man%20suit%20interview/?orientation=landscape&page=6
+                  - generic [ref=e462]: "6"
+                - link "Next" [ref=e463] [cursor=pointer]:
+                  - /url: /search/business%20man%20suit%20interview/?orientation=landscape&page=2
+                  - generic [ref=e465]: Next
+    - contentinfo [ref=e467]:
+      - separator [ref=e468]
+      - generic [ref=e469]:
+        - generic [ref=e470]:
+          - heading "Where stories come together." [level=2] [ref=e471]
+          - generic [ref=e472]:
+            - link "Download on iOS" [ref=e473] [cursor=pointer]:
+              - /url: https://itunes.apple.com/us/app/pexels/id1434330413/
+              - generic [ref=e475]: Download on iOS
+            - link "Download on Android" [ref=e476] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=com.pexels.app
+              - generic [ref=e478]: Download on Android
+          - list [ref=e479]:
+            - listitem [ref=e480]:
+              - link "Instagram" [ref=e481] [cursor=pointer]:
+                - /url: https://www.instagram.com/pexels/
+                - img [ref=e482]
+            - listitem [ref=e484]:
+              - link "Threads" [ref=e485] [cursor=pointer]:
+                - /url: https://www.threads.net/@pexels/
+                - img [ref=e486]
+            - listitem [ref=e488]:
+              - link "YouTube" [ref=e489] [cursor=pointer]:
+                - /url: https://www.youtube.com/pexelsphotos/
+                - img [ref=e490]
+            - listitem [ref=e492]:
+              - link "TikTok" [ref=e493] [cursor=pointer]:
+                - /url: https://www.tiktok.com/@pexels/
+                - img [ref=e494]
+            - listitem [ref=e496]:
+              - link "LinkedIn" [ref=e497] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/pexels/
+                - img [ref=e498]
+            - listitem [ref=e500]:
+              - link "X" [ref=e501] [cursor=pointer]:
+                - /url: https://x.com/pexels/
+                - img [ref=e502]
+        - generic [ref=e504]:
+          - list [ref=e505]:
+            - heading "Pexels" [level=3] [ref=e506]
+            - listitem [ref=e507]:
+              - link "Free Stock Photos" [ref=e508] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e509]:
+              - link "Free Videos" [ref=e510] [cursor=pointer]:
+                - /url: /videos/
+            - listitem [ref=e511]:
+              - link "Popular searches" [ref=e512] [cursor=pointer]:
+                - /url: /popular-searches/
+            - listitem [ref=e513]:
+              - link "Collections" [ref=e514] [cursor=pointer]:
+                - /url: /discover/
+            - listitem [ref=e515]:
+              - link "Challenges" [ref=e516] [cursor=pointer]:
+                - /url: /challenges/
+            - listitem [ref=e517]:
+              - link "Leaderboard" [ref=e518] [cursor=pointer]:
+                - /url: /leaderboard/
+            - listitem [ref=e519]:
+              - link "Other plugins & apps" [ref=e520] [cursor=pointer]:
+                - /url: /pro/
+          - list [ref=e521]:
+            - heading "Company" [level=3] [ref=e522]
+            - listitem [ref=e523]:
+              - link "About" [ref=e524] [cursor=pointer]:
+                - /url: /about/
+            - listitem [ref=e525]:
+              - link "Blog" [ref=e526] [cursor=pointer]:
+                - /url: /blog/
+            - listitem [ref=e527]:
+              - link "Help Center" [ref=e528] [cursor=pointer]:
+                - /url: https://help.pexels.com/hc/en-us/
+            - listitem [ref=e529]:
+              - link "Report content" [ref=e530] [cursor=pointer]:
+                - /url: /report/
+            - listitem [ref=e531]:
+              - link "Become a Hero" [ref=e532] [cursor=pointer]:
+                - /url: /hero/
+            - listitem [ref=e533]:
+              - link "Partner with Pexels" [ref=e534] [cursor=pointer]:
+                - /url: /become-a-partner/
+            - listitem [ref=e535]:
+              - link "Image & Video API" [ref=e536] [cursor=pointer]:
+                - /url: /api/
+            - listitem [ref=e537]: Sign Up
+        - list [ref=e538]:
+          - listitem [ref=e539]:
+            - heading "Free Stock Photos" [level=3] [ref=e540]
+          - listitem [ref=e541]:
+            - generic [ref=e543]:
+              - link "Black and white photography" [ref=e545] [cursor=pointer]:
+                - /url: /search/black%20and%20white/
+              - link "Happy birthday images" [ref=e546] [cursor=pointer]:
+                - /url: /search/happy%20birthday/
+              - link "Free business videos" [ref=e547] [cursor=pointer]:
+                - /url: /search/videos/business/
+              - link "Happy new year images" [ref=e548] [cursor=pointer]:
+                - /url: /search/happy%20new%20year/
+              - link "Cool wallpapers" [ref=e549] [cursor=pointer]:
+                - /url: /search/cool%20wallpaper/
+              - link "Best HD wallpapers" [ref=e550] [cursor=pointer]:
+                - /url: /search/hd%20wallpaper/
+              - link "Galaxy wallpaper" [ref=e551] [cursor=pointer]:
+                - /url: /search/galaxy%20wallpaper/
+              - link "Lock screen wallpaper" [ref=e552] [cursor=pointer]:
+                - /url: /search/lock%20screen%20wallpaper/
+              - link "iPhone wallpaper" [ref=e553] [cursor=pointer]:
+                - /url: /search/iphone%20wallpaper/
+              - link "4K wallpaper" [ref=e554] [cursor=pointer]:
+                - /url: /search/4k%20wallpaper/
+              - link "Samsung wallpaper" [ref=e555] [cursor=pointer]:
+                - /url: /search/samsung%20wallpaper/
+              - link "Love wallpaper" [ref=e556] [cursor=pointer]:
+                - /url: /search/love%20wallpaper/
+              - link "Mobile wallpaper" [ref=e557] [cursor=pointer]:
+                - /url: /search/mobile%20wallpaper/
+      - generic [ref=e559]:
+        - generic [ref=e560]: © 2026 Pexels
+        - generic [ref=e562]:
+          - generic:
+            - img
+          - link "Terms of Use" [ref=e564] [cursor=pointer]:
+            - /url: /terms-of-service/
+          - link "Privacy Policy" [ref=e565] [cursor=pointer]:
+            - /url: /privacy-policy/
+          - link "License" [ref=e566] [cursor=pointer]:
+            - /url: /license/
+          - link "Imprint" [ref=e567] [cursor=pointer]:
+            - /url: /imprint/
+          - link "Cookies Policy" [ref=e568] [cursor=pointer]:
+            - /url: /cookies/
+          - generic:
+            - img
+        - button "English" [ref=e571] [cursor=pointer]:
+          - generic [ref=e572]:
+            - img [ref=e573]
+            - generic [ref=e575]: English
+      - separator [ref=e576]
+  - alert [ref=e577]
+  - region "Cookie banner" [ref=e578]:
+    - alertdialog "Confidentialité" [ref=e579]:
+      - generic [ref=e581]:
+        - paragraph [ref=e584]: En cliquant sur « Accepter tous les cookies », vous acceptez le stockage de cookies sur votre appareil pour améliorer la navigation sur le site, analyser son utilisation et contribuer à nos efforts de marketing.
+        - generic [ref=e586]:
+          - button "Paramètres des cookies" [active] [ref=e587] [cursor=pointer]
+          - button "Tout refuser" [ref=e588] [cursor=pointer]
+          - button "Autoriser tous les cookies" [ref=e589] [cursor=pointer]
