@@ -10,13 +10,13 @@ PBN mode homme (client Celio) construit avec Hugo, déployé sur GitHub Pages.
 - **Domaine** : quel-vetement.fr (à brancher : ajouter static/CNAME + custom domain Pages une fois le DNS pointé)
 - **URL Pages (avant domaine)** : https://analytics-ds.github.io/quel-vetement/
 - **Repo** : https://github.com/analytics-ds/quel-vetement
-- **Langue** : FR
+- **Langue** : FR (racine) + EN (/en/) — bilingue complet (i18n, hreflang, sélecteur de langue, sitemap unifié)
 - **Thème Hugo** : `quel-vetement`
 - **Couleurs** : primary `#1b2a4a` (navy), primary-light `#2e4673`, accent/CTA `#b5895a` (camel), fond `#ffffff` / `#f4f5f8`, texte `#1a1d24`
 - **Polices** : Playfair Display (titres), Lora (corps), Inter (UI)
 - **Catégories** (façon menu Celio) : Costume, Lin, Chemises, Pulls et gilets, Pantalons et jeans, T-shirts et polos, Vestes et manteaux, Accessoires
 - **Auteur** : Maxime Coste, Rédacteur mode homme
-- **État** : structure + 8 articles seed (1 par catégorie). Comparatifs Celio à produire via `/create-article`.
+- **État** : bilingue FR/EN, parité technique avec meilleur-transport (seo-head noindex, sitemap unifié, RSS, related-articles, pages confiance, worker Meteoria, cron). 8 articles seed par langue. Comparatifs Celio à produire via `/create-article`.
 
 ---
 

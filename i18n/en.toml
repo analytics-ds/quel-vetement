@@ -1,0 +1,46 @@
+[hero_badge]
+other = "Men's style guides"
+[hero_title]
+other = "Which clothes to choose?"
+[hero_description]
+other = "Comparisons, buying guides and style advice to dress right, from suits to linen."
+[explore_blog]
+other = "Explore the blog"
+[categories_title]
+other = "Our categories"
+[latest_title]
+other = "Latest articles"
+[read_more]
+other = "Read more"
+[reading_time]
+other = "min read"
+[by]
+other = "By"
+[prev_article]
+other = "Previous article"
+[next_article]
+other = "Next article"
+[related_title]
+other = "Related reads"
+[footer_categories]
+other = "Categories"
+[footer_information]
+other = "Information"
+[nav_about]
+other = "About"
+[nav_contact]
+other = "Contact"
+[nav_legal]
+other = "Legal notice"
+[nav_sitemap]
+other = "Sitemap"
+[rights]
+other = "All rights reserved."
+[sitemap_title]
+other = "Sitemap"
+[sitemap_subtitle]
+other = "All pages of"
+[sitemap_main_pages]
+other = "Main pages"
+[home_link]
+other = "Home"

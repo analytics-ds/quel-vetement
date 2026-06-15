@@ -1,19 +1,15 @@
 {{ define "main" }}
-
-<!-- Hero Section -->
 <section class="hero">
     <div class="hero-content">
-        <span class="hero-badge">Guides mode homme</span>
-        <h1>Quel vêtement choisir ?</h1>
-        <p class="hero-description">Comparatifs, guides d'achat et conseils style pour vous habiller juste, du costume au lin.</p>
-        <a href="{{ "blog/" | relURL }}" class="btn-primary">Explorez le blog</a>
+        <span class="hero-badge">{{ i18n "hero_badge" }}</span>
+        <h1>{{ i18n "hero_title" }}</h1>
+        <p class="hero-description">{{ i18n "hero_description" }}</p>
+        <a href="{{ "blog/" | relLangURL }}" class="btn-primary">{{ i18n "explore_blog" }}</a>
     </div>
 </section>
-
-<!-- Categories Section -->
 <section class="categories-section">
     <div class="container">
-        <h2 class="section-title">Nos categories</h2>
+        <h2 class="section-title">{{ i18n "categories_title" }}</h2>
         <div class="grid-categories">
             {{ range .Site.Taxonomies.categories }}
             <a href="{{ .Page.RelPermalink }}" class="category-card">
@@ -24,27 +20,22 @@
         </div>
     </div>
 </section>
-
-<!-- Latest Articles Section -->
 <section class="latest-section">
     <div class="container">
-        <h2 class="section-title">Derniers articles</h2>
+        <h2 class="section-title">{{ i18n "latest_title" }}</h2>
         <div class="grid-articles">
             {{ range first 6 (where .Site.RegularPages "Section" "blog") }}
             <article class="article-card">
                 <div class="article-meta">
-                    {{ with .Params.categories }}
-                    <span class="article-category">{{ index . 0 }}</span>
-                    {{ end }}
+                    {{ with .Params.categories }}<span class="article-category">{{ index . 0 }}</span>{{ end }}
                     <time>{{ .Date.Format "2 January 2006" }}</time>
                 </div>
                 <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
                 <p>{{ .Description }}</p>
-                <a href="{{ .RelPermalink }}" class="read-more">Lire la suite</a>
+                <a href="{{ .RelPermalink }}" class="read-more">{{ i18n "read_more" }}</a>
             </article>
             {{ end }}
         </div>
     </div>
 </section>
-
 {{ end }}

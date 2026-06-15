@@ -8,6 +8,7 @@ Disallow: /admin/
 
 # Tags : contenu maigre / duplication avec les catégories, en noindex côté HTML
 Disallow: /tags/
+Disallow: /en/tags/
 
 # Majestic (MJ12bot) : autorisation explicite
 User-agent: MJ12bot

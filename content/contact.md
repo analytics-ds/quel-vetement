@@ -1,4 +1,5 @@
 ---
+translationKey: "contact"
 title: "Contact"
 seoTitle: "Nous écrire | Quel Vêtement"
 description: "Contactez l'équipe de Quel Vêtement pour une question, une suggestion de sujet ou une proposition de partenariat."

@@ -1,28 +1,27 @@
 <header class="site-header">
     <div class="header-container">
-        <a href="{{ "/" | relURL }}" class="site-logo">
-            {{ .Site.Title }}
-        </a>
-
-        <button class="menu-toggle" aria-label="Menu" aria-expanded="false">
-            <span class="hamburger"></span>
-        </button>
-
+        <a href="{{ "/" | relLangURL }}" class="site-logo">{{ .Site.Title }}</a>
+        <button class="menu-toggle" aria-label="Menu" aria-expanded="false"><span class="hamburger"></span></button>
         <nav class="site-nav" role="navigation">
             {{ range .Site.Menus.main }}
-            <a href="{{ .URL | relURL }}" class="nav-link{{ if $.IsMenuCurrent "main" . }} active{{ end }}">
-                {{ .Name }}
-            </a>
+            <a href="{{ .URL | relURL }}" class="nav-link{{ if $.IsMenuCurrent "main" . }} active{{ end }}">{{ .Name }}</a>
             {{ end }}
         </nav>
+        {{ $cur := .Site.Language.Lang }}
+        {{ $frURL := "/" }}{{ $enURL := "/en/" }}
+        {{ if eq $cur "fr" }}{{ $frURL = .RelPermalink }}{{ end }}
+        {{ if eq $cur "en" }}{{ $enURL = .RelPermalink }}{{ end }}
+        {{ range .Translations }}{{ if in .RelPermalink "/en/" }}{{ $enURL = .RelPermalink }}{{ else }}{{ $frURL = .RelPermalink }}{{ end }}{{ end }}
+        <div class="lang-switcher">
+            <a href="{{ $frURL }}" class="lang-option{{ if eq $cur "fr" }} active{{ end }}" hreflang="fr">FR</a>
+            <a href="{{ $enURL }}" class="lang-option{{ if eq $cur "en" }} active{{ end }}" hreflang="en">EN</a>
+        </div>
     </div>
 </header>
-
 <script>
 document.querySelector('.menu-toggle').addEventListener('click', function() {
     const nav = document.querySelector('.site-nav');
-    const expanded = this.getAttribute('aria-expanded') === 'true';
-    this.setAttribute('aria-expanded', !expanded);
+    this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') !== 'true');
     nav.classList.toggle('nav-open');
 });
 </script>

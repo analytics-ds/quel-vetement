@@ -1,23 +1,112 @@
 baseURL = "https://quel-vetement.fr/"
 title = "Quel Vêtement"
 theme = "quel-vetement"
-languageCode = "fr-fr"
 defaultContentLanguage = "fr"
 defaultContentLanguageInSubdir = false
 enableRobotsTXT = false
 enableEmoji = true
 summaryLength = 30
-# buildFuture = false : Hugo cache les articles datés dans le futur.
-# Combiné au cron GitHub Actions (mardi/vendredi), permet la publication
-# automatique à la date prévue (publishDate).
 buildFuture = false
 
 [languages]
   [languages.fr]
+    languageCode = "fr-fr"
     locale = "fr-FR"
+    languageName = "Français"
     weight = 1
+    title = "Quel Vêtement"
     [languages.fr.params]
       description = "Comparatifs, guides d'achat et conseils style pour bien choisir ses vêtements d'homme, du costume au lin."
+    [[languages.fr.menus.main]]
+      name = "Accueil"
+      url = "/"
+      weight = 1
+    [[languages.fr.menus.main]]
+      name = "Costume"
+      url = "/categories/costume/"
+      weight = 2
+    [[languages.fr.menus.main]]
+      name = "Lin"
+      url = "/categories/lin/"
+      weight = 3
+    [[languages.fr.menus.main]]
+      name = "Chemises"
+      url = "/categories/chemises/"
+      weight = 4
+    [[languages.fr.menus.main]]
+      name = "Pulls et gilets"
+      url = "/categories/pulls-et-gilets/"
+      weight = 5
+    [[languages.fr.menus.main]]
+      name = "Pantalons et jeans"
+      url = "/categories/pantalons-et-jeans/"
+      weight = 6
+    [[languages.fr.menus.main]]
+      name = "T-shirts et polos"
+      url = "/categories/t-shirts-et-polos/"
+      weight = 7
+    [[languages.fr.menus.main]]
+      name = "Vestes et manteaux"
+      url = "/categories/vestes-et-manteaux/"
+      weight = 8
+    [[languages.fr.menus.main]]
+      name = "Accessoires"
+      url = "/categories/accessoires/"
+      weight = 9
+    [[languages.fr.menus.main]]
+      name = "Le Blog"
+      url = "/blog/"
+      weight = 10
+
+  [languages.en]
+    languageCode = "en-us"
+    locale = "en-US"
+    languageName = "English"
+    weight = 2
+    title = "Quel Vêtement"
+    contentDir = "content/en"
+    [languages.en.params]
+      description = "Comparisons, buying guides and style advice to help men choose the right clothes, from suits to linen."
+    [[languages.en.menus.main]]
+      name = "Home"
+      url = "/en/"
+      weight = 1
+    [[languages.en.menus.main]]
+      name = "Suits"
+      url = "/en/categories/suits/"
+      weight = 2
+    [[languages.en.menus.main]]
+      name = "Linen"
+      url = "/en/categories/linen/"
+      weight = 3
+    [[languages.en.menus.main]]
+      name = "Shirts"
+      url = "/en/categories/shirts/"
+      weight = 4
+    [[languages.en.menus.main]]
+      name = "Knitwear"
+      url = "/en/categories/knitwear/"
+      weight = 5
+    [[languages.en.menus.main]]
+      name = "Trousers and jeans"
+      url = "/en/categories/trousers-and-jeans/"
+      weight = 6
+    [[languages.en.menus.main]]
+      name = "T-shirts and polos"
+      url = "/en/categories/t-shirts-and-polos/"
+      weight = 7
+    [[languages.en.menus.main]]
+      name = "Jackets and coats"
+      url = "/en/categories/jackets-and-coats/"
+      weight = 8
+    [[languages.en.menus.main]]
+      name = "Accessories"
+      url = "/en/categories/accessories/"
+      weight = 9
+    [[languages.en.menus.main]]
+      name = "Blog"
+      url = "/en/blog/"
+      weight = 10
 
 [taxonomies]
   category = "categories"
@@ -26,7 +115,6 @@ buildFuture = false
 
 [params]
   theme_name = "quel-vetement"
-  description = "Comparatifs, guides d'achat et conseils style pour bien choisir ses vêtements d'homme, du costume au lin."
   author_name = "Maxime Coste"
   author_url = ""
   author_job_title = "Rédacteur mode homme"
@@ -62,44 +150,3 @@ buildFuture = false
 
 [minify]
   disableXML = true
-
-[[menus.main]]
-  name = "Accueil"
-  url = "/"
-  weight = 1
-[[menus.main]]
-  name = "Costume"
-  url = "/categories/costume/"
-  weight = 2
-[[menus.main]]
-  name = "Lin"
-  url = "/categories/lin/"
-  weight = 3
-[[menus.main]]
-  name = "Chemises"
-  url = "/categories/chemises/"
-  weight = 4
-[[menus.main]]
-  name = "Pulls et gilets"
-  url = "/categories/pulls-et-gilets/"
-  weight = 5
-[[menus.main]]
-  name = "Pantalons et jeans"
-  url = "/categories/pantalons-et-jeans/"
-  weight = 6
-[[menus.main]]
-  name = "T-shirts et polos"
-  url = "/categories/t-shirts-et-polos/"
-  weight = 7
-[[menus.main]]
-  name = "Vestes et manteaux"
-  url = "/categories/vestes-et-manteaux/"
-  weight = 8
-[[menus.main]]
-  name = "Accessoires"
-  url = "/categories/accessoires/"
-  weight = 9
-[[menus.main]]
-  name = "Le Blog"
-  url = "/blog/"
-  weight = 10

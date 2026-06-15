@@ -1,4 +1,5 @@
 ---
+translationKey: "art-chemises"
 title: "Bien choisir sa chemise homme : coupes, cols et matières"
 date: "2026-06-15"
 lastmod: "2026-06-15"

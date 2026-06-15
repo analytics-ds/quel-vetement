@@ -1,4 +1,5 @@
 ---
+translationKey: "legal"
 title: "Mentions légales"
 seoTitle: "Mentions légales | Quel Vêtement"
 description: "Mentions légales du site Quel Vêtement : éditeur, hébergement et propriété intellectuelle."

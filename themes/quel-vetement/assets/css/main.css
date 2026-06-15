@@ -889,3 +889,12 @@ img {
     color: var(--text);
     margin-top: var(--space-xs);
 }
+
+/* --- Language switcher --- */
+.lang-switcher { display: flex; gap: 0.25rem; align-items: center; margin-left: var(--space-sm); }
+.lang-option {
+    font-family: var(--font-ui); font-size: 0.8rem; font-weight: 600;
+    color: rgba(255,255,255,0.6); padding: 2px 6px; border-radius: 4px;
+}
+.lang-option.active { color: var(--white); background-color: rgba(255,255,255,0.15); }
+.lang-option:hover { color: var(--white); }

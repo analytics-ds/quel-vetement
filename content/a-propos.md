@@ -1,4 +1,5 @@
 ---
+translationKey: "about"
 title: "À propos"
 seoTitle: "Notre méthode et notre indépendance | Quel Vêtement"
 description: "Quel Vêtement publie des guides d'achat et comparatifs indépendants pour aider les hommes à bien choisir leurs vêtements."
