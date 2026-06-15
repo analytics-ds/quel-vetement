@@ -1,15 +1,15 @@
 [hero_badge]
-other = "Guides mode homme"
+other = "Le bon vêtement, au bon moment"
 [hero_title]
-other = "Quel vêtement choisir ?"
+other = "Quel vêtement pour quelle situation ?"
 [hero_description]
-other = "Comparatifs, guides d'achat et conseils style pour vous habiller juste, du costume au lin."
+other = "Mariage, entretien d'embauche, premier rendez-vous, bureau ou week-end : on vous dit quoi porter selon l'occasion, et surtout pourquoi ça fonctionne."
 [explore_blog]
-other = "Explorez le blog"
+other = "Voir nos guides"
 [categories_title]
-other = "Nos catégories"
+other = "Explorez par type de vêtement"
 [latest_title]
-other = "Derniers articles"
+other = "Nos derniers guides"
 [read_more]
 other = "Lire la suite"
 [reading_time]
@@ -44,3 +44,9 @@ other = "Toutes les pages de"
 other = "Pages principales"
 [home_link]
 other = "Accueil"
+
+[concept_title]
+other = "Le concept"
+
+[concept_text]
+other = "Le bon vêtement n'existe pas dans l'absolu : il dépend de la situation. On part de votre contexte (une occasion, un lieu, une météo, un code vestimentaire) et on vous guide vers la tenue juste, pièce par pièce. Fini les minutes perdues devant l'armoire à se demander quoi mettre."

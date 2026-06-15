@@ -1,5 +1,5 @@
 ---
-image: "/images/vestes.jpg"
+image: "/images/vestes.webp"
 title: "Jacket or coat: the guide to gearing up"
 translationKey: "art-vestes-et-manteaux"
 date: "2026-06-15"

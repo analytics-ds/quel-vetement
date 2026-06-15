@@ -1,5 +1,5 @@
 ---
-image: "/images/chemises.jpg"
+image: "/images/chemises.webp"
 title: "Choosing a men's shirt: cuts, collars and fabrics"
 translationKey: "art-chemises"
 date: "2026-06-15"

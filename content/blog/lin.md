@@ -1,5 +1,5 @@
 ---
-image: "/images/lin.jpg"
+image: "/images/lin.webp"
 translationKey: "art-lin"
 title: "Vêtements en lin homme : le guide pour bien les porter"
 date: "2026-06-15"

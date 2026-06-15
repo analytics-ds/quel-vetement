@@ -1,0 +1,211 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Quel Vêtement" [ref=e4] [cursor=pointer]:
+        - /url: /en/
+      - navigation [ref=e5]:
+        - link "Home" [ref=e6] [cursor=pointer]:
+          - /url: /en/
+        - link "Suits" [ref=e7] [cursor=pointer]:
+          - /url: /en/categories/suits/
+        - link "Linen" [ref=e8] [cursor=pointer]:
+          - /url: /en/categories/linen/
+        - link "Shirts" [ref=e9] [cursor=pointer]:
+          - /url: /en/categories/shirts/
+        - link "Knitwear" [ref=e10] [cursor=pointer]:
+          - /url: /en/categories/knitwear/
+        - link "Trousers and jeans" [ref=e11] [cursor=pointer]:
+          - /url: /en/categories/trousers-and-jeans/
+        - link "T-shirts and polos" [ref=e12] [cursor=pointer]:
+          - /url: /en/categories/t-shirts-and-polos/
+        - link "Jackets and coats" [ref=e13] [cursor=pointer]:
+          - /url: /en/categories/jackets-and-coats/
+        - link "Accessories" [ref=e14] [cursor=pointer]:
+          - /url: /en/categories/accessories/
+        - link "Blog" [ref=e15] [cursor=pointer]:
+          - /url: /en/blog/
+      - generic [ref=e16]:
+        - link "FR" [ref=e17] [cursor=pointer]:
+          - /url: /
+        - link "EN" [ref=e18] [cursor=pointer]:
+          - /url: /en/
+  - main [ref=e19]:
+    - generic [ref=e21]:
+      - generic [ref=e22]: The right outfit, at the right time
+      - heading "Which outfit for which occasion?" [level=1] [ref=e23]
+      - paragraph [ref=e24]: "Wedding, job interview, first date, office or weekend: we tell you what to wear for the occasion, and above all why it works."
+      - link "See our guides" [ref=e25] [cursor=pointer]:
+        - /url: /en/blog/
+    - generic [ref=e27]:
+      - text: The concept
+      - paragraph [ref=e28]: "There is no 'right outfit' in a vacuum: it depends on the situation. We start from your context (an occasion, a place, the weather, a dress code) and guide you to the right look, piece by piece. No more time wasted in front of the wardrobe wondering what to wear."
+      - generic [ref=e29]:
+        - generic [ref=e30]: Wedding
+        - generic [ref=e31]: Job interview
+        - generic [ref=e32]: First date
+        - generic [ref=e33]: Office
+        - generic [ref=e34]: Party
+        - generic [ref=e35]: Weekend
+        - generic [ref=e36]: Ceremony
+        - generic [ref=e37]: Travel
+    - generic [ref=e39]:
+      - heading "Explore by garment type" [level=2] [ref=e40]
+      - generic [ref=e41]:
+        - link "Accessories 1 article" [ref=e42] [cursor=pointer]:
+          - /url: /en/categories/accessories/
+          - generic [ref=e43]:
+            - heading "Accessories" [level=3] [ref=e44]
+            - text: 1 article
+        - link "Jackets and coats 1 article" [ref=e45] [cursor=pointer]:
+          - /url: /en/categories/jackets-and-coats/
+          - generic [ref=e46]:
+            - heading "Jackets and coats" [level=3] [ref=e47]
+            - text: 1 article
+        - link "Knitwear 1 article" [ref=e48] [cursor=pointer]:
+          - /url: /en/categories/knitwear/
+          - generic [ref=e49]:
+            - heading "Knitwear" [level=3] [ref=e50]
+            - text: 1 article
+        - link "Linen 1 article" [ref=e51] [cursor=pointer]:
+          - /url: /en/categories/linen/
+          - generic [ref=e52]:
+            - heading "Linen" [level=3] [ref=e53]
+            - text: 1 article
+        - link "Shirts 1 article" [ref=e54] [cursor=pointer]:
+          - /url: /en/categories/shirts/
+          - generic [ref=e55]:
+            - heading "Shirts" [level=3] [ref=e56]
+            - text: 1 article
+        - link "Suits 1 article" [ref=e57] [cursor=pointer]:
+          - /url: /en/categories/suits/
+          - generic [ref=e58]:
+            - heading "Suits" [level=3] [ref=e59]
+            - text: 1 article
+        - link "T-shirts and polos 1 article" [ref=e60] [cursor=pointer]:
+          - /url: /en/categories/t-shirts-and-polos/
+          - generic [ref=e61]:
+            - heading "T-shirts and polos" [level=3] [ref=e62]
+            - text: 1 article
+        - link "Trousers and jeans 1 article" [ref=e63] [cursor=pointer]:
+          - /url: /en/categories/trousers-and-jeans/
+          - generic [ref=e64]:
+            - heading "Trousers and jeans" [level=3] [ref=e65]
+            - text: 1 article
+    - generic [ref=e67]:
+      - heading "Our latest guides" [level=2] [ref=e68]
+      - generic [ref=e69]:
+        - article [ref=e70]:
+          - link [ref=e71] [cursor=pointer]:
+            - /url: /en/blog/shirts/
+          - generic [ref=e72]:
+            - generic [ref=e73]:
+              - generic [ref=e74]: Shirts
+              - time [ref=e75]: 15 Jun 2026
+            - 'heading "Choosing a men''s shirt: cuts, collars and fabrics" [level=3] [ref=e76]':
+              - 'link "Choosing a men''s shirt: cuts, collars and fabrics" [ref=e77] [cursor=pointer]':
+                - /url: /en/blog/shirts/
+            - paragraph [ref=e78]: "A men's shirt comes down to three details: the cut, the collar and the fabric. Combined well, they change everything."
+        - article [ref=e79]:
+          - link [ref=e80] [cursor=pointer]:
+            - /url: /en/blog/suits/
+          - generic [ref=e81]:
+            - generic [ref=e82]:
+              - generic [ref=e83]: Suits
+              - time [ref=e84]: 15 Jun 2026
+            - heading "How should a men's suit fit? The complete guide" [level=3] [ref=e85]:
+              - link "How should a men's suit fit? The complete guide" [ref=e86] [cursor=pointer]:
+                - /url: /en/blog/suits/
+            - paragraph [ref=e87]: Choosing a suit is first a matter of cut and body shape, before it is a question of colour.
+        - article [ref=e88]:
+          - link [ref=e89] [cursor=pointer]:
+            - /url: /en/blog/jackets-and-coats/
+          - generic [ref=e90]:
+            - generic [ref=e91]:
+              - generic [ref=e92]: Jackets and coats
+              - time [ref=e93]: 15 Jun 2026
+            - 'heading "Jacket or coat: the guide to gearing up" [level=3] [ref=e94]':
+              - 'link "Jacket or coat: the guide to gearing up" [ref=e95] [cursor=pointer]':
+                - /url: /en/blog/jackets-and-coats/
+            - paragraph [ref=e96]: Jacket or coat, the question is quickly settled once you know the season and the level of dress you want.
+        - article [ref=e97]:
+          - link [ref=e98] [cursor=pointer]:
+            - /url: /en/blog/knitwear/
+          - generic [ref=e99]:
+            - generic [ref=e100]:
+              - generic [ref=e101]: Knitwear
+              - time [ref=e102]: 15 Jun 2026
+            - 'heading "Jumper or cardigan: which knit to choose for winter" [level=3] [ref=e103]':
+              - 'link "Jumper or cardigan: which knit to choose for winter" [ref=e104] [cursor=pointer]':
+                - /url: /en/blog/knitwear/
+            - paragraph [ref=e105]: Between a warm jumper and a more adjustable cardigan, the choice mostly depends on your use and the fabric.
+        - article [ref=e106]:
+          - link [ref=e107] [cursor=pointer]:
+            - /url: /en/blog/linen/
+          - generic [ref=e108]:
+            - generic [ref=e109]:
+              - generic [ref=e110]: Linen
+              - time [ref=e111]: 15 Jun 2026
+            - 'heading "Men''s linen clothing: the guide to wearing it well" [level=3] [ref=e112]':
+              - 'link "Men''s linen clothing: the guide to wearing it well" [ref=e113] [cursor=pointer]':
+                - /url: /en/blog/linen/
+            - paragraph [ref=e114]: Light, breathable and tough, linen is the summer star for the man who wants to stay cool without losing style.
+        - article [ref=e115]:
+          - link [ref=e116] [cursor=pointer]:
+            - /url: /en/blog/t-shirts-and-polos/
+          - generic [ref=e117]:
+            - generic [ref=e118]:
+              - generic [ref=e119]: T-shirts and polos
+              - time [ref=e120]: 15 Jun 2026
+            - 'heading "T-shirt or polo: choosing your basic well" [level=3] [ref=e121]':
+              - 'link "T-shirt or polo: choosing your basic well" [ref=e122] [cursor=pointer]':
+                - /url: /en/blog/t-shirts-and-polos/
+            - paragraph [ref=e123]: A good basic shows in its fabric, its cut and its seams. The rest is detail.
+  - contentinfo [ref=e124]:
+    - generic [ref=e125]:
+      - generic [ref=e126]:
+        - generic [ref=e127]:
+          - heading "Quel Vêtement" [level=4] [ref=e128]
+          - paragraph [ref=e129]: Comparisons, buying guides and style advice to help men choose the right clothes, from suits to linen.
+        - generic [ref=e130]:
+          - heading "Categories" [level=4] [ref=e131]
+          - list [ref=e132]:
+            - listitem [ref=e133]:
+              - link "Accessories" [ref=e134] [cursor=pointer]:
+                - /url: /en/categories/accessories/
+            - listitem [ref=e135]:
+              - link "Jackets and coats" [ref=e136] [cursor=pointer]:
+                - /url: /en/categories/jackets-and-coats/
+            - listitem [ref=e137]:
+              - link "Knitwear" [ref=e138] [cursor=pointer]:
+                - /url: /en/categories/knitwear/
+            - listitem [ref=e139]:
+              - link "Linen" [ref=e140] [cursor=pointer]:
+                - /url: /en/categories/linen/
+            - listitem [ref=e141]:
+              - link "Shirts" [ref=e142] [cursor=pointer]:
+                - /url: /en/categories/shirts/
+            - listitem [ref=e143]:
+              - link "Suits" [ref=e144] [cursor=pointer]:
+                - /url: /en/categories/suits/
+            - listitem [ref=e145]:
+              - link "T-shirts and polos" [ref=e146] [cursor=pointer]:
+                - /url: /en/categories/t-shirts-and-polos/
+            - listitem [ref=e147]:
+              - link "Trousers and jeans" [ref=e148] [cursor=pointer]:
+                - /url: /en/categories/trousers-and-jeans/
+        - generic [ref=e149]:
+          - heading "Information" [level=4] [ref=e150]
+          - list [ref=e151]:
+            - listitem [ref=e152]:
+              - link "About" [ref=e153] [cursor=pointer]:
+                - /url: /en/about/
+            - listitem [ref=e154]:
+              - link "Contact" [ref=e155] [cursor=pointer]:
+                - /url: /en/contact/
+            - listitem [ref=e156]:
+              - link "Legal notice" [ref=e157] [cursor=pointer]:
+                - /url: /en/legal-notice/
+            - listitem [ref=e158]:
+              - link "Sitemap" [ref=e159] [cursor=pointer]:
+                - /url: /en/sitemap/
+      - paragraph [ref=e161]: © 2026 Quel Vêtement. All rights reserved.

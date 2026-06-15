@@ -133,8 +133,8 @@ buildFuture = false
   color_primary_light = "#2e4673"
   color_background = "#ffffff"
   color_background_alt = "#f4f5f8"
-  color_accent = "#b5895a"
-  color_cta = "#b5895a"
+  color_accent = "#c0563a"
+  color_cta = "#c0563a"
   color_text = "#1a1d24"
   font_heading = "Playfair Display"
   font_body = "Lora"
@@ -159,5 +159,4 @@ buildFuture = false
   filename = "sitemap.xml"
 
 [minify]
-  disableHTML = true
   disableXML = true

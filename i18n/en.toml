@@ -1,15 +1,15 @@
 [hero_badge]
-other = "Men's style guides"
+other = "The right outfit, at the right time"
 [hero_title]
-other = "Which clothes to choose?"
+other = "Which outfit for which occasion?"
 [hero_description]
-other = "Comparisons, buying guides and style advice to dress right, from suits to linen."
+other = "Wedding, job interview, first date, office or weekend: we tell you what to wear for the occasion, and above all why it works."
 [explore_blog]
-other = "Explore the blog"
+other = "See our guides"
 [categories_title]
-other = "Our categories"
+other = "Explore by garment type"
 [latest_title]
-other = "Latest articles"
+other = "Our latest guides"
 [read_more]
 other = "Read more"
 [reading_time]
@@ -44,3 +44,9 @@ other = "All pages of"
 other = "Main pages"
 [home_link]
 other = "Home"
+
+[concept_title]
+other = "The concept"
+
+[concept_text]
+other = "There is no 'right outfit' in a vacuum: it depends on the situation. We start from your context (an occasion, a place, the weather, a dress code) and guide you to the right look, piece by piece. No more time wasted in front of the wardrobe wondering what to wear."

@@ -1,5 +1,5 @@
 ---
-image: "/images/costume.jpg"
+image: "/images/costume.webp"
 translationKey: "art-costume"
 title: "Comment choisir un costume homme : le guide complet"
 date: "2026-06-15"

@@ -1,6 +1,6 @@
 :root{
   --primary:#1b2a4a; --primary-light:#2e4673; --background:#ffffff; --background-alt:#f4f5f8;
-  --accent:#b5895a; --accent-dark:#9a7045; --text:#1a1d24; --text-light:#5c6373; --white:#fff; --border:#e7e9ef;
+  --accent:#c0563a; --accent-dark:#a3472e; --text:#1a1d24; --text-light:#5c6373; --white:#fff; --border:#e7e9ef;
   --font-heading:'Playfair Display',Georgia,serif; --font-body:'Lora',Georgia,serif; --font-ui:'Inter',-apple-system,sans-serif;
   --container:1200px; --narrow:760px;
   --shadow:0 10px 30px rgba(20,30,55,.08); --shadow-lg:0 20px 50px rgba(20,30,55,.16);
@@ -33,10 +33,10 @@ a{color:var(--primary);text-decoration:none;transition:color .2s}
 /* Hero */
 .hero{background-size:cover;background-position:center;color:#fff;text-align:center;padding:8rem 1.5rem;position:relative}
 .hero-content{max-width:760px;margin:0 auto}
-.hero-badge{display:inline-block;font-family:var(--font-ui);font-size:.74rem;font-weight:600;text-transform:uppercase;letter-spacing:2.5px;background:rgba(181,137,90,.9);padding:.45rem 1.1rem;border-radius:30px;margin-bottom:1.6rem}
+.hero-badge{display:inline-block;font-family:var(--font-ui);font-size:.74rem;font-weight:600;text-transform:uppercase;letter-spacing:2.5px;background:rgba(192,86,58,.9);padding:.45rem 1.1rem;border-radius:30px;margin-bottom:1.6rem}
 .hero h1{font-family:var(--font-heading);font-size:3.6rem;font-weight:900;line-height:1.1;margin-bottom:1.1rem;text-shadow:0 2px 20px rgba(0,0,0,.25)}
 .hero-description{font-size:1.25rem;opacity:.94;max-width:600px;margin:0 auto 2rem}
-.btn-primary{display:inline-block;font-family:var(--font-ui);font-weight:600;font-size:.86rem;text-transform:uppercase;letter-spacing:1.2px;background:var(--accent);color:#fff;padding:1rem 2.4rem;border-radius:4px;transition:.2s;box-shadow:0 8px 24px rgba(181,137,90,.35)}
+.btn-primary{display:inline-block;font-family:var(--font-ui);font-weight:600;font-size:.86rem;text-transform:uppercase;letter-spacing:1.2px;background:var(--accent);color:#fff;padding:1rem 2.4rem;border-radius:4px;transition:.2s;box-shadow:0 8px 24px rgba(192,86,58,.35)}
 .btn-primary:hover{background:var(--accent-dark);color:#fff;transform:translateY(-2px)}
 
 /* Section titles */
@@ -141,3 +141,12 @@ a{color:var(--primary);text-decoration:none;transition:color .2s}
   .article-header h1,.list-header h1{font-size:2rem}
   .article-nav{flex-direction:column}.nav-next{text-align:left}
 }
+
+/* --- Concept section --- */
+.concept-section{padding:4.5rem 0;background:var(--white)}
+.concept-inner{text-align:center}
+.concept-eyebrow{font-family:var(--font-ui);font-size:.78rem;font-weight:600;text-transform:uppercase;letter-spacing:2.5px;color:var(--accent)}
+.concept-text{font-family:var(--font-heading);font-size:1.45rem;line-height:1.55;color:var(--primary);margin-top:1rem;font-weight:500}
+.situations{display:flex;flex-wrap:wrap;justify-content:center;gap:.6rem;margin-top:2rem}
+.situation-chip{font-family:var(--font-ui);font-size:.84rem;font-weight:500;color:var(--primary);background:var(--background-alt);border:1px solid var(--border);padding:.5rem 1.1rem;border-radius:30px;transition:.2s}
+.situation-chip:hover{background:var(--accent);color:#fff;border-color:var(--accent)}

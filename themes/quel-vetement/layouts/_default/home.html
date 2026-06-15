@@ -1,5 +1,5 @@
 {{ define "main" }}
-<section class="hero" style="background-image: linear-gradient(rgba(27,42,74,0.62), rgba(27,42,74,0.72)), url('{{ "/images/hero.jpg" | relURL }}');">
+<section class="hero" style="background-image: linear-gradient(rgba(27,42,74,0.58), rgba(27,42,74,0.7)), url('{{ "/images/hero.webp" | relURL }}');">
     <div class="hero-content">
         <span class="hero-badge">{{ i18n "hero_badge" }}</span>
         <h1>{{ i18n "hero_title" }}</h1>
@@ -8,12 +8,24 @@
     </div>
 </section>
 
+<section class="concept-section">
+    <div class="container container-narrow concept-inner">
+        <span class="concept-eyebrow">{{ i18n "concept_title" }}</span>
+        <p class="concept-text">{{ i18n "concept_text" }}</p>
+        <div class="situations">
+            {{ $sits := slice "Mariage" "Entretien d'embauche" "Premier rendez-vous" "Bureau" "Soirée" "Week-end" "Cérémonie" "Voyage" }}
+            {{ if eq .Site.Language.Lang "en" }}{{ $sits = slice "Wedding" "Job interview" "First date" "Office" "Party" "Weekend" "Ceremony" "Travel" }}{{ end }}
+            {{ range $sits }}<span class="situation-chip">{{ . }}</span>{{ end }}
+        </div>
+    </div>
+</section>
+
 <section class="categories-section">
     <div class="container">
         <h2 class="section-title">{{ i18n "categories_title" }}</h2>
         <div class="grid-categories">
             {{ range .Site.Taxonomies.categories }}
-            <a href="{{ .Page.RelPermalink }}" class="category-card" style="background-image: linear-gradient(rgba(27,42,74,0.15), rgba(27,42,74,0.75)), url('{{ with .Page.Params.image }}{{ . | relURL }}{{ end }}');">
+            <a href="{{ .Page.RelPermalink }}" class="category-card" style="background-image: linear-gradient(rgba(27,42,74,0.15), rgba(27,42,74,0.78)), url('{{ with .Page.Params.image }}{{ . | relURL }}{{ end }}');">
                 <div class="category-card-inner">
                     <h3>{{ .Page.Title }}</h3>
                     <span class="category-count">{{ .Count }} {{ if gt .Count 1 }}articles{{ else }}article{{ end }}</span>
@@ -28,9 +40,7 @@
     <div class="container">
         <h2 class="section-title">{{ i18n "latest_title" }}</h2>
         <div class="grid-articles">
-            {{ range first 6 (where .Site.RegularPages "Section" "blog") }}
-            {{ partial "article-card.html" . }}
-            {{ end }}
+            {{ range first 6 (where .Site.RegularPages "Section" "blog") }}{{ partial "article-card.html" . }}{{ end }}
         </div>
     </div>
 </section>

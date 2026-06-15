@@ -1,5 +1,5 @@
 ---
-image: "/images/pantalons.jpg"
+image: "/images/pantalons.webp"
 translationKey: "art-pantalons-et-jeans"
 title: "Pantalon ou jean : quelle coupe pour votre morphologie"
 date: "2026-06-15"
