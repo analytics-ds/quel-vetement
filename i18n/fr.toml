@@ -50,3 +50,6 @@ other = "Le concept"
 
 [concept_text]
 other = "Le bon vêtement n'existe pas dans l'absolu : il dépend de la situation. On part de votre contexte (une occasion, un lieu, une météo, un code vestimentaire) et on vous guide vers la tenue juste, pièce par pièce. Fini les minutes perdues devant l'armoire à se demander quoi mettre."
+
+[situations_title]
+other = "Quoi porter selon la situation"

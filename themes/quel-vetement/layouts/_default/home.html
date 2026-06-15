@@ -4,7 +4,7 @@
         <span class="hero-badge">{{ i18n "hero_badge" }}</span>
         <h1>{{ i18n "hero_title" }}</h1>
         <p class="hero-description">{{ i18n "hero_description" }}</p>
-        <a href="{{ "blog/" | relLangURL }}" class="btn-primary">{{ i18n "explore_blog" }}</a>
+        <a href="#situations" class="btn-primary">{{ i18n "explore_blog" }}</a>
     </div>
 </section>
 
@@ -12,10 +12,35 @@
     <div class="container container-narrow concept-inner">
         <span class="concept-eyebrow">{{ i18n "concept_title" }}</span>
         <p class="concept-text">{{ i18n "concept_text" }}</p>
-        <div class="situations">
-            {{ $sits := slice "Mariage" "Entretien d'embauche" "Premier rendez-vous" "Bureau" "Soirée" "Week-end" "Cérémonie" "Voyage" }}
-            {{ if eq .Site.Language.Lang "en" }}{{ $sits = slice "Wedding" "Job interview" "First date" "Office" "Party" "Weekend" "Ceremony" "Travel" }}{{ end }}
-            {{ range $sits }}<span class="situation-chip">{{ . }}</span>{{ end }}
+    </div>
+</section>
+
+<section class="situations-section" id="situations">
+    <div class="container">
+        <h2 class="section-title">{{ i18n "situations_title" }}</h2>
+        {{ $sits := slice
+            (dict "n" "Mariage (invité)" "r" "Costume sombre, chemise blanche, derbies cirées. Cravate ou nœud selon le dress code.")
+            (dict "n" "Entretien d'embauche" "r" "Sobre et net : pantalon de costume ou chino, chemise, veste. On évite le total look trop habillé.")
+            (dict "n" "Premier rendez-vous" "r" "Soigné sans en faire trop : jean brut, chemise ou pull fin, sneakers minimalistes propres.")
+            (dict "n" "Au bureau" "r" "Smart casual : chino, chemise ou polo, pull col rond, derbies ou sneakers sobres.")
+            (dict "n" "Le week-end" "r" "T-shirt de qualité, jean ou chino, veste légère, baskets. Confort et allure.")
+            (dict "n" "Cérémonie" "r" "Costume bien coupé, chemise, chaussures de ville cirées. Accessoires discrets.")
+        }}
+        {{ if eq .Site.Language.Lang "en" }}{{ $sits = slice
+            (dict "n" "Wedding (guest)" "r" "Dark suit, white shirt, polished derbies. Tie depending on the dress code.")
+            (dict "n" "Job interview" "r" "Clean and understated: suit trousers or chinos, a shirt and a jacket. Avoid overdressing.")
+            (dict "n" "First date" "r" "Sharp but relaxed: raw jeans, a shirt or fine knit, clean minimalist sneakers.")
+            (dict "n" "At the office" "r" "Smart casual: chinos, a shirt or polo, a crew-neck jumper, derbies or sober sneakers.")
+            (dict "n" "The weekend" "r" "A quality tee, jeans or chinos, a light jacket and sneakers. Comfort with style.")
+            (dict "n" "Ceremony" "r" "A well-cut suit, a shirt and polished dress shoes. Discreet accessories.")
+        }}{{ end }}
+        <div class="grid-situations">
+            {{ range $sits }}
+            <div class="situation-card">
+                <h3>{{ .n }}</h3>
+                <p>{{ .r }}</p>
+            </div>
+            {{ end }}
         </div>
     </div>
 </section>
@@ -26,10 +51,7 @@
         <div class="grid-categories">
             {{ range .Site.Taxonomies.categories }}
             <a href="{{ .Page.RelPermalink }}" class="category-card" style="background-image: linear-gradient(rgba(27,42,74,0.15), rgba(27,42,74,0.78)), url('{{ with .Page.Params.image }}{{ . | relURL }}{{ end }}');">
-                <div class="category-card-inner">
-                    <h3>{{ .Page.Title }}</h3>
-                    <span class="category-count">{{ .Count }} {{ if gt .Count 1 }}articles{{ else }}article{{ end }}</span>
-                </div>
+                <div class="category-card-inner"><h3>{{ .Page.Title }}</h3><span class="category-count">{{ .Count }} {{ if gt .Count 1 }}articles{{ else }}article{{ end }}</span></div>
             </a>
             {{ end }}
         </div>
@@ -39,9 +61,7 @@
 <section class="latest-section">
     <div class="container">
         <h2 class="section-title">{{ i18n "latest_title" }}</h2>
-        <div class="grid-articles">
-            {{ range first 6 (where .Site.RegularPages "Section" "blog") }}{{ partial "article-card.html" . }}{{ end }}
-        </div>
+        <div class="grid-articles">{{ range first 6 (where .Site.RegularPages "Section" "blog") }}{{ partial "article-card.html" . }}{{ end }}</div>
     </div>
 </section>
 {{ end }}
