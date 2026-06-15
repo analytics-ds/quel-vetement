@@ -64,7 +64,6 @@ buildFuture = false
     languageName = "English"
     weight = 2
     title = "Quel Vêtement"
-    contentDir = "content/en"
     [languages.en.params]
       description = "Comparisons, buying guides and style advice to help men choose the right clothes, from suits to linen."
     [[languages.en.menus.main]]
@@ -107,6 +106,17 @@ buildFuture = false
       name = "Blog"
       url = "/en/blog/"
       weight = 10
+
+[module]
+  [[module.mounts]]
+    source = "content"
+    target = "content"
+    lang = "fr"
+    excludeFiles = "en/**"
+  [[module.mounts]]
+    source = "content/en"
+    target = "content"
+    lang = "en"
 
 [taxonomies]
   category = "categories"

@@ -1,0 +1,27 @@
+- main [ref=e2]:
+  - heading "Oh non !" [level=1] [ref=e3]
+  - generic [ref=e4]:
+    - img "Sad Anubis" [ref=e5]
+    - paragraph [ref=e6]: "Accès refusé : code d'erreur 4d1dbaddfcc0f385."
+    - paragraph [ref=e7]:
+      - link "Accueil" [ref=e8] [cursor=pointer]:
+        - /url: /
+  - generic [ref=e10]:
+    - paragraph [ref=e11]:
+      - text: Protégé par
+      - link "BotStopper" [ref=e12] [cursor=pointer]:
+        - /url: https://anubis.techaro.lol/docs/admin/botstopper
+      - text: From
+      - link "Techaro" [ref=e13] [cursor=pointer]:
+        - /url: https://techaro.lol
+      - text: . Fait avec ❤️ au 🇨🇦.
+    - paragraph [ref=e14]:
+      - text: Unsplash |
+      - link "Help Center" [ref=e15] [cursor=pointer]:
+        - /url: https://help.unsplash.com/
+      - text: "|"
+      - link "support@unsplash.com" [ref=e16] [cursor=pointer]:
+        - /url: mailto:support@unsplash.com
+      - text: "--"
+      - link "Imprint" [ref=e17] [cursor=pointer]:
+        - /url: /.within.website/x/cmd/anubis/api/imprint

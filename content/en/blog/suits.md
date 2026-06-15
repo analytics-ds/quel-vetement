@@ -1,4 +1,5 @@
 ---
+image: "/images/costume.jpg"
 title: "How should a men's suit fit? The complete guide"
 translationKey: "art-costume"
 date: "2026-06-15"

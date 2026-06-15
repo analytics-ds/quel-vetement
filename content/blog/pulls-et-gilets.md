@@ -1,4 +1,5 @@
 ---
+image: "/images/pulls.jpg"
 translationKey: "art-pulls-et-gilets"
 title: "Pull ou gilet : quelle maille choisir pour l'hiver"
 date: "2026-06-15"

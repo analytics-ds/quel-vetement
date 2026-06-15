@@ -1,0 +1,477 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - navigation [ref=e6]:
+      - link [ref=e8] [cursor=pointer]:
+        - /url: /
+        - img [ref=e9]
+      - search [ref=e13]:
+        - generic [ref=e14]:
+          - button "Photos" [ref=e16] [cursor=pointer]:
+            - generic [ref=e17]:
+              - img [ref=e18]
+              - generic [ref=e21]: Photos
+              - img [ref=e22]
+          - searchbox "Search for free photos" [ref=e24]: men suit
+          - button [ref=e26] [cursor=pointer]:
+            - img [ref=e28]
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - link "Explore" [ref=e32] [cursor=pointer]:
+            - /url: /discover/
+            - generic [ref=e33]: Explore
+          - img [ref=e34]
+        - link "License" [ref=e36] [cursor=pointer]:
+          - /url: /license/
+          - generic [ref=e37]: License
+        - button [ref=e39] [cursor=pointer]:
+          - img [ref=e40]
+        - button "Join" [ref=e42] [cursor=pointer]:
+          - generic [ref=e44]: Join
+    - main [ref=e45]:
+      - generic [ref=e46]:
+        - generic [ref=e50]:
+          - paragraph [ref=e52] [cursor=pointer]: Any
+          - generic [ref=e53] [cursor=pointer]:
+            - img [ref=e55]
+            - paragraph [ref=e57]: Horizontal
+          - generic [ref=e58] [cursor=pointer]:
+            - img [ref=e60]
+            - paragraph [ref=e62]: Vertical
+          - generic [ref=e63] [cursor=pointer]:
+            - img [ref=e65]
+            - paragraph [ref=e67]: Square
+        - generic [ref=e71]:
+          - paragraph [ref=e73] [cursor=pointer]: Any
+          - paragraph [ref=e75] [cursor=pointer]: "0"
+          - generic [ref=e76] [cursor=pointer]:
+            - img [ref=e78]
+            - paragraph [ref=e80]: "1"
+          - generic [ref=e81] [cursor=pointer]:
+            - img [ref=e83]
+            - paragraph [ref=e85]: "2"
+          - generic [ref=e86] [cursor=pointer]:
+            - img [ref=e88]
+            - paragraph [ref=e90]: 3+
+        - generic [ref=e94]:
+          - paragraph [ref=e96] [cursor=pointer]: Any
+          - generic [ref=e97] [cursor=pointer]:
+            - img [ref=e99]
+            - paragraph [ref=e101]: Baby
+          - generic [ref=e102] [cursor=pointer]:
+            - img [ref=e104]
+            - paragraph [ref=e106]: Child
+          - generic [ref=e107] [cursor=pointer]:
+            - img [ref=e109]
+            - paragraph [ref=e111]: Teenager
+          - generic [ref=e112] [cursor=pointer]:
+            - img [ref=e114]
+            - paragraph [ref=e116]: Adult
+          - generic [ref=e117] [cursor=pointer]:
+            - img [ref=e119]
+            - paragraph [ref=e121]: Senior adult
+        - generic [ref=e124]:
+          - generic [ref=e125]:
+            - slider [ref=e128] [cursor=pointer]
+            - slider [ref=e129] [cursor=pointer]
+          - generic [ref=e130]:
+            - generic [ref=e131]:
+              - paragraph [ref=e132]: Minimum
+              - paragraph [ref=e133]: 1,080px
+            - generic [ref=e134]:
+              - paragraph [ref=e135]: Maximum
+              - paragraph [ref=e136]: 20,000px+
+        - generic [ref=e139]:
+          - generic [ref=e140]:
+            - slider [ref=e143] [cursor=pointer]
+            - slider [ref=e144] [cursor=pointer]
+          - generic [ref=e145]:
+            - generic [ref=e146]:
+              - paragraph [ref=e147]: Minimum
+              - paragraph [ref=e148]: 1,080px
+            - generic [ref=e149]:
+              - paragraph [ref=e150]: Maximum
+              - paragraph [ref=e151]: 20,000px+
+        - generic [ref=e155]:
+          - button [ref=e156] [cursor=pointer]:
+            - generic [ref=e157]:
+              - textbox [ref=e162]:
+                - /placeholder: Enter hex code
+              - img [ref=e163]
+          - button [ref=e165] [cursor=pointer]:
+            - generic [ref=e166]:
+              - img [ref=e167]
+              - textbox [ref=e171]: "#000000"
+        - generic [ref=e175]:
+          - paragraph [ref=e177] [cursor=pointer]: Any
+          - generic [ref=e178] [cursor=pointer]:
+            - img [ref=e180]
+            - paragraph [ref=e182]: Last 24 hours
+          - generic [ref=e183] [cursor=pointer]:
+            - img [ref=e185]
+            - paragraph [ref=e187]: Last week
+          - generic [ref=e188] [cursor=pointer]:
+            - img [ref=e190]
+            - paragraph [ref=e192]: Last month
+          - generic [ref=e193] [cursor=pointer]:
+            - img [ref=e195]
+            - paragraph [ref=e197]: Last year
+        - main "main-content" [ref=e198]:
+          - generic [ref=e199]:
+            - generic [ref=e200]:
+              - heading "Choose your language:" [level=5] [ref=e201]
+              - generic [ref=e203]:
+                - link "English English" [ref=e205] [cursor=pointer]:
+                  - /url: /search/men%20suit/
+                  - generic [ref=e206]:
+                    - img "English" [ref=e207]
+                    - generic [ref=e208]: English
+                - link "Français Français" [ref=e209] [cursor=pointer]:
+                  - /url: /fr-fr/chercher/costume%20homme/
+                  - generic [ref=e210]:
+                    - img "Français" [ref=e211]
+                    - generic [ref=e212]: Français
+                - button [ref=e213] [cursor=pointer]:
+                  - img [ref=e215]
+            - heading "Free Men Suit Photos" [level=1] [ref=e220]
+            - generic [ref=e223]:
+              - generic:
+                - img
+              - link "Photos 112.2K" [ref=e225] [cursor=pointer]:
+                - /url: /search/men%20suit/
+                - text: Photos
+                - generic [ref=e226]: 112.2K
+              - link "Videos 28.9K" [ref=e227] [cursor=pointer]:
+                - /url: /search/videos/men%20suit/
+                - text: Videos
+                - generic [ref=e228]: 28.9K
+              - link "Users 102.1K" [ref=e229] [cursor=pointer]:
+                - /url: /search/users/men%20suit/
+                - text: Users
+                - generic [ref=e230]: 102.1K
+              - generic:
+                - img
+            - generic [ref=e232]:
+              - button "Filters" [ref=e234] [cursor=pointer]:
+                - generic [ref=e240]: Filters
+              - separator [ref=e241]
+              - generic [ref=e245]:
+                - generic:
+                  - img
+                - link "suit suit 57.1K" [ref=e247] [cursor=pointer]:
+                  - /url: /search/suit/
+                  - img "suit" [ref=e248]
+                  - generic [ref=e249]:
+                    - paragraph [ref=e250]: suit
+                    - paragraph [ref=e251]: 57.1K
+                - generic:
+                  - img
+            - generic [ref=e253]:
+              - generic [ref=e255]:
+                - generic [ref=e256]:
+                  - article [ref=e259]:
+                    - link "Free A group of stylish men in formal suits have a rooftop meeting with a city view. Stock Photo" [ref=e260] [cursor=pointer]:
+                      - /url: /photo/stylish-group-of-men-in-formal-suits-outdoors-32670017/
+                      - img "Free A group of stylish men in formal suits have a rooftop meeting with a city view. Stock Photo" [ref=e261]
+                  - article [ref=e266]:
+                    - link "Free Fashionable man in elegant brown suit and black shoes posing against a plain background in a professional studio shoot. Stock Photo" [ref=e267] [cursor=pointer]:
+                      - /url: /photo/brunette-in-suit-and-elegant-shoes-12937967/
+                      - img "Free Fashionable man in elegant brown suit and black shoes posing against a plain background in a professional studio shoot. Stock Photo" [ref=e268]
+                  - article [ref=e273]:
+                    - link "Free Asian groom in white suit checks his watch in a studio shoot. Stock Photo" [ref=e274] [cursor=pointer]:
+                      - /url: /photo/a-man-in-a-white-suit-checking-his-watch-5544669/
+                      - img "Free Asian groom in white suit checks his watch in a studio shoot. Stock Photo" [ref=e275]
+                  - link [ref=e279] [cursor=pointer]:
+                    - /url: /collections/international-men-s-day-w188c10/
+                    - article [ref=e280]:
+                      - list [ref=e282]:
+                        - listitem [ref=e283]:
+                          - img [ref=e284]
+                        - listitem [ref=e285]:
+                          - img [ref=e286]
+                        - listitem [ref=e287]:
+                          - img [ref=e288]
+                      - generic [ref=e289]:
+                        - heading "International Men's Day" [level=4] [ref=e290]
+                        - generic [ref=e291]:
+                          - img [ref=e292]
+                          - paragraph [ref=e294]: "143"
+                  - article [ref=e297]:
+                    - link "Free Confident man posing indoors in a beige suit and black shirt against a warm backdrop. Stock Photo" [ref=e298] [cursor=pointer]:
+                      - /url: /photo/man-in-beige-suit-and-black-shirt-17739667/
+                      - img "Free Confident man posing indoors in a beige suit and black shirt against a warm backdrop. Stock Photo" [ref=e299]
+                  - article [ref=e304]:
+                    - link "Free Stylish man in beige suit holding a black designer bag, studio shot. Stock Photo" [ref=e305] [cursor=pointer]:
+                      - /url: /photo/elegant-man-in-beige-suit-with-designer-bag-35633112/
+                      - img "Free Stylish man in beige suit holding a black designer bag, studio shot. Stock Photo" [ref=e306]
+                - generic [ref=e309]:
+                  - article [ref=e312]:
+                    - link "Free Stylish groom in a classic black tuxedo stands confidently in a bright, elegant setting. Stock Photo" [ref=e313] [cursor=pointer]:
+                      - /url: /photo/the-groom-posing-on-the-background-of-a-white-wall-17542178/
+                      - img "Free Stylish groom in a classic black tuxedo stands confidently in a bright, elegant setting. Stock Photo" [ref=e314]
+                    - generic:
+                      - link "Retouch" [ref=e319] [cursor=pointer]:
+                        - /url: https://www.canva.com/content-partner/?utm_medium=acquisitions&utm_source=pexels&utm_campaign=predownload%20button&utm_content=edit%20in%20canva%20action%3Dretouch&external-id=17542178&image-url=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F17542178%2Fpexels-photo-17542178.jpeg%3Fauto%3Dcompress%26cs%3Dtinysrgb%26w%3D4082%26fit%3Dmax&onboarding-flow=inpainting-effect
+                        - paragraph [ref=e320]:
+                          - img [ref=e321]
+                          - text: Retouch
+                          - img [ref=e323]
+                      - button "Collect" [ref=e325] [cursor=pointer]:
+                        - img [ref=e327]
+                      - button "Like" [ref=e330] [cursor=pointer]:
+                        - img [ref=e332]
+                    - generic:
+                      - link "ömer çelik ömer çelik" [ref=e335] [cursor=pointer]:
+                        - /url: /@omer/
+                        - generic [ref=e338]:
+                          - img "ömer çelik" [ref=e340]
+                          - paragraph [ref=e342]: ömer çelik
+                      - link "Download" [ref=e344] [cursor=pointer]:
+                        - /url: https://images.pexels.com/photos/17542178/pexels-photo-17542178.jpeg?cs=srgb&dl=pexels-omer-17542178.jpg&fm=jpg
+                        - img [ref=e346]
+                  - article [ref=e350]:
+                    - link "Free Stylish bearded man posing in a classic brown suit in a studio setting with a neutral background. Stock Photo" [ref=e351] [cursor=pointer]:
+                      - /url: /photo/a-bearded-man-in-brown-suit-12922462/
+                      - img "Free Stylish bearded man posing in a classic brown suit in a studio setting with a neutral background. Stock Photo" [ref=e352]
+                  - article [ref=e357]:
+                    - link "Free A man in a formal black suit with gold chain detail and wristwatch, exuding elegance. Stock Photo" [ref=e358] [cursor=pointer]:
+                      - /url: /photo/elegant-black-suit-with-gold-accents-in-formal-setting-28557819/
+                      - img "Free A man in a formal black suit with gold chain detail and wristwatch, exuding elegance. Stock Photo" [ref=e359]
+                  - article [ref=e364]:
+                    - link "Free Four men in formal suits posing confidently in a studio setting. Stock Photo" [ref=e365] [cursor=pointer]:
+                      - /url: /photo/elegantly-dressed-group-of-business-professionals-35466550/
+                      - img "Free Four men in formal suits posing confidently in a studio setting. Stock Photo" [ref=e366]
+                  - article [ref=e371]:
+                    - link "Free Elegant portrait of a fashionable man in a suit and sneakers. Stock Photo" [ref=e372] [cursor=pointer]:
+                      - /url: /photo/stylish-african-man-in-brown-suit-with-sneakers-35685917/
+                      - img "Free Elegant portrait of a fashionable man in a suit and sneakers. Stock Photo" [ref=e373]
+                  - article [ref=e378]:
+                    - link "Free Elegant man in black suit with hands in pockets posing against decorative doorway. Stock Photo" [ref=e379] [cursor=pointer]:
+                      - /url: /photo/a-man-posing-while-standing-in-front-of-the-door-7554980/
+                      - img "Free Elegant man in black suit with hands in pockets posing against decorative doorway. Stock Photo" [ref=e380]
+                - generic [ref=e383]:
+                  - article [ref=e386]:
+                    - link "Free Close-up of mannequins adorned in elegant men's suits in a store setting, showcasing diverse styles. Stock Photo" [ref=e387] [cursor=pointer]:
+                      - /url: /photo/mannequins-wearing-suits-6065984/
+                      - img "Free Close-up of mannequins adorned in elegant men's suits in a store setting, showcasing diverse styles. Stock Photo" [ref=e388]
+                  - article [ref=e393]:
+                    - link "Free Two African men in suits share a joyful moment at a Nigerian wedding. Stock Photo" [ref=e394] [cursor=pointer]:
+                      - /url: /photo/joyful-nigerian-wedding-celebration-moments-29722004/
+                      - img "Free Two African men in suits share a joyful moment at a Nigerian wedding. Stock Photo" [ref=e395]
+                  - article [ref=e400]:
+                    - link "Free Three men in fashionable suits posing confidently against a dark backdrop. Stock Photo" [ref=e401] [cursor=pointer]:
+                      - /url: /photo/stylish-portrait-of-three-men-in-suits-35685914/
+                      - img "Free Three men in fashionable suits posing confidently against a dark backdrop. Stock Photo" [ref=e402]
+                  - article [ref=e407]:
+                    - link "Free Portrait of a stylish man in a brown suit standing confidently outdoors in Dar es Salaam, Tanzania. Stock Photo" [ref=e408] [cursor=pointer]:
+                      - /url: /photo/stylish-man-in-brown-suit-outdoors-in-tanzania-32798907/
+                      - img "Free Portrait of a stylish man in a brown suit standing confidently outdoors in Dar es Salaam, Tanzania. Stock Photo" [ref=e409]
+                  - article [ref=e414]:
+                    - link "Free Stylish man in a blue suit poses confidently next to a black car outdoors in India. Stock Photo" [ref=e415] [cursor=pointer]:
+                      - /url: /photo/fashionable-man-in-blue-suit-by-car-30324800/
+                      - img "Free Stylish man in a blue suit poses confidently next to a black car outdoors in India. Stock Photo" [ref=e416]
+                  - article [ref=e421]:
+                    - link "Free Stylish man poses confidently in tuxedo with bow tie, standing against urban backdrop. Stock Photo" [ref=e422] [cursor=pointer]:
+                      - /url: /photo/a-man-in-a-tuxedo-posing-for-a-photo-17728712/
+                      - img "Free Stylish man poses confidently in tuxedo with bow tie, standing against urban backdrop. Stock Photo" [ref=e423]
+                - generic [ref=e426]:
+                  - article [ref=e429]:
+                    - link "Free Stylish portrait of two men in formal suits against a warm backdrop, showcasing modern Kigali fashion. Stock Photo" [ref=e430] [cursor=pointer]:
+                      - /url: /photo/elegant-portrait-of-two-men-in-kigali-fashion-35685911/
+                      - img "Free Stylish portrait of two men in formal suits against a warm backdrop, showcasing modern Kigali fashion. Stock Photo" [ref=e431]
+                  - article [ref=e436]:
+                    - link "Free Confident man in blue suit leans on motorcycle, showcasing elegance and style, perfect for wedding or formal events. Stock Photo" [ref=e437] [cursor=pointer]:
+                      - /url: /photo/elegant-man-in-blue-suit-posing-with-motorcycle-30324875/
+                      - img "Free Confident man in blue suit leans on motorcycle, showcasing elegance and style, perfect for wedding or formal events. Stock Photo" [ref=e438]
+                  - article [ref=e443]:
+                    - link "Free Two men dressed in stylish suits pose against a draped fabric backdrop. Stock Photo" [ref=e444] [cursor=pointer]:
+                      - /url: /photo/elegant-portrait-of-two-men-in-stylish-suits-35685913/
+                      - img "Free Two men dressed in stylish suits pose against a draped fabric backdrop. Stock Photo" [ref=e445]
+                  - article [ref=e450]:
+                    - link "Free Stylish adult wearing a Jodhpuri suit walking in a Jaipur palace courtyard. Stock Photo" [ref=e451] [cursor=pointer]:
+                      - /url: /photo/a-man-in-a-jodhpuri-suit-5724384/
+                      - img "Free Stylish adult wearing a Jodhpuri suit walking in a Jaipur palace courtyard. Stock Photo" [ref=e452]
+                  - article [ref=e457]:
+                    - link "Free Stylish man in a navy suit stands confidently outdoors in Multan, Pakistan. Stock Photo" [ref=e458] [cursor=pointer]:
+                      - /url: /photo/a-bearded-man-wearing-a-suit-10580183/
+                      - img "Free Stylish man in a navy suit stands confidently outdoors in Multan, Pakistan. Stock Photo" [ref=e459]
+                  - article [ref=e464]:
+                    - link "Free A stylish blue suit elegantly hangs on a tree outdoors, surrounded by lush greenery. Stock Photo" [ref=e465] [cursor=pointer]:
+                      - /url: /photo/an-elegant-blue-suit-hanging-near-the-tree-4259966/
+                      - img "Free A stylish blue suit elegantly hangs on a tree outdoors, surrounded by lush greenery. Stock Photo" [ref=e466]
+                  - article [ref=e471]:
+                    - link "Free Two men in suits, one taking a photo, in a fashion boutique setting. Stock Photo" [ref=e472] [cursor=pointer]:
+                      - /url: /photo/two-men-posing-in-a-stylish-suit-shop-32478288/
+                      - img "Free Two men in suits, one taking a photo, in a fashion boutique setting. Stock Photo" [ref=e473]
+              - button "Load More" [ref=e477] [cursor=pointer]:
+                - generic [ref=e479]: Load More
+            - navigation [ref=e480]:
+              - generic [ref=e482]:
+                - link "1" [ref=e484]:
+                  - /url: /search/men%20suit/
+                  - generic [ref=e486]: "1"
+                - link "2" [ref=e487] [cursor=pointer]:
+                  - /url: /search/men%20suit/?page=2
+                  - generic [ref=e489]: "2"
+                - link "3" [ref=e490] [cursor=pointer]:
+                  - /url: /search/men%20suit/?page=3
+                  - generic [ref=e492]: "3"
+                - link "4" [ref=e493] [cursor=pointer]:
+                  - /url: /search/men%20suit/?page=4
+                  - generic [ref=e495]: "4"
+                - link "5" [ref=e496] [cursor=pointer]:
+                  - /url: /search/men%20suit/?page=5
+                  - generic [ref=e498]: "5"
+                - link "6" [ref=e499] [cursor=pointer]:
+                  - /url: /search/men%20suit/?page=6
+                  - generic [ref=e501]: "6"
+                - link "Next" [ref=e502] [cursor=pointer]:
+                  - /url: /search/men%20suit/?page=2
+                  - generic [ref=e504]: Next
+    - contentinfo [ref=e506]:
+      - separator [ref=e507]
+      - generic [ref=e508]:
+        - generic [ref=e509]:
+          - heading "Where stories come together." [level=2] [ref=e510]
+          - generic [ref=e511]:
+            - link "Download on iOS" [ref=e512] [cursor=pointer]:
+              - /url: https://itunes.apple.com/us/app/pexels/id1434330413/
+              - generic [ref=e514]: Download on iOS
+            - link "Download on Android" [ref=e515] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=com.pexels.app
+              - generic [ref=e517]: Download on Android
+          - list [ref=e518]:
+            - listitem [ref=e519]:
+              - link "Instagram" [ref=e520] [cursor=pointer]:
+                - /url: https://www.instagram.com/pexels/
+                - img [ref=e521]
+            - listitem [ref=e523]:
+              - link "Threads" [ref=e524] [cursor=pointer]:
+                - /url: https://www.threads.net/@pexels/
+                - img [ref=e525]
+            - listitem [ref=e527]:
+              - link "YouTube" [ref=e528] [cursor=pointer]:
+                - /url: https://www.youtube.com/pexelsphotos/
+                - img [ref=e529]
+            - listitem [ref=e531]:
+              - link "TikTok" [ref=e532] [cursor=pointer]:
+                - /url: https://www.tiktok.com/@pexels/
+                - img [ref=e533]
+            - listitem [ref=e535]:
+              - link "LinkedIn" [ref=e536] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/pexels/
+                - img [ref=e537]
+            - listitem [ref=e539]:
+              - link "X" [ref=e540] [cursor=pointer]:
+                - /url: https://x.com/pexels/
+                - img [ref=e541]
+        - generic [ref=e543]:
+          - list [ref=e544]:
+            - heading "Pexels" [level=3] [ref=e545]
+            - listitem [ref=e546]:
+              - link "Free Stock Photos" [ref=e547] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e548]:
+              - link "Free Videos" [ref=e549] [cursor=pointer]:
+                - /url: /videos/
+            - listitem [ref=e550]:
+              - link "Popular searches" [ref=e551] [cursor=pointer]:
+                - /url: /popular-searches/
+            - listitem [ref=e552]:
+              - link "Collections" [ref=e553] [cursor=pointer]:
+                - /url: /discover/
+            - listitem [ref=e554]:
+              - link "Challenges" [ref=e555] [cursor=pointer]:
+                - /url: /challenges/
+            - listitem [ref=e556]:
+              - link "Leaderboard" [ref=e557] [cursor=pointer]:
+                - /url: /leaderboard/
+            - listitem [ref=e558]:
+              - link "Other plugins & apps" [ref=e559] [cursor=pointer]:
+                - /url: /pro/
+          - list [ref=e560]:
+            - heading "Company" [level=3] [ref=e561]
+            - listitem [ref=e562]:
+              - link "About" [ref=e563] [cursor=pointer]:
+                - /url: /about/
+            - listitem [ref=e564]:
+              - link "Blog" [ref=e565] [cursor=pointer]:
+                - /url: /blog/
+            - listitem [ref=e566]:
+              - link "Help Center" [ref=e567] [cursor=pointer]:
+                - /url: https://help.pexels.com/hc/en-us/
+            - listitem [ref=e568]:
+              - link "Report content" [ref=e569] [cursor=pointer]:
+                - /url: /report/
+            - listitem [ref=e570]:
+              - link "Become a Hero" [ref=e571] [cursor=pointer]:
+                - /url: /hero/
+            - listitem [ref=e572]:
+              - link "Partner with Pexels" [ref=e573] [cursor=pointer]:
+                - /url: /become-a-partner/
+            - listitem [ref=e574]:
+              - link "Image & Video API" [ref=e575] [cursor=pointer]:
+                - /url: /api/
+            - listitem [ref=e576]: Sign Up
+        - list [ref=e577]:
+          - listitem [ref=e578]:
+            - heading "Free Stock Photos" [level=3] [ref=e579]
+          - listitem [ref=e580]:
+            - generic [ref=e582]:
+              - link "Black and white photography" [ref=e584] [cursor=pointer]:
+                - /url: /search/black%20and%20white/
+              - link "Happy birthday images" [ref=e585] [cursor=pointer]:
+                - /url: /search/happy%20birthday/
+              - link "Free business videos" [ref=e586] [cursor=pointer]:
+                - /url: /search/videos/business/
+              - link "Happy new year images" [ref=e587] [cursor=pointer]:
+                - /url: /search/happy%20new%20year/
+              - link "Cool wallpapers" [ref=e588] [cursor=pointer]:
+                - /url: /search/cool%20wallpaper/
+              - link "Best HD wallpapers" [ref=e589] [cursor=pointer]:
+                - /url: /search/hd%20wallpaper/
+              - link "Galaxy wallpaper" [ref=e590] [cursor=pointer]:
+                - /url: /search/galaxy%20wallpaper/
+              - link "Lock screen wallpaper" [ref=e591] [cursor=pointer]:
+                - /url: /search/lock%20screen%20wallpaper/
+              - link "iPhone wallpaper" [ref=e592] [cursor=pointer]:
+                - /url: /search/iphone%20wallpaper/
+              - link "4K wallpaper" [ref=e593] [cursor=pointer]:
+                - /url: /search/4k%20wallpaper/
+              - link "Samsung wallpaper" [ref=e594] [cursor=pointer]:
+                - /url: /search/samsung%20wallpaper/
+              - link "Love wallpaper" [ref=e595] [cursor=pointer]:
+                - /url: /search/love%20wallpaper/
+              - link "Mobile wallpaper" [ref=e596] [cursor=pointer]:
+                - /url: /search/mobile%20wallpaper/
+      - generic [ref=e598]:
+        - generic [ref=e599]: © 2026 Pexels
+        - generic [ref=e601]:
+          - generic:
+            - img
+          - link "Terms of Use" [ref=e603] [cursor=pointer]:
+            - /url: /terms-of-service/
+          - link "Privacy Policy" [ref=e604] [cursor=pointer]:
+            - /url: /privacy-policy/
+          - link "License" [ref=e605] [cursor=pointer]:
+            - /url: /license/
+          - link "Imprint" [ref=e606] [cursor=pointer]:
+            - /url: /imprint/
+          - link "Cookies Policy" [ref=e607] [cursor=pointer]:
+            - /url: /cookies/
+          - generic:
+            - img
+        - button "English" [ref=e610] [cursor=pointer]:
+          - generic [ref=e611]:
+            - img [ref=e612]
+            - generic [ref=e614]: English
+      - separator [ref=e615]
+  - alert [ref=e616]
+  - status [ref=e617]: "[object Object] has been selected."
+  - region "Cookie banner" [ref=e618]:
+    - alertdialog "Confidentialité" [ref=e619]:
+      - generic [ref=e621]:
+        - paragraph [ref=e624]: En cliquant sur « Accepter tous les cookies », vous acceptez le stockage de cookies sur votre appareil pour améliorer la navigation sur le site, analyser son utilisation et contribuer à nos efforts de marketing.
+        - generic [ref=e626]:
+          - button "Paramètres des cookies" [active] [ref=e627] [cursor=pointer]
+          - button "Tout refuser" [ref=e628] [cursor=pointer]
+          - button "Autoriser tous les cookies" [ref=e629] [cursor=pointer]

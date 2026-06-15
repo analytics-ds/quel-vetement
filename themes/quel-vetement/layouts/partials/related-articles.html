@@ -6,28 +6,18 @@
   {{ if ne .File.Path $current.File.Path }}
     {{ $tagsShared := 0 }}
     {{ range .Params.tags | default slice }}{{ if in $currentTags . }}{{ $tagsShared = add $tagsShared 1 }}{{ end }}{{ end }}
-    {{ $vol := .Params.kwVolume | default 0 }}
     {{ $cat := index (.Params.categories | default slice) 0 | default "" }}
     {{ $catBonus := cond (and (ne $currentCat "") (eq $cat $currentCat)) 30 0 }}
-    {{ $score := add (mul $tagsShared 20) (add (div $vol 30) $catBonus) }}
-    {{ if or (gt $tagsShared 0) (eq $cat $currentCat) }}
-      {{ $candidates = $candidates | append (dict "page" . "score" $score) }}
-    {{ end }}
+    {{ $score := add (mul $tagsShared 20) $catBonus }}
+    {{ if or (gt $tagsShared 0) (eq $cat $currentCat) }}{{ $candidates = $candidates | append (dict "page" . "score" $score) }}{{ end }}
   {{ end }}
 {{ end }}
 {{ $top := first 3 (sort $candidates "score" "desc") }}
 {{ if ge (len $top) 2 }}
 <aside class="related-articles" aria-labelledby="related-heading">
   <h2 id="related-heading" class="related-heading">{{ i18n "related_title" }}</h2>
-  <div class="related-grid">
-    {{ range $top }}{{ with .page }}
-      <a class="related-card" href="{{ .RelPermalink }}">
-        <div class="related-card-body">
-          {{ with .Params.categories }}<span class="related-card-cat">{{ index . 0 }}</span>{{ end }}
-          <h3 class="related-card-title">{{ .Title }}</h3>
-        </div>
-      </a>
-    {{ end }}{{ end }}
+  <div class="grid-articles">
+    {{ range $top }}{{ with .page }}{{ partial "article-card.html" . }}{{ end }}{{ end }}
   </div>
 </aside>
 {{ end }}

@@ -1,0 +1,163 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Quel Vêtement" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e5]:
+        - link "Accueil" [ref=e6] [cursor=pointer]:
+          - /url: /
+        - link "Costume" [ref=e7] [cursor=pointer]:
+          - /url: /categories/costume/
+        - link "Lin" [ref=e8] [cursor=pointer]:
+          - /url: /categories/lin/
+        - link "Chemises" [ref=e9] [cursor=pointer]:
+          - /url: /categories/chemises/
+        - link "Pulls et gilets" [ref=e10] [cursor=pointer]:
+          - /url: /categories/pulls-et-gilets/
+        - link "Pantalons et jeans" [ref=e11] [cursor=pointer]:
+          - /url: /categories/pantalons-et-jeans/
+        - link "T-shirts et polos" [ref=e12] [cursor=pointer]:
+          - /url: /categories/t-shirts-et-polos/
+        - link "Vestes et manteaux" [ref=e13] [cursor=pointer]:
+          - /url: /categories/vestes-et-manteaux/
+        - link "Accessoires" [ref=e14] [cursor=pointer]:
+          - /url: /categories/accessoires/
+        - link "Le Blog" [ref=e15] [cursor=pointer]:
+          - /url: /blog/
+      - generic [ref=e16]:
+        - link "FR" [ref=e17] [cursor=pointer]:
+          - /url: /blog/costume/
+        - link "EN" [ref=e18] [cursor=pointer]:
+          - /url: /en/blog/suits/
+  - main [ref=e19]:
+    - article [ref=e20]:
+      - generic [ref=e22]:
+        - generic [ref=e23]:
+          - link "Costume" [ref=e24] [cursor=pointer]:
+            - /url: /categories/costume/
+          - time [ref=e25]: 15 June 2026
+          - generic [ref=e26]: 1 min de lecture
+        - 'heading "Comment choisir un costume homme : le guide complet" [level=1] [ref=e27]'
+        - paragraph [ref=e28]: Choisir un costume homme, c'est d'abord une histoire de coupe et de morphologie avant d'être une question de couleur.
+        - generic [ref=e29]: Par Maxime Coste
+        - generic [ref=e30]:
+          - link "#costume homme" [ref=e31] [cursor=pointer]:
+            - /url: /tags/costume-homme/
+          - link "#mode homme" [ref=e32] [cursor=pointer]:
+            - /url: /tags/mode-homme/
+          - link "#guide d'achat" [ref=e33] [cursor=pointer]:
+            - /url: /tags/guide-dachat/
+      - generic [ref=e35]:
+        - blockquote [ref=e36]:
+          - paragraph [ref=e37]:
+            - strong [ref=e38]: "En bref :"
+            - text: Choisir un costume homme, c’est d’abord une histoire de coupe et de morphologie avant d’être une question de couleur.
+        - heading "La coupe avant tout" [level=2] [ref=e39]
+        - paragraph [ref=e40]: La coupe décide de 80 % du rendu. Une épaule bien posée et une veste qui tombe droit valent mieux qu’un tissu cher mal ajusté.
+        - list [ref=e41]:
+          - listitem [ref=e42]: "Ajustée (slim) : pour les silhouettes fines"
+          - listitem [ref=e43]: "Droite (regular) : la valeur sûre, confortable"
+          - listitem [ref=e44]: "Cintrée : structure la taille sans serrer"
+        - heading "La bonne matière selon la saison" [level=2] [ref=e45]
+        - paragraph [ref=e46]: La laine reste la référence toute l’année. Le lin et le coton prennent le relais l’été, le flanelle l’hiver.
+        - paragraph [ref=e47]: Ce guide sera enrichi de comparatifs détaillés et de sélections de produits. En attendant, parcourez les autres catégories pour affiner vos choix.
+      - complementary "À lire aussi" [ref=e49]:
+        - heading "À lire aussi" [level=2] [ref=e50]
+        - generic [ref=e51]:
+          - 'link "Chemises Bien choisir sa chemise homme : coupes, cols et matières" [ref=e52] [cursor=pointer]':
+            - /url: /blog/chemises/
+            - generic [ref=e53]:
+              - text: Chemises
+              - 'heading "Bien choisir sa chemise homme : coupes, cols et matières" [level=3] [ref=e54]'
+          - link "Accessoires Les accessoires homme qui font la différence" [ref=e55] [cursor=pointer]:
+            - /url: /blog/accessoires/
+            - generic [ref=e56]:
+              - text: Accessoires
+              - heading "Les accessoires homme qui font la différence" [level=3] [ref=e57]
+          - 'link "Pantalons et jeans Pantalon ou jean : quelle coupe pour votre morphologie" [ref=e58] [cursor=pointer]':
+            - /url: /blog/pantalons-et-jeans/
+            - generic [ref=e59]:
+              - text: Pantalons et jeans
+              - 'heading "Pantalon ou jean : quelle coupe pour votre morphologie" [level=3] [ref=e60]'
+      - navigation [ref=e63]:
+        - link "Article précédent Les accessoires homme qui font la différence" [ref=e64] [cursor=pointer]:
+          - /url: /blog/accessoires/
+          - generic [ref=e65]: Article précédent
+          - generic [ref=e66]: Les accessoires homme qui font la différence
+        - 'link "Article suivant Bien choisir sa chemise homme : coupes, cols et matières" [ref=e67] [cursor=pointer]':
+          - /url: /blog/chemises/
+          - generic [ref=e68]: Article suivant
+          - generic [ref=e69]: "Bien choisir sa chemise homme : coupes, cols et matières"
+  - contentinfo [ref=e70]:
+    - generic [ref=e71]:
+      - generic [ref=e72]:
+        - generic [ref=e73]:
+          - heading "Quel Vêtement" [level=4] [ref=e74]
+          - paragraph [ref=e75]: Comparatifs, guides d'achat et conseils style pour bien choisir ses vêtements d'homme, du costume au lin.
+        - generic [ref=e76]:
+          - heading "Catégories" [level=4] [ref=e77]
+          - list [ref=e78]:
+            - listitem [ref=e79]:
+              - link "Accessoires" [ref=e80] [cursor=pointer]:
+                - /url: /categories/accessoires/
+            - listitem [ref=e81]:
+              - link "Accessories" [ref=e82] [cursor=pointer]:
+                - /url: /categories/accessories/
+            - listitem [ref=e83]:
+              - link "Chemises" [ref=e84] [cursor=pointer]:
+                - /url: /categories/chemises/
+            - listitem [ref=e85]:
+              - link "Costume" [ref=e86] [cursor=pointer]:
+                - /url: /categories/costume/
+            - listitem [ref=e87]:
+              - link "Jackets and Coats" [ref=e88] [cursor=pointer]:
+                - /url: /categories/jackets-and-coats/
+            - listitem [ref=e89]:
+              - link "Knitwear" [ref=e90] [cursor=pointer]:
+                - /url: /categories/knitwear/
+            - listitem [ref=e91]:
+              - link "Lin" [ref=e92] [cursor=pointer]:
+                - /url: /categories/lin/
+            - listitem [ref=e93]:
+              - link "Linen" [ref=e94] [cursor=pointer]:
+                - /url: /categories/linen/
+            - listitem [ref=e95]:
+              - link "Pantalons et jeans" [ref=e96] [cursor=pointer]:
+                - /url: /categories/pantalons-et-jeans/
+            - listitem [ref=e97]:
+              - link "Pulls et gilets" [ref=e98] [cursor=pointer]:
+                - /url: /categories/pulls-et-gilets/
+            - listitem [ref=e99]:
+              - link "Shirts" [ref=e100] [cursor=pointer]:
+                - /url: /categories/shirts/
+            - listitem [ref=e101]:
+              - link "Suits" [ref=e102] [cursor=pointer]:
+                - /url: /categories/suits/
+            - listitem [ref=e103]:
+              - link "T-Shirts and Polos" [ref=e104] [cursor=pointer]:
+                - /url: /categories/t-shirts-and-polos/
+            - listitem [ref=e105]:
+              - link "T-shirts et polos" [ref=e106] [cursor=pointer]:
+                - /url: /categories/t-shirts-et-polos/
+            - listitem [ref=e107]:
+              - link "Trousers and Jeans" [ref=e108] [cursor=pointer]:
+                - /url: /categories/trousers-and-jeans/
+            - listitem [ref=e109]:
+              - link "Vestes et manteaux" [ref=e110] [cursor=pointer]:
+                - /url: /categories/vestes-et-manteaux/
+        - generic [ref=e111]:
+          - heading "Informations" [level=4] [ref=e112]
+          - list [ref=e113]:
+            - listitem [ref=e114]:
+              - link "À propos" [ref=e115] [cursor=pointer]:
+                - /url: /a-propos/
+            - listitem [ref=e116]:
+              - link "Contact" [ref=e117] [cursor=pointer]:
+                - /url: /contact/
+            - listitem [ref=e118]:
+              - link "Mentions légales" [ref=e119] [cursor=pointer]:
+                - /url: /mentions-legales/
+            - listitem [ref=e120]:
+              - link "Plan du site" [ref=e121] [cursor=pointer]:
+                - /url: /plan-du-site/
+      - paragraph [ref=e123]: © 2026 Quel Vêtement. Tous droits réservés.

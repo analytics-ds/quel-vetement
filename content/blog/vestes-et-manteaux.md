@@ -1,4 +1,5 @@
 ---
+image: "/images/vestes.jpg"
 translationKey: "art-vestes-et-manteaux"
 title: "Veste ou manteau : le guide pour bien s'équiper"
 date: "2026-06-15"

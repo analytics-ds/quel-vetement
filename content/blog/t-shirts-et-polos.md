@@ -1,4 +1,5 @@
 ---
+image: "/images/tshirts.jpg"
 translationKey: "art-t-shirts-et-polos"
 title: "T-shirt ou polo : bien choisir son basique"
 date: "2026-06-15"

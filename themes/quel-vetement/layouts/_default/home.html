@@ -1,5 +1,5 @@
 {{ define "main" }}
-<section class="hero">
+<section class="hero" style="background-image: linear-gradient(rgba(27,42,74,0.62), rgba(27,42,74,0.72)), url('{{ "/images/hero.jpg" | relURL }}');">
     <div class="hero-content">
         <span class="hero-badge">{{ i18n "hero_badge" }}</span>
         <h1>{{ i18n "hero_title" }}</h1>
@@ -7,33 +7,29 @@
         <a href="{{ "blog/" | relLangURL }}" class="btn-primary">{{ i18n "explore_blog" }}</a>
     </div>
 </section>
+
 <section class="categories-section">
     <div class="container">
         <h2 class="section-title">{{ i18n "categories_title" }}</h2>
         <div class="grid-categories">
             {{ range .Site.Taxonomies.categories }}
-            <a href="{{ .Page.RelPermalink }}" class="category-card">
-                <h3>{{ .Page.Title }}</h3>
-                <span class="category-count">{{ .Count }} {{ if gt .Count 1 }}articles{{ else }}article{{ end }}</span>
+            <a href="{{ .Page.RelPermalink }}" class="category-card" style="background-image: linear-gradient(rgba(27,42,74,0.15), rgba(27,42,74,0.75)), url('{{ with .Page.Params.image }}{{ . | relURL }}{{ end }}');">
+                <div class="category-card-inner">
+                    <h3>{{ .Page.Title }}</h3>
+                    <span class="category-count">{{ .Count }} {{ if gt .Count 1 }}articles{{ else }}article{{ end }}</span>
+                </div>
             </a>
             {{ end }}
         </div>
     </div>
 </section>
+
 <section class="latest-section">
     <div class="container">
         <h2 class="section-title">{{ i18n "latest_title" }}</h2>
         <div class="grid-articles">
             {{ range first 6 (where .Site.RegularPages "Section" "blog") }}
-            <article class="article-card">
-                <div class="article-meta">
-                    {{ with .Params.categories }}<span class="article-category">{{ index . 0 }}</span>{{ end }}
-                    <time>{{ .Date.Format "2 January 2006" }}</time>
-                </div>
-                <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-                <p>{{ .Description }}</p>
-                <a href="{{ .RelPermalink }}" class="read-more">{{ i18n "read_more" }}</a>
-            </article>
+            {{ partial "article-card.html" . }}
             {{ end }}
         </div>
     </div>

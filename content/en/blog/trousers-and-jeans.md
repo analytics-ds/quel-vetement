@@ -1,4 +1,5 @@
 ---
+image: "/images/pantalons.jpg"
 title: "Trousers or jeans: which cut for your build"
 translationKey: "art-pantalons-et-jeans"
 date: "2026-06-15"

@@ -1,4 +1,5 @@
 ---
+image: "/images/accessoires.jpg"
 translationKey: "art-accessoires"
 title: "Les accessoires homme qui font la différence"
 date: "2026-06-15"

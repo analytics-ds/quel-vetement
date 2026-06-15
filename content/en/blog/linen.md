@@ -1,4 +1,5 @@
 ---
+image: "/images/lin.jpg"
 title: "Men's linen clothing: the guide to wearing it well"
 translationKey: "art-lin"
 date: "2026-06-15"

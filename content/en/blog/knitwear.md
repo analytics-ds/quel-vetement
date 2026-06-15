@@ -1,4 +1,5 @@
 ---
+image: "/images/pulls.jpg"
 title: "Jumper or cardigan: which knit to choose for winter"
 translationKey: "art-pulls-et-gilets"
 date: "2026-06-15"
