@@ -127,12 +127,16 @@ jQuery(document).ready(function($){
 <style class="megamenu-css">/** Mega Menu CSS: fs **/</style>
 <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,700;1,6..96,400&family=Jost:wght@400;500&display=swap" rel="stylesheet"><style id="qv-vogue">
 .site-title,.site-title a,h1,h2,h3,h4,.entry-title,.entry-title a{font-family:"Bodoni Moda",Didot,"Bodoni 72","Times New Roman",serif !important;font-optical-sizing:auto;}
-.site-title a{font-size:2.5rem !important;font-weight:500 !important;letter-spacing:4px !important;text-transform:uppercase !important;line-height:1 !important;}
+.site-title a{font-size:2.2rem !important;font-weight:500 !important;letter-spacing:3px !important;text-transform:uppercase !important;line-height:1.05 !important;}
 .entry-title,.entry-title a{font-weight:500 !important;}
-.mega-menu-link{font-family:"Jost",sans-serif !important;font-size:.9rem !important;letter-spacing:1.6px !important;}
+.mega-menu-link{font-family:"Jost",sans-serif !important;font-size:.8rem !important;letter-spacing:.8px !important;}
 #mega-menu-wrap-primary .mega-menu-row,.section-header{padding-top:1.4rem !important;padding-bottom:1.4rem !important;}
+/* dropdowns supprimés (contenu d'origine incohérent) + flèches */
+.mega-sub-menu{display:none !important;}
+.mega-indicator{display:none !important;}
+.mega-menu-item-has-children>.mega-menu-link{pointer-events:auto;}
 /* préserver les icônes Font Awesome */
-i[class*="fa-"],span[class*="fa-"],[class*="fa-"]::before,.fa,.fas,.far,.fab,.mega-indicator::before{font-family:"Font Awesome 6 Free","Font Awesome 6 Brands","Font Awesome 5 Free","Font Awesome 5 Brands",FontAwesome !important;}
+i[class*="fa-"],span[class*="fa-"],[class*="fa-"]::before,.fa,.fas,.far,.fab{font-family:"Font Awesome 6 Free","Font Awesome 6 Brands","Font Awesome 5 Free","Font Awesome 5 Brands",FontAwesome !important;}
 </style></head>
 
 <body class="home blog wp-theme-quel-vetement fashion-jackson mega-menu-primary">
