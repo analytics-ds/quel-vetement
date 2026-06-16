@@ -1,0 +1,444 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - navigation [ref=e6]:
+      - link [ref=e8] [cursor=pointer]:
+        - /url: /
+        - img [ref=e9]
+      - search [ref=e13]:
+        - generic [ref=e14]:
+          - button "Photos" [ref=e16] [cursor=pointer]:
+            - generic [ref=e17]:
+              - img [ref=e18]
+              - generic [ref=e21]: Photos
+              - img [ref=e22]
+          - searchbox "Search for free photos" [ref=e24]: stylish woman portrait
+          - button [ref=e26] [cursor=pointer]:
+            - img [ref=e28]
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - link "Explore" [ref=e32] [cursor=pointer]:
+            - /url: /discover/
+            - generic [ref=e33]: Explore
+          - img [ref=e34]
+        - link "License" [ref=e36] [cursor=pointer]:
+          - /url: /license/
+          - generic [ref=e37]: License
+        - button [ref=e39] [cursor=pointer]:
+          - img [ref=e40]
+        - button "Join" [ref=e42] [cursor=pointer]:
+          - generic [ref=e44]: Join
+    - main [ref=e45]:
+      - generic [ref=e46]:
+        - generic [ref=e50]:
+          - paragraph [ref=e52] [cursor=pointer]: Any
+          - generic [ref=e53] [cursor=pointer]:
+            - img [ref=e55]
+            - paragraph [ref=e57]: Horizontal
+          - generic [ref=e58] [cursor=pointer]:
+            - img [ref=e60]
+            - paragraph [ref=e62]: Vertical
+          - generic [ref=e63] [cursor=pointer]:
+            - img [ref=e65]
+            - paragraph [ref=e67]: Square
+        - generic [ref=e71]:
+          - paragraph [ref=e73] [cursor=pointer]: Any
+          - paragraph [ref=e75] [cursor=pointer]: "0"
+          - generic [ref=e76] [cursor=pointer]:
+            - img [ref=e78]
+            - paragraph [ref=e80]: "1"
+          - generic [ref=e81] [cursor=pointer]:
+            - img [ref=e83]
+            - paragraph [ref=e85]: "2"
+          - generic [ref=e86] [cursor=pointer]:
+            - img [ref=e88]
+            - paragraph [ref=e90]: 3+
+        - generic [ref=e94]:
+          - paragraph [ref=e96] [cursor=pointer]: Any
+          - generic [ref=e97] [cursor=pointer]:
+            - img [ref=e99]
+            - paragraph [ref=e101]: Baby
+          - generic [ref=e102] [cursor=pointer]:
+            - img [ref=e104]
+            - paragraph [ref=e106]: Child
+          - generic [ref=e107] [cursor=pointer]:
+            - img [ref=e109]
+            - paragraph [ref=e111]: Teenager
+          - generic [ref=e112] [cursor=pointer]:
+            - img [ref=e114]
+            - paragraph [ref=e116]: Adult
+          - generic [ref=e117] [cursor=pointer]:
+            - img [ref=e119]
+            - paragraph [ref=e121]: Senior adult
+        - generic [ref=e124]:
+          - generic [ref=e125]:
+            - slider [ref=e128] [cursor=pointer]
+            - slider [ref=e129] [cursor=pointer]
+          - generic [ref=e130]:
+            - generic [ref=e131]:
+              - paragraph [ref=e132]: Minimum
+              - paragraph [ref=e133]: 1,080px
+            - generic [ref=e134]:
+              - paragraph [ref=e135]: Maximum
+              - paragraph [ref=e136]: 20,000px+
+        - generic [ref=e139]:
+          - generic [ref=e140]:
+            - slider [ref=e143] [cursor=pointer]
+            - slider [ref=e144] [cursor=pointer]
+          - generic [ref=e145]:
+            - generic [ref=e146]:
+              - paragraph [ref=e147]: Minimum
+              - paragraph [ref=e148]: 1,080px
+            - generic [ref=e149]:
+              - paragraph [ref=e150]: Maximum
+              - paragraph [ref=e151]: 20,000px+
+        - generic [ref=e155]:
+          - button [ref=e156] [cursor=pointer]:
+            - generic [ref=e157]:
+              - textbox [ref=e162]:
+                - /placeholder: Enter hex code
+              - img [ref=e163]
+          - button [ref=e165] [cursor=pointer]:
+            - generic [ref=e166]:
+              - img [ref=e167]
+              - textbox [ref=e171]: "#000000"
+        - generic [ref=e175]:
+          - paragraph [ref=e177] [cursor=pointer]: Any
+          - generic [ref=e178] [cursor=pointer]:
+            - img [ref=e180]
+            - paragraph [ref=e182]: Last 24 hours
+          - generic [ref=e183] [cursor=pointer]:
+            - img [ref=e185]
+            - paragraph [ref=e187]: Last week
+          - generic [ref=e188] [cursor=pointer]:
+            - img [ref=e190]
+            - paragraph [ref=e192]: Last month
+          - generic [ref=e193] [cursor=pointer]:
+            - img [ref=e195]
+            - paragraph [ref=e197]: Last year
+        - main "main-content" [ref=e198]:
+          - generic [ref=e199]:
+            - generic [ref=e200]:
+              - heading "Choose your language:" [level=5] [ref=e201]
+              - generic [ref=e203]:
+                - link "English English" [ref=e205] [cursor=pointer]:
+                  - /url: /search/stylish%20woman%20portrait/
+                  - generic [ref=e206]:
+                    - img "English" [ref=e207]
+                    - generic [ref=e208]: English
+                - link "Français Français" [ref=e209] [cursor=pointer]:
+                  - /url: /fr-fr/chercher/stylish%20woman%20portrait/
+                  - generic [ref=e210]:
+                    - img "Français" [ref=e211]
+                    - generic [ref=e212]: Français
+                - button [ref=e213] [cursor=pointer]:
+                  - img [ref=e215]
+            - heading "Free Stylish Woman Portrait Photos" [level=1] [ref=e220]
+            - generic [ref=e223]:
+              - generic:
+                - img
+              - link "Photos 1.2M" [ref=e225] [cursor=pointer]:
+                - /url: /search/stylish%20woman%20portrait/
+                - text: Photos
+                - generic [ref=e226]: 1.2M
+              - link "Videos 141.5K" [ref=e227] [cursor=pointer]:
+                - /url: /search/videos/stylish%20woman%20portrait/
+                - text: Videos
+                - generic [ref=e228]: 141.5K
+              - link "Users 1.4K" [ref=e229] [cursor=pointer]:
+                - /url: /search/users/stylish%20woman%20portrait/
+                - text: Users
+                - generic [ref=e230]: 1.4K
+              - generic:
+                - img
+            - button "Filters" [ref=e234] [cursor=pointer]:
+              - generic [ref=e240]: Filters
+            - generic [ref=e241]:
+              - generic [ref=e243]:
+                - generic [ref=e244]:
+                  - article [ref=e247]:
+                    - link "Free Portrait of a woman wearing a black leather jacket and turtleneck indoors, looking thoughtful. Stock Photo" [ref=e248] [cursor=pointer]:
+                      - /url: /photo/portrait-of-a-woman-in-a-black-leather-jacket-11548432/
+                      - img "Free Portrait of a woman wearing a black leather jacket and turtleneck indoors, looking thoughtful. Stock Photo" [ref=e249]
+                  - article [ref=e254]:
+                    - link "Free Fashionable woman poses in urban setting wearing a white jacket and green sunglasses. Stock Photo" [ref=e255] [cursor=pointer]:
+                      - /url: /photo/young-brunette-woman-in-green-sunglasses-holding-her-jacket-18742626/
+                      - img "Free Fashionable woman poses in urban setting wearing a white jacket and green sunglasses. Stock Photo" [ref=e256]
+                  - article [ref=e261]:
+                    - link "Free Portrait of a fashionable woman wearing sunglasses and braids outdoors. Stock Photo" [ref=e262] [cursor=pointer]:
+                      - /url: /photo/stylish-woman-with-sunglasses-in-outdoor-setting-29834168/
+                      - img "Free Portrait of a fashionable woman wearing sunglasses and braids outdoors. Stock Photo" [ref=e263]
+                  - link [ref=e267] [cursor=pointer]:
+                    - /url: /collections/portraits-rs32squ/
+                    - article [ref=e268]:
+                      - list [ref=e270]:
+                        - listitem [ref=e271]:
+                          - img [ref=e272]
+                        - listitem [ref=e273]:
+                          - img [ref=e274]
+                        - listitem [ref=e275]:
+                          - img [ref=e276]
+                      - generic [ref=e277]:
+                        - heading "Portraits" [level=4] [ref=e278]
+                        - generic [ref=e279]:
+                          - img [ref=e280]
+                          - paragraph [ref=e282]: "111"
+                  - article [ref=e285]:
+                    - link "Free Fashionable woman with curly hair and sunglasses posing on a city street in Tbilisi, Georgia. Stock Photo" [ref=e286] [cursor=pointer]:
+                      - /url: /photo/stylish-woman-posing-on-urban-street-in-tbilisi-33515400/
+                      - img "Free Fashionable woman with curly hair and sunglasses posing on a city street in Tbilisi, Georgia. Stock Photo" [ref=e287]
+                  - article [ref=e292]:
+                    - link "Free Stylish monochrome portrait of a woman in sunglasses and headscarf, exuding classic elegance. Stock Photo" [ref=e293] [cursor=pointer]:
+                      - /url: /photo/woman-in-white-long-sleeves-wearing-sunglasses-13234226/
+                      - img "Free Stylish monochrome portrait of a woman in sunglasses and headscarf, exuding classic elegance. Stock Photo" [ref=e294]
+                - generic [ref=e297]:
+                  - article [ref=e300]:
+                    - link "Free Stylish red-haired woman leans against a wall in an urban setting. Modern and fashionable. Stock Photo" [ref=e301] [cursor=pointer]:
+                      - /url: /photo/urban-portrait-of-a-woman-in-a-leather-jacket-36484175/
+                      - img "Free Stylish red-haired woman leans against a wall in an urban setting. Modern and fashionable. Stock Photo" [ref=e302]
+                  - article [ref=e307]:
+                    - link "Free Elegant woman in fashionable attire posing indoors during nighttime. Stock Photo" [ref=e308] [cursor=pointer]:
+                      - /url: /photo/stylish-woman-in-modern-indoor-setting-at-night-31824860/
+                      - img "Free Elegant woman in fashionable attire posing indoors during nighttime. Stock Photo" [ref=e309]
+                  - article [ref=e314]:
+                    - link "Free Elegant senior woman with short blonde hair posing confidently indoors. Stock Photo" [ref=e315] [cursor=pointer]:
+                      - /url: /photo/woman-with-blond-short-hair-posing-with-her-hands-in-her-pockets-7959660/
+                      - img "Free Elegant senior woman with short blonde hair posing confidently indoors. Stock Photo" [ref=e316]
+                  - article [ref=e321]:
+                    - link "Free Woman in a black coat smiling while enjoying coffee outdoors at a cafe table. Stock Photo" [ref=e322] [cursor=pointer]:
+                      - /url: /photo/woman-sitting-at-table-20636759/
+                      - img "Free Woman in a black coat smiling while enjoying coffee outdoors at a cafe table. Stock Photo" [ref=e323]
+                  - article [ref=e328]:
+                    - link "Free Portrait of a stylish senior woman wearing jewelry and eyeglasses, expressing joy with a warm smile. Stock Photo" [ref=e329] [cursor=pointer]:
+                      - /url: /photo/photo-of-woman-holding-her-eyeglasses-7874270/
+                      - img "Free Portrait of a stylish senior woman wearing jewelry and eyeglasses, expressing joy with a warm smile. Stock Photo" [ref=e330]
+                  - article [ref=e335]:
+                    - link "Free Black and white portrait of a woman in a stylish black suit, exuding elegance and fashion. Stock Photo" [ref=e336] [cursor=pointer]:
+                      - /url: /photo/portrait-of-brunette-woman-in-black-and-white-18384562/
+                      - img "Free Black and white portrait of a woman in a stylish black suit, exuding elegance and fashion. Stock Photo" [ref=e337]
+                  - article [ref=e342]:
+                    - link "Free A gothic woman in stylish sunglasses poses against a graffiti backdrop in Ciudad de México. Stock Photo" [ref=e343] [cursor=pointer]:
+                      - /url: /photo/gothic-woman-in-sunglasses-posing-outdoors-35643489/
+                      - img "Free A gothic woman in stylish sunglasses poses against a graffiti backdrop in Ciudad de México. Stock Photo" [ref=e344]
+                - generic [ref=e347]:
+                  - article [ref=e350]:
+                    - link "Free Stylish black and white portrait of a woman in sunglasses and a scarf. Stock Photo" [ref=e351] [cursor=pointer]:
+                      - /url: /photo/portrait-of-a-woman-with-sunglasses-13234223/
+                      - img "Free Stylish black and white portrait of a woman in sunglasses and a scarf. Stock Photo" [ref=e352]
+                  - article [ref=e357]:
+                    - link "Free A fashionable senior woman in chic attire, surrounded by indoor plants. Stock Photo" [ref=e358] [cursor=pointer]:
+                      - /url: /photo/high-angle-photo-of-a-chic-grandma-7874260/
+                      - img "Free A fashionable senior woman in chic attire, surrounded by indoor plants. Stock Photo" [ref=e359]
+                  - article [ref=e364]:
+                    - link "Free Portrait of a woman in a beige dress standing confidently in nature under a blue sky. Stock Photo" [ref=e365] [cursor=pointer]:
+                      - /url: /photo/a-woman-in-white-spaghetti-strap-dress-13301470/
+                      - img "Free Portrait of a woman in a beige dress standing confidently in nature under a blue sky. Stock Photo" [ref=e366]
+                  - article [ref=e371]:
+                    - link "Free A fashionable woman with red hair, wearing sunglasses and pearls, poses confidently. Stock Photo" [ref=e372] [cursor=pointer]:
+                      - /url: /photo/stylish-woman-with-red-hair-and-sunglasses-32181770/
+                      - img "Free A fashionable woman with red hair, wearing sunglasses and pearls, poses confidently. Stock Photo" [ref=e373]
+                  - article [ref=e378]:
+                    - link "Free Stylish woman posing with sunglasses, scarf, and classic fashion elements. Stock Photo" [ref=e379] [cursor=pointer]:
+                      - /url: /photo/a-woman-in-a-scarf-and-sunglasses-is-posing-for-a-portrait-27228770/
+                      - img "Free Stylish woman posing with sunglasses, scarf, and classic fashion elements. Stock Photo" [ref=e380]
+                  - article [ref=e385]:
+                    - link "Free Black and white portrait of a stylish woman in sunglasses and scarf, exuding elegance. Stock Photo" [ref=e386] [cursor=pointer]:
+                      - /url: /photo/fashion-editorial-portrait-27902336/
+                      - img "Free Black and white portrait of a stylish woman in sunglasses and scarf, exuding elegance. Stock Photo" [ref=e387]
+                - generic [ref=e390]:
+                  - article [ref=e393]:
+                    - link "Free Elegant black and white portrait of a woman seated indoors with a classic look. Stock Photo" [ref=e394] [cursor=pointer]:
+                      - /url: /photo/elegant-woman-seated-in-black-and-white-portrait-33947129/
+                      - img "Free Elegant black and white portrait of a woman seated indoors with a classic look. Stock Photo" [ref=e395]
+                  - article [ref=e400]:
+                    - link "Free Elegant woman wearing sunglasses poses against historic architecture in Baku, Azerbaijan. Stock Photo" [ref=e401] [cursor=pointer]:
+                      - /url: /photo/stylish-woman-in-black-dress-posing-outdoors-37640514/
+                      - img "Free Elegant woman wearing sunglasses poses against historic architecture in Baku, Azerbaijan. Stock Photo" [ref=e402]
+                  - article [ref=e407]:
+                    - link "Free Elegant woman with brown hair posing outdoors in a checkered coat, holding sunglasses. Stock Photo" [ref=e408] [cursor=pointer]:
+                      - /url: /photo/young-beautiful-woman-posing-in-checked-oversized-coat-17500754/
+                      - img "Free Elegant woman with brown hair posing outdoors in a checkered coat, holding sunglasses. Stock Photo" [ref=e409]
+                  - article [ref=e414]:
+                    - link "Free Elegant portrait of a senior woman wearing a trench coat outdoors. Stylish and poised. Stock Photo" [ref=e415] [cursor=pointer]:
+                      - /url: /photo/beautiful-elderly-woman-wearing-brown-coat-10059065/
+                      - img "Free Elegant portrait of a senior woman wearing a trench coat outdoors. Stylish and poised. Stock Photo" [ref=e416]
+                  - article [ref=e421]:
+                    - link "Free Elegant studio portrait of a woman in winter fashion, showcasing a chic knit cap and sweater. Stock Photo" [ref=e422] [cursor=pointer]:
+                      - /url: /photo/woman-in-black-knit-cap-and-sweater-4510111/
+                      - img "Free Elegant studio portrait of a woman in winter fashion, showcasing a chic knit cap and sweater. Stock Photo" [ref=e423]
+                  - article [ref=e428]:
+                    - link "Free Elegant portrait of a young woman with blonde hair in a black coat against a green background. Stock Photo" [ref=e429] [cursor=pointer]:
+                      - /url: /photo/stylish-portrait-of-a-young-woman-with-blonde-hair-37468749/
+                      - img "Free Elegant portrait of a young woman with blonde hair in a black coat against a green background. Stock Photo" [ref=e430]
+              - button "Load More" [ref=e434] [cursor=pointer]:
+                - generic [ref=e436]: Load More
+            - navigation [ref=e437]:
+              - generic [ref=e439]:
+                - link "1" [ref=e441]:
+                  - /url: /search/stylish%20woman%20portrait/
+                  - generic [ref=e443]: "1"
+                - link "2" [ref=e444] [cursor=pointer]:
+                  - /url: /search/stylish%20woman%20portrait/?page=2
+                  - generic [ref=e446]: "2"
+                - link "3" [ref=e447] [cursor=pointer]:
+                  - /url: /search/stylish%20woman%20portrait/?page=3
+                  - generic [ref=e449]: "3"
+                - link "4" [ref=e450] [cursor=pointer]:
+                  - /url: /search/stylish%20woman%20portrait/?page=4
+                  - generic [ref=e452]: "4"
+                - link "5" [ref=e453] [cursor=pointer]:
+                  - /url: /search/stylish%20woman%20portrait/?page=5
+                  - generic [ref=e455]: "5"
+                - link "6" [ref=e456] [cursor=pointer]:
+                  - /url: /search/stylish%20woman%20portrait/?page=6
+                  - generic [ref=e458]: "6"
+                - link "Next" [ref=e459] [cursor=pointer]:
+                  - /url: /search/stylish%20woman%20portrait/?page=2
+                  - generic [ref=e461]: Next
+    - contentinfo [ref=e463]:
+      - separator [ref=e464]
+      - generic [ref=e465]:
+        - generic [ref=e466]:
+          - heading "Where stories come together." [level=2] [ref=e467]
+          - generic [ref=e468]:
+            - link "Download on iOS" [ref=e469] [cursor=pointer]:
+              - /url: https://itunes.apple.com/us/app/pexels/id1434330413/
+              - generic [ref=e471]: Download on iOS
+            - link "Download on Android" [ref=e472] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=com.pexels.app
+              - generic [ref=e474]: Download on Android
+          - list [ref=e475]:
+            - listitem [ref=e476]:
+              - link "Instagram" [ref=e477] [cursor=pointer]:
+                - /url: https://www.instagram.com/pexels/
+                - img [ref=e478]
+            - listitem [ref=e480]:
+              - link "Threads" [ref=e481] [cursor=pointer]:
+                - /url: https://www.threads.net/@pexels/
+                - img [ref=e482]
+            - listitem [ref=e484]:
+              - link "YouTube" [ref=e485] [cursor=pointer]:
+                - /url: https://www.youtube.com/pexelsphotos/
+                - img [ref=e486]
+            - listitem [ref=e488]:
+              - link "TikTok" [ref=e489] [cursor=pointer]:
+                - /url: https://www.tiktok.com/@pexels/
+                - img [ref=e490]
+            - listitem [ref=e492]:
+              - link "LinkedIn" [ref=e493] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/pexels/
+                - img [ref=e494]
+            - listitem [ref=e496]:
+              - link "X" [ref=e497] [cursor=pointer]:
+                - /url: https://x.com/pexels/
+                - img [ref=e498]
+        - generic [ref=e500]:
+          - list [ref=e501]:
+            - heading "Pexels" [level=3] [ref=e502]
+            - listitem [ref=e503]:
+              - link "Free Stock Photos" [ref=e504] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e505]:
+              - link "Free Videos" [ref=e506] [cursor=pointer]:
+                - /url: /videos/
+            - listitem [ref=e507]:
+              - link "Popular searches" [ref=e508] [cursor=pointer]:
+                - /url: /popular-searches/
+            - listitem [ref=e509]:
+              - link "Collections" [ref=e510] [cursor=pointer]:
+                - /url: /discover/
+            - listitem [ref=e511]:
+              - link "Challenges" [ref=e512] [cursor=pointer]:
+                - /url: /challenges/
+            - listitem [ref=e513]:
+              - link "Leaderboard" [ref=e514] [cursor=pointer]:
+                - /url: /leaderboard/
+            - listitem [ref=e515]:
+              - link "Other plugins & apps" [ref=e516] [cursor=pointer]:
+                - /url: /pro/
+          - list [ref=e517]:
+            - heading "Company" [level=3] [ref=e518]
+            - listitem [ref=e519]:
+              - link "About" [ref=e520] [cursor=pointer]:
+                - /url: /about/
+            - listitem [ref=e521]:
+              - link "Blog" [ref=e522] [cursor=pointer]:
+                - /url: /blog/
+            - listitem [ref=e523]:
+              - link "Help Center" [ref=e524] [cursor=pointer]:
+                - /url: https://help.pexels.com/hc/en-us/
+            - listitem [ref=e525]:
+              - link "Report content" [ref=e526] [cursor=pointer]:
+                - /url: /report/
+            - listitem [ref=e527]:
+              - link "Become a Hero" [ref=e528] [cursor=pointer]:
+                - /url: /hero/
+            - listitem [ref=e529]:
+              - link "Partner with Pexels" [ref=e530] [cursor=pointer]:
+                - /url: /become-a-partner/
+            - listitem [ref=e531]:
+              - link "Image & Video API" [ref=e532] [cursor=pointer]:
+                - /url: /api/
+            - listitem [ref=e533]: Sign Up
+        - list [ref=e534]:
+          - listitem [ref=e535]:
+            - heading "Free Stock Photos" [level=3] [ref=e536]
+          - listitem [ref=e537]:
+            - generic [ref=e539]:
+              - link "Black and white photography" [ref=e541] [cursor=pointer]:
+                - /url: /search/black%20and%20white/
+              - link "Happy birthday images" [ref=e542] [cursor=pointer]:
+                - /url: /search/happy%20birthday/
+              - link "Free business videos" [ref=e543] [cursor=pointer]:
+                - /url: /search/videos/business/
+              - link "Happy new year images" [ref=e544] [cursor=pointer]:
+                - /url: /search/happy%20new%20year/
+              - link "Cool wallpapers" [ref=e545] [cursor=pointer]:
+                - /url: /search/cool%20wallpaper/
+              - link "Best HD wallpapers" [ref=e546] [cursor=pointer]:
+                - /url: /search/hd%20wallpaper/
+              - link "Galaxy wallpaper" [ref=e547] [cursor=pointer]:
+                - /url: /search/galaxy%20wallpaper/
+              - link "Lock screen wallpaper" [ref=e548] [cursor=pointer]:
+                - /url: /search/lock%20screen%20wallpaper/
+              - link "iPhone wallpaper" [ref=e549] [cursor=pointer]:
+                - /url: /search/iphone%20wallpaper/
+              - link "4K wallpaper" [ref=e550] [cursor=pointer]:
+                - /url: /search/4k%20wallpaper/
+              - link "Samsung wallpaper" [ref=e551] [cursor=pointer]:
+                - /url: /search/samsung%20wallpaper/
+              - link "Love wallpaper" [ref=e552] [cursor=pointer]:
+                - /url: /search/love%20wallpaper/
+              - link "Mobile wallpaper" [ref=e553] [cursor=pointer]:
+                - /url: /search/mobile%20wallpaper/
+      - generic [ref=e555]:
+        - generic [ref=e556]: © 2026 Pexels
+        - generic [ref=e558]:
+          - generic:
+            - img
+          - link "Terms of Use" [ref=e560] [cursor=pointer]:
+            - /url: /terms-of-service/
+          - link "Privacy Policy" [ref=e561] [cursor=pointer]:
+            - /url: /privacy-policy/
+          - link "License" [ref=e562] [cursor=pointer]:
+            - /url: /license/
+          - link "Imprint" [ref=e563] [cursor=pointer]:
+            - /url: /imprint/
+          - link "Cookies Policy" [ref=e564] [cursor=pointer]:
+            - /url: /cookies/
+          - generic:
+            - img
+        - button "English" [ref=e567] [cursor=pointer]:
+          - generic [ref=e568]:
+            - img [ref=e569]
+            - generic [ref=e571]: English
+      - separator [ref=e572]
+  - alert [ref=e573]
+  - region "Cookie banner" [ref=e574]:
+    - alertdialog "Confidentialité" [ref=e575]:
+      - generic [ref=e577]:
+        - paragraph [ref=e580]: En cliquant sur « Accepter tous les cookies », vous acceptez le stockage de cookies sur votre appareil pour améliorer la navigation sur le site, analyser son utilisation et contribuer à nos efforts de marketing.
+        - generic [ref=e582]:
+          - button "Paramètres des cookies" [active] [ref=e583] [cursor=pointer]
+          - button "Tout refuser" [ref=e584] [cursor=pointer]
+          - button "Autoriser tous les cookies" [ref=e585] [cursor=pointer]
+  - status [ref=e586]: "[object Object] has been selected."
