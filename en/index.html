@@ -20,13 +20,18 @@ a{color:inherit;text-decoration:none}
 .wrap{max-width:1240px;margin:0 auto;padding:0 28px}
 .eyebrow{font-family:var(--sans);text-transform:uppercase;letter-spacing:.22em;font-size:.66rem;color:var(--muted);font-weight:600}
 h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacing:.005em}
-/* header */
+/* double header : barre noire + bandeau blanc */
+.bartop{background:#0c0a08;color:#fff}
+.bartop .row{display:flex;align-items:center;justify-content:space-between;height:40px;font-family:var(--sans);font-size:.66rem;letter-spacing:.16em;text-transform:uppercase}
+.bartop .lang a{color:#fff;opacity:.55;margin:0 .15rem}
+.bartop .lang a.on,.bartop .lang a:hover{opacity:1}
+.bartop .info{flex:1;text-align:center;padding:0 18px;opacity:.82;letter-spacing:.1em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bartop .soc{display:inline-flex;align-items:center}
+.bartop .soc a{color:#fff;opacity:.7;margin-left:15px;display:inline-flex;transition:opacity .2s}
+.bartop .soc a:hover{opacity:1}
+.bartop .soc svg{width:15px;height:15px;display:block}
 .top{border-bottom:1px solid var(--line)}
-.topbar{display:flex;align-items:center;justify-content:space-between;height:42px;font-family:var(--sans);font-size:.7rem;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
-.topbar a{opacity:.7}.topbar a:hover,.topbar a.on{opacity:1;color:var(--ink)}
-.lang a{margin:0 .15rem}
-.soc a{margin-left:1rem}
-.brand{text-align:center;padding:26px 0 18px}
+.brand{text-align:center;padding:24px 0 16px}
 .brand a{font-family:var(--sans);font-weight:700;text-transform:uppercase;letter-spacing:.34em;font-size:1.5rem}
 .nav{display:flex;justify-content:center;flex-wrap:wrap;gap:30px;padding-bottom:18px;font-family:var(--sans);font-size:.74rem;letter-spacing:.16em;text-transform:uppercase}
 .nav a{color:var(--ink);opacity:.78;transition:opacity .2s}.nav a:hover{opacity:1}
@@ -55,28 +60,36 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
 .edito{background:var(--ink);color:var(--paper);text-align:center;padding:96px 0}
 .edito .eyebrow{color:rgba(255,255,255,.55)}
 .edito blockquote{font-family:var(--serif);font-style:italic;font-size:clamp(1.4rem,2.6vw,2.05rem);line-height:1.4;max-width:880px;margin:22px auto 0}
-/* footer */
-.foot{background:#0c0a08;color:#cfc9c0;padding:70px 0 34px}
+/* footer en image sombre */
+.foot{position:relative;color:#e7e2d9;padding:150px 0 44px;overflow:hidden;background:#0c0a08}
+.foot:before{content:"";position:absolute;inset:0;background:url('/assets/uploads/qv-footer-bg.jpg') center/cover;opacity:.32}
+.foot:after{content:"";position:absolute;inset:0;background:linear-gradient(to bottom,rgba(10,8,6,.55) 0%,rgba(10,8,6,.82) 60%,rgba(8,6,4,.97) 100%)}
+.foot .wrap{position:relative;z-index:2}
 .foot .brand a{color:#fff}
 .foot .fnav{display:flex;flex-wrap:wrap;justify-content:center;gap:14px 30px;font-family:var(--sans);font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;margin:30px 0}
-.foot .fnav a{opacity:.75}.foot .fnav a:hover{opacity:1;color:#fff}
-.foot .soc{text-align:center;font-family:var(--sans);font-size:.72rem;letter-spacing:.18em;text-transform:uppercase}
-.foot .soc a{margin:0 12px;opacity:.75}.foot .soc a:hover{opacity:1;color:#fff}
-.foot .copy{text-align:center;font-family:var(--sans);font-size:.64rem;letter-spacing:.14em;text-transform:uppercase;color:#6b655c;margin-top:34px}
+.foot .fnav a{opacity:.8}.foot .fnav a:hover{opacity:1;color:#fff}
+.foot .soc{display:flex;justify-content:center;gap:22px}
+.foot .soc a{opacity:.78;display:inline-flex;transition:opacity .2s}.foot .soc a:hover{opacity:1}
+.foot .soc svg{width:18px;height:18px;display:block;color:#fff}
+.foot .copy{text-align:center;font-family:var(--sans);font-size:.64rem;letter-spacing:.14em;text-transform:uppercase;color:#9a9389;margin-top:34px}
+.foot .copy a{color:#cfc9c0}
 @media(max-width:920px){.grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:600px){.grid{grid-template-columns:1fr}.hero{height:78vh}.nav{gap:18px}}
 </style>
 </head>
 <body>
-<header class="top">
-  <div class="wrap">
-    <div class="topbar">
+<header>
+  <div class="bartop">
+    <div class="wrap"><div class="row">
       <span class="lang"><a href="/" class="">FR</a>/<a href="/en/" class="on">EN</a></span>
-      <span class="soc"><a href="https://www.instagram.com/quel-vetement/" target="_blank" rel="noopener">Instagram</a><a href="https://www.facebook.com/quel-vetement/" target="_blank" rel="noopener">Facebook</a><a href="https://twitter.com/quel-vetement/" target="_blank" rel="noopener">X</a></span>
-    </div>
+      <span class="info">Style, sharp advice and a little panache — every week.</span>
+      <span class="soc"><a href="https://www.instagram.com/quel-vetement/" target="_blank" rel="noopener" aria-label="instagram"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.43.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.43.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41-.56-.22-.96-.48-1.38-.9-.42-.42-.68-.82-.9-1.38-.16-.43-.36-1.06-.41-2.23C2.17 15.58 2.16 15.2 2.16 12s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.43-.16 1.06-.36 2.23-.41C8.42 2.17 8.8 2.16 12 2.16M12 0C8.74 0 8.33.01 7.05.07 5.78.13 4.9.33 4.14.63c-.79.31-1.46.72-2.12 1.38C1.35 2.67.94 3.34.63 4.14.33 4.9.13 5.78.07 7.05.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.06 1.27.26 2.15.56 2.91.31.79.72 1.46 1.38 2.12.66.66 1.33 1.07 2.12 1.38.76.3 1.64.5 2.91.56C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c1.27-.06 2.15-.26 2.91-.56.79-.31 1.46-.72 2.12-1.38.66-.66 1.07-1.33 1.38-2.12.3-.76.5-1.64.56-2.91.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.06-1.27-.26-2.15-.56-2.91-.31-.79-.72-1.46-1.38-2.12C21.33 1.35 20.66.94 19.86.63 19.1.33 18.22.13 16.95.07 15.67.01 15.26 0 12 0z"/><path d="M12 5.84A6.16 6.16 0 1018.16 12 6.16 6.16 0 0012 5.84zm0 10.16A4 4 0 1116 12a4 4 0 01-4 4z"/><circle cx="18.41" cy="5.59" r="1.44"/></svg></a><a href="https://www.facebook.com/quel-vetement/" target="_blank" rel="noopener" aria-label="facebook"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12.07C24 5.4 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.1 10.13 24v-8.44H7.08v-3.49h3.05V9.41c0-3.02 1.79-4.69 4.53-4.69 1.31 0 2.69.24 2.69.24v2.97h-1.52c-1.49 0-1.96.93-1.96 1.89v2.25h3.33l-.53 3.49h-2.8V24C19.61 23.1 24 18.1 24 12.07z"/></svg></a><a href="https://twitter.com/quel-vetement/" target="_blank" rel="noopener" aria-label="x"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.24 2.25h3.31l-7.23 8.26 8.5 11.24h-6.66l-5.22-6.82-5.97 6.82H1.66l7.73-8.84L1.24 2.25h6.83l4.71 6.23 5.46-6.23zm-1.16 17.52h1.83L7.01 4.13H5.05l12.03 15.64z"/></svg></a></span>
+    </div></div>
+  </div>
+  <div class="top"><div class="wrap">
     <div class="brand"><a href="/en/">Quel Vêtement</a></div>
     <nav class="nav"><a href="/category/fashion/">Style</a><a href="/category/grooming/">Grooming</a><a href="/category/watches/">Watches</a><a href="/category/lifestyle/">Lifestyle</a><a href="/category/fashion/mens-clothing-brands/">Buying Guides</a><a href="/about/">About</a></nav>
-  </div>
+  </div></div>
 </header>
 
 <section class="hero">
@@ -107,7 +120,7 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
 <footer class="foot"><div class="wrap">
   <div class="brand"><a href="/en/">Quel Vêtement</a></div>
   <nav class="fnav"><a href="/category/fashion/">Men's Fashion</a><a href="/category/grooming/">Men's Grooming</a><a href="/category/fashion/">Men's Style</a><a href="/category/fashion/outfit-inspiration/">Outfits For Men</a><a href="/category/fashion/mens-clothing-brands/">Men's Clothing Brands</a><a href="/category/watches/">Men's Watches</a></nav>
-  <div class="soc"><a href="https://www.instagram.com/quel-vetement/" target="_blank" rel="noopener">Instagram</a><a href="https://www.facebook.com/quel-vetement/" target="_blank" rel="noopener">Facebook</a><a href="https://twitter.com/quel-vetement/" target="_blank" rel="noopener">X</a></div>
+  <div class="soc"><a href="https://www.instagram.com/quel-vetement/" target="_blank" rel="noopener" aria-label="instagram"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.43.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.43.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41-.56-.22-.96-.48-1.38-.9-.42-.42-.68-.82-.9-1.38-.16-.43-.36-1.06-.41-2.23C2.17 15.58 2.16 15.2 2.16 12s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.43-.16 1.06-.36 2.23-.41C8.42 2.17 8.8 2.16 12 2.16M12 0C8.74 0 8.33.01 7.05.07 5.78.13 4.9.33 4.14.63c-.79.31-1.46.72-2.12 1.38C1.35 2.67.94 3.34.63 4.14.33 4.9.13 5.78.07 7.05.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.06 1.27.26 2.15.56 2.91.31.79.72 1.46 1.38 2.12.66.66 1.33 1.07 2.12 1.38.76.3 1.64.5 2.91.56C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c1.27-.06 2.15-.26 2.91-.56.79-.31 1.46-.72 2.12-1.38.66-.66 1.07-1.33 1.38-2.12.3-.76.5-1.64.56-2.91.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.06-1.27-.26-2.15-.56-2.91-.31-.79-.72-1.46-1.38-2.12C21.33 1.35 20.66.94 19.86.63 19.1.33 18.22.13 16.95.07 15.67.01 15.26 0 12 0z"/><path d="M12 5.84A6.16 6.16 0 1018.16 12 6.16 6.16 0 0012 5.84zm0 10.16A4 4 0 1116 12a4 4 0 01-4 4z"/><circle cx="18.41" cy="5.59" r="1.44"/></svg></a><a href="https://www.facebook.com/quel-vetement/" target="_blank" rel="noopener" aria-label="facebook"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12.07C24 5.4 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.1 10.13 24v-8.44H7.08v-3.49h3.05V9.41c0-3.02 1.79-4.69 4.53-4.69 1.31 0 2.69.24 2.69.24v2.97h-1.52c-1.49 0-1.96.93-1.96 1.89v2.25h3.33l-.53 3.49h-2.8V24C19.61 23.1 24 18.1 24 12.07z"/></svg></a><a href="https://twitter.com/quel-vetement/" target="_blank" rel="noopener" aria-label="x"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.24 2.25h3.31l-7.23 8.26 8.5 11.24h-6.66l-5.22-6.82-5.97 6.82H1.66l7.73-8.84L1.24 2.25h6.83l4.71 6.23 5.46-6.23zm-1.16 17.52h1.83L7.01 4.13H5.05l12.03 15.64z"/></svg></a></div>
   <div class="copy">© Quel Vêtement 2026 — <a href="/privacy-policy/">Privacy Policy</a></div>
 </div></footer>
 </body>
