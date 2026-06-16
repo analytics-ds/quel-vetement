@@ -1,6 +1,0 @@
----
-image: "/images/accessoires.webp"
-translationKey: "cat-accessoires"
-title: "Accessoires"
-description: "Ceintures, écharpes, bonnets : les détails qui relèvent une tenue."
----
