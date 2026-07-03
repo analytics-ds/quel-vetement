@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Page introuvable - Quel Vêtement</title>
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="/__ext/use.typekit.net/bki1nqp.css">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--ink:#16130f;--paper:#fbfaf8;--muted:#8a8278;--line:#e9e4dc;--sans:"futura-pt",Helvetica,Arial,sans-serif;--serif:"minion-pro",Georgia,"Times New Roman",serif}
+html{-webkit-font-smoothing:antialiased}
+body{font-family:var(--serif);color:var(--ink);background:var(--paper);line-height:1.5;font-size:18px}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1240px;margin:0 auto;padding:0 28px}
+.eyebrow{font-family:var(--sans);text-transform:uppercase;letter-spacing:.22em;font-size:.66rem;color:var(--muted);font-weight:600}
+h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacing:.005em}
+/* double header : barre noire + bandeau blanc */
+.bartop{background:#0c0a08;color:#fff}
+.bartop .row{display:flex;align-items:center;justify-content:space-between;height:40px;font-family:var(--sans);font-size:.66rem;letter-spacing:.16em;text-transform:uppercase}
+.bartop .lang a{color:#fff;opacity:.55;margin:0 .15rem}
+.bartop .lang a.on,.bartop .lang a:hover{opacity:1}
+.bartop .info{flex:1;text-align:center;padding:0 18px;opacity:.82;letter-spacing:.1em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bartop .soc{display:inline-flex;align-items:center}
+.bartop .soc a{color:#fff;opacity:.7;margin-left:15px;display:inline-flex;transition:opacity .2s}
+.bartop .soc a:hover{opacity:1}
+.bartop .soc svg{width:15px;height:15px;display:block}
+.top{border-bottom:1px solid var(--line)}
+.brand{text-align:center;padding:24px 0 16px}
+.brand a{font-family:var(--sans);font-weight:700;text-transform:uppercase;letter-spacing:.34em;font-size:1.5rem}
+.nav{display:flex;justify-content:center;flex-wrap:wrap;gap:30px;padding-bottom:18px;font-family:var(--sans);font-size:.74rem;letter-spacing:.16em;text-transform:uppercase}
+.nav a{color:var(--ink);opacity:.78;transition:opacity .2s}.nav a:hover{opacity:1}
+/* hero */
+.hero{position:relative;height:90vh;min-height:560px;display:flex;align-items:flex-end;color:#fff;overflow:hidden}
+.hero .bg{position:absolute;inset:0;background-size:cover;background-position:center;transform:scale(1.02)}
+.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.72),rgba(0,0,0,.12) 55%,rgba(0,0,0,.28))}
+.hero .inner{position:relative;z-index:2;max-width:760px;padding:0 28px 64px;margin:0 auto;text-align:center;left:0;right:0}
+.hero .eyebrow{color:rgba(255,255,255,.85)}
+.hero h1{font-size:clamp(2.1rem,4.6vw,3.7rem);margin:.5rem 0 .9rem}
+.hero p{font-size:1.12rem;color:rgba(255,255,255,.9);max-width:620px;margin:0 auto 1.6rem}
+.btn{display:inline-block;font-family:var(--sans);text-transform:uppercase;letter-spacing:.2em;font-size:.72rem;font-weight:600;border:1px solid rgba(255,255,255,.8);padding:13px 26px;transition:.25s}
+.btn:hover{background:#fff;color:#111}
+/* sections */
+.sec{padding:74px 0}
+.sec-head{display:flex;align-items:baseline;justify-content:space-between;border-bottom:1px solid var(--line);padding-bottom:16px;margin-bottom:42px}
+.sec-head h2{font-size:1.7rem}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:42px 38px}
+.card .ph{aspect-ratio:4/3;overflow:hidden;background:#eee}
+.card .ph img{width:100%;height:100%;object-fit:cover;transition:transform .8s cubic-bezier(.2,.8,.2,1)}
+.card:hover .ph img{transform:scale(1.06)}
+.card h3{font-size:1.28rem;margin-top:18px}
+.card:hover h3{opacity:.62}
+.card .meta{margin-top:10px}
+/* page legale */
+.legal{max-width:760px}
+.legal h1{font-size:2.3rem;margin:.4rem 0 1.5rem}
+.legal h3{font-family:var(--sans);text-transform:uppercase;letter-spacing:.14em;font-size:.8rem;margin:1.9rem 0 .5rem}
+.legal p{color:#3a352e;margin-bottom:.6rem}
+/* edito band */
+.edito{background:var(--ink);color:var(--paper);text-align:center;padding:96px 0}
+.edito .eyebrow{color:rgba(255,255,255,.55)}
+.edito blockquote{font-family:var(--serif);font-style:italic;font-size:clamp(1.4rem,2.6vw,2.05rem);line-height:1.4;max-width:880px;margin:22px auto 0}
+/* footer en image sombre */
+.foot{position:relative;color:#e7e2d9;padding:150px 0 44px;overflow:hidden;background:#0c0a08}
+.foot:before{content:"";position:absolute;inset:0;background:url('/assets/uploads/qv-footer-bg.jpg') center/cover;opacity:.32}
+.foot:after{content:"";position:absolute;inset:0;background:linear-gradient(to bottom,rgba(10,8,6,.55) 0%,rgba(10,8,6,.82) 60%,rgba(8,6,4,.97) 100%)}
+.foot .wrap{position:relative;z-index:2}
+.foot .brand a{color:#fff}
+.foot .fnav{display:flex;flex-wrap:wrap;justify-content:center;gap:14px 30px;font-family:var(--sans);font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;margin:30px 0}
+.foot .fnav a{opacity:.8}.foot .fnav a:hover{opacity:1;color:#fff}
+.foot .soc{display:flex;justify-content:center;gap:22px}
+.foot .soc a{opacity:.78;display:inline-flex;transition:opacity .2s}.foot .soc a:hover{opacity:1}
+.foot .soc svg{width:18px;height:18px;display:block;color:#fff}
+.foot .copy{text-align:center;font-family:var(--sans);font-size:.64rem;letter-spacing:.14em;text-transform:uppercase;color:#9a9389;margin-top:34px}
+.foot .copy a{color:#cfc9c0}
+@media(max-width:920px){.grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){.grid{grid-template-columns:1fr}.hero{height:78vh}.nav{gap:18px}}
+</style>
+<style>.nf{max-width:760px;margin:0 auto;padding:90px 28px 110px;text-align:center}
+.nf h1{font-size:clamp(2rem,4vw,2.8rem);margin:0 0 18px}
+.nf p{color:#26221c;margin:0 0 26px}
+.nf a.btn{display:inline-block;border:1px solid var(--ink);padding:13px 26px;font-family:var(--sans);font-size:.72rem;letter-spacing:.18em;text-transform:uppercase}</style>
+</head>
+<body>
+<header>
+  <div class="bartop">
+    <div class="wrap"><div class="row">
+      <span class="lang"><a href="/" class="on">FR</a>/<a href="/en/" class="">EN</a></span>
+      <span class="info">Du style, des conseils et un peu de panache, chaque semaine.</span>
+    </div></div>
+  </div>
+  <div class="top"><div class="wrap">
+    <div class="brand"><a href="/">Quel Vêtement</a></div>
+    <nav class="nav"><a href="/">Mode homme</a><a href="/comment-choisir-un-costume-homme/">Costume</a><a href="/comment-porter-une-chemise-en-lin-homme/">Lin</a><a href="/comment-porter-un-short-homme/">Été</a><a href="/quelle-montre-porter-selon-sa-tenue/">Montres</a><a href="/a-propos/">À propos</a></nav>
+  </div></div>
+</header>
+<main class="nf">
+  <div class="eyebrow">Erreur 404</div>
+  <h1>Cette page n'existe pas (ou plus)</h1>
+  <p>Le contenu que vous cherchez a peut-être changé d'adresse. Le plus simple : repartir de l'accueil et ses guides de style.</p>
+  <a class="btn" href="/">Retour à l'accueil</a>
+</main>
+<footer class="foot"><div class="wrap">
+  <div class="brand"><a href="/">Quel Vêtement</a></div>
+  <nav class="fnav"><a href="/comment-porter-un-chino-homme/">Chino</a><a href="/comment-porter-un-jean-homme/">Jean</a><a href="/comment-porter-une-chemise-blanche-homme/">Chemise blanche</a><a href="/comment-porter-des-sneakers-blanches-homme/">Sneakers</a><a href="/comment-associer-les-couleurs-de-ses-vetements/">Couleurs</a><a href="/comment-s-habiller-pour-un-mariage-homme/">Mariage</a><a href="/mentions-legales/">Mentions légales</a></nav>
+  <div class="copy">© Quel Vêtement 2026 · <a href="/mentions-legales/">Mentions légales</a></div>
+</div></footer>
+</body>
+</html>
