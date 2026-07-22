@@ -49,7 +49,7 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
 .hero:after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.72),rgba(0,0,0,.12) 55%,rgba(0,0,0,.28))}
 .hero .inner{position:relative;z-index:2;max-width:760px;padding:0 28px 64px;margin:0 auto;text-align:center;left:0;right:0}
 .hero .eyebrow{color:rgba(255,255,255,.85)}
-.hero h1{font-size:clamp(2.1rem,4.6vw,3.7rem);margin:.5rem 0 .9rem}
+.hero h1,.hero h2{font-size:clamp(2.1rem,4.6vw,3.7rem);margin:.5rem 0 .9rem}
 .hero p{font-size:1.12rem;color:rgba(255,255,255,.9);max-width:620px;margin:0 auto 1.6rem}
 .btn{display:inline-block;font-family:var(--sans);text-transform:uppercase;letter-spacing:.2em;font-size:.72rem;font-weight:600;border:1px solid rgba(255,255,255,.8);padding:13px 26px;transition:.25s}
 .btn:hover{background:#fff;color:#111}
@@ -88,6 +88,16 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
 .foot .copy a{color:#cfc9c0}
 @media(max-width:920px){.grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:600px){.grid{grid-template-columns:1fr}.hero{height:78vh}.nav{gap:18px}}
+.sitetitle{max-width:880px;margin:34px auto 0;padding:0 28px;text-align:center}
+.sitetitle h1{font-size:clamp(1.5rem,2.6vw,2rem);line-height:1.2;font-weight:500;margin:0}
+.sitetitle p{font-family:var(--sans);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:.55rem 0 0}
+.seotext{max-width:820px;margin:0 auto;padding:8px 28px 64px}
+.seotext h2{font-size:1.55rem;margin:40px 0 12px}
+.seotext h3{font-size:1.12rem;margin:24px 0 8px}
+.seotext p{margin:0 0 1rem;color:#26221c;font-size:1.02rem}
+.seotext a{text-decoration:underline;text-underline-offset:2px;text-decoration-thickness:1px}
+.seotext a:hover{color:var(--muted)}
+.seotext strong{font-weight:600}
 </style></style>
 <style>
 .hubhead{max-width:880px;margin:0 auto;padding:56px 28px 8px;text-align:center}
@@ -97,6 +107,13 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
 .hubhead p{max-width:680px;margin:0 auto 6px;font-size:1.04rem;color:#3a352e}
 .hubgrid{max-width:1180px;margin:26px auto 0;padding:0 28px 66px}
 .hubcount{font-family:var(--sans);font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);text-align:center;margin-top:14px}
+.seotext{max-width:820px;margin:0 auto;padding:8px 28px 60px}
+.seotext h2{font-size:1.55rem;margin:40px 0 12px}
+.seotext h3{font-size:1.12rem;margin:24px 0 8px}
+.seotext p{margin:0 0 1rem;color:#26221c;font-size:1.02rem}
+.seotext a{text-decoration:underline;text-underline-offset:2px;text-decoration-thickness:1px}
+.seotext a:hover{color:var(--muted)}
+.seotext strong{font-weight:600}
 </style>
 <script type="application/ld+json">
 {
@@ -170,6 +187,30 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
   ]
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Quels vêtements posséder en priorité dans un vestiaire homme ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Un chino beige ou marine, un jean brut, une chemise blanche, un polo uni, un cardigan et une paire de sneakers propres couvrent la majorité des situations, du bureau au week-end. Mieux vaut peu de pièces bien coupées qu'une armoire pleine : chacun de nos guides détaille la coupe et la matière à privilégier pour chaque pièce."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Comment savoir si un vêtement est à la bonne taille ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Regardez d'abord la couture d'épaule : elle doit finir pile à l'angle de l'os, ni avant ni après. Ensuite glissez une main à plat entre le tissu et le corps ; si un poing passe, c'est trop grand. Et si vous hésitez entre deux tailles, prenez la plus ajustée : un retoucheur sait reprendre un vêtement près du corps, pas en inventer."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
 <header>
@@ -188,7 +229,7 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
   <div class="hubhead">
     <div class="crumb"><a href="/">Accueil</a> &nbsp;/&nbsp; Vêtements</div>
     <h1>Vêtements homme : bien choisir et bien porter ses pièces</h1>
-    <p>Un vestiaire masculin tient sur une poignée de pièces : un chino bien coupé, un jean brut, une chemise blanche repassée, un polo qui tombe droit, un cardigan pour la mi-saison. Le plus dur n'est pas de les acheter, c'est de les porter juste. Chaque guide de cette catégorie prend un vêtement et le passe en revue : quelle coupe selon votre silhouette, quelles couleurs privilégier, avec quoi l'associer et les erreurs qui gâchent une tenue. De quoi construire un style solide, sans suivre chaque tendance.</p>
+    <p>On a tous ce jean qui ne sort jamais du placard et ce polo acheté en promo qu'on ne remet pas. Cette rubrique existe pour éviter les prochains. Chaque guide prend un vêtement du quotidien et répond aux questions qu'on se pose en cabine : quelle coupe pour ma silhouette, quelle matière tient la journée, avec quoi je le porte lundi. Rien sur les tendances de la saison, tout sur les pièces qu'on garde.</p>
     <div class="hubcount">7 guides</div>
   </div>
   <div class="hubgrid"><div class="grid">
@@ -200,6 +241,17 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
     <a class="card" href="/comment-porter-un-polo-homme/"><div class="ph"><img src="/assets/uploads/comment-porter-un-polo-homme/banner.webp" alt="Style masculin estival, haut clair épuré" loading="lazy"></div><h3>Comment porter un polo homme ?</h3></a>
     <a class="card" href="/comment-porter-un-chino-homme/"><div class="ph"><img src="/assets/uploads/comment-porter-un-chino-homme/banner.webp" alt="Homme en chino camel, bas retroussé et sneakers blanches, allure décontractée" loading="lazy"></div><h3>Comment porter un chino homme ?</h3></a>
   </div></div>
+  <div class="seotext">
+<h2>Huit cintres suffisent</h2>
+<p>Faites le test un dimanche : sortez du placard ce que vous avez vraiment porté ce mois-ci. Chez la plupart des hommes, il reste un <a href="/comment-porter-un-chino-homme/">chino</a>, un <a href="/comment-porter-un-jean-homme/">jean</a>, deux chemises dont la <a href="/comment-porter-une-chemise-blanche-homme/">blanche</a>, un <a href="/comment-porter-un-polo-homme/">polo</a> fatigué et un <a href="/comment-porter-un-cardigan-homme/">cardigan</a> qu'on ressort dès octobre. Le reste dort. Autant investir dans ces huit cintres-là et les choisir <strong>à la bonne taille</strong>, parce qu'un chino à 45 euros bien ajusté habillera toujours mieux qu'une veste de créateur qui flotte aux épaules.</p>
+<h2>Ce qu'on regarde avant d'acheter</h2>
+<p>Dans nos guides, la coupe passe en premier. Pas celle du mannequin de la fiche produit, la vôtre : largeur d'épaules, longueur de jambe, tour de cuisse si vous pédalez. Vient ensuite la matière, et là le toucher ne ment pas. Un coton fin qui se froisse dans le sac ne survivra pas à un été, quand un <a href="/comment-porter-une-chemise-en-lin-homme/">lin lavé</a> assume ses plis avec panache. Pour les couleurs, on garde une position simple depuis le premier article : du marine, de l'écru, du gris et de l'olive en base, et une pièce colorée à la fois. Le détail de la méthode est dans le guide des <a href="/comment-associer-les-couleurs-de-ses-vetements/">associations de couleurs</a>.</p>
+<h2>Questions fréquentes</h2>
+<h3>Quels vêtements posséder en priorité dans un vestiaire homme ?</h3>
+<p>Un chino beige ou marine, un jean brut, une chemise blanche, un polo uni, un cardigan et une paire de sneakers propres couvrent la majorité des situations, du bureau au week-end. Mieux vaut peu de pièces bien coupées qu'une armoire pleine : chacun de nos guides détaille la coupe et la matière à privilégier pour chaque pièce.</p>
+<h3>Comment savoir si un vêtement est à la bonne taille ?</h3>
+<p>Regardez d'abord la couture d'épaule : elle doit finir pile à l'angle de l'os, ni avant ni après. Ensuite glissez une main à plat entre le tissu et le corps ; si un poing passe, c'est trop grand. Et si vous hésitez entre deux tailles, prenez la plus ajustée : un retoucheur sait reprendre un vêtement près du corps, pas en inventer.</p>
+  </div>
 </main>
 <footer class="foot"><div class="wrap">
   <div class="brand"><a href="/">Quel Vêtement</a></div>

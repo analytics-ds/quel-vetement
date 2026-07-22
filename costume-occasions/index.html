@@ -49,7 +49,7 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
 .hero:after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.72),rgba(0,0,0,.12) 55%,rgba(0,0,0,.28))}
 .hero .inner{position:relative;z-index:2;max-width:760px;padding:0 28px 64px;margin:0 auto;text-align:center;left:0;right:0}
 .hero .eyebrow{color:rgba(255,255,255,.85)}
-.hero h1{font-size:clamp(2.1rem,4.6vw,3.7rem);margin:.5rem 0 .9rem}
+.hero h1,.hero h2{font-size:clamp(2.1rem,4.6vw,3.7rem);margin:.5rem 0 .9rem}
 .hero p{font-size:1.12rem;color:rgba(255,255,255,.9);max-width:620px;margin:0 auto 1.6rem}
 .btn{display:inline-block;font-family:var(--sans);text-transform:uppercase;letter-spacing:.2em;font-size:.72rem;font-weight:600;border:1px solid rgba(255,255,255,.8);padding:13px 26px;transition:.25s}
 .btn:hover{background:#fff;color:#111}
@@ -88,6 +88,16 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
 .foot .copy a{color:#cfc9c0}
 @media(max-width:920px){.grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:600px){.grid{grid-template-columns:1fr}.hero{height:78vh}.nav{gap:18px}}
+.sitetitle{max-width:880px;margin:34px auto 0;padding:0 28px;text-align:center}
+.sitetitle h1{font-size:clamp(1.5rem,2.6vw,2rem);line-height:1.2;font-weight:500;margin:0}
+.sitetitle p{font-family:var(--sans);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:.55rem 0 0}
+.seotext{max-width:820px;margin:0 auto;padding:8px 28px 64px}
+.seotext h2{font-size:1.55rem;margin:40px 0 12px}
+.seotext h3{font-size:1.12rem;margin:24px 0 8px}
+.seotext p{margin:0 0 1rem;color:#26221c;font-size:1.02rem}
+.seotext a{text-decoration:underline;text-underline-offset:2px;text-decoration-thickness:1px}
+.seotext a:hover{color:var(--muted)}
+.seotext strong{font-weight:600}
 </style></style>
 <style>
 .hubhead{max-width:880px;margin:0 auto;padding:56px 28px 8px;text-align:center}
@@ -97,6 +107,13 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
 .hubhead p{max-width:680px;margin:0 auto 6px;font-size:1.04rem;color:#3a352e}
 .hubgrid{max-width:1180px;margin:26px auto 0;padding:0 28px 66px}
 .hubcount{font-family:var(--sans);font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);text-align:center;margin-top:14px}
+.seotext{max-width:820px;margin:0 auto;padding:8px 28px 60px}
+.seotext h2{font-size:1.55rem;margin:40px 0 12px}
+.seotext h3{font-size:1.12rem;margin:24px 0 8px}
+.seotext p{margin:0 0 1rem;color:#26221c;font-size:1.02rem}
+.seotext a{text-decoration:underline;text-underline-offset:2px;text-decoration-thickness:1px}
+.seotext a:hover{color:var(--muted)}
+.seotext strong{font-weight:600}
 </style>
 <script type="application/ld+json">
 {
@@ -145,6 +162,30 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
   ]
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Quelle couleur de costume choisir en premier ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Le marine, sans hésiter, puis un gris moyen quand le premier est amorti. À eux deux ils couvrent l'entretien, le mariage et le bureau habillé, et tolèrent à peu près toutes les chemises. Résistez au noir : il paraît passe-partout en boutique et se retrouve cantonné aux enterrements et aux galas une fois chez vous."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Peut-on porter un costume sans cravate à un mariage ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui, si le carton d'invitation n'impose pas de tenue formelle. Col ouvert soigné, pochette et chaussures impeccables compensent l'absence de cravate. En cérémonie religieuse ou en soirée habillée, la cravate ou le nœud papillon restent plus sûrs : notre guide de l'invité détaille les codes selon le type de mariage."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
 <header>
@@ -163,13 +204,24 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
   <div class="hubhead">
     <div class="crumb"><a href="/">Accueil</a> &nbsp;/&nbsp; Costume & occasions</div>
     <h1>Costume et grandes occasions : être à la hauteur</h1>
-    <p>Il y a des jours où la tenue ne pardonne pas : un entretien, une cérémonie, un mariage. Un costume mal ajusté se voit sur toutes les photos, une tenue d'invité mal calibrée aussi. Ces guides détaillent ce qui compte vraiment ces jours-là : l'épaule qui tombe au bon endroit, la longueur de manche, le choix du tissu selon la saison, et les codes à respecter selon le carton d'invitation. L'objectif est simple : être impeccable sans donner l'impression d'avoir trop réfléchi.</p>
+    <p>Un costume s'achète rarement un mardi sans raison. Il y a un entretien derrière, une cérémonie, un mariage au mois de juin. Et le jour venu, tout se voit : l'épaule qui dépasse, la manche trop longue, la veste boutonnée qui tire. Ces guides servent à arriver préparé, avec un costume à sa taille et une tenue d'invité qui respecte les codes du carton d'invitation, sans avoir l'air d'y avoir passé la semaine.</p>
     <div class="hubcount">2 guides</div>
   </div>
   <div class="hubgrid"><div class="grid">
     <a class="card" href="/comment-s-habiller-pour-un-mariage-homme/"><div class="ph"><img src="/assets/uploads/comment-s-habiller-pour-un-mariage-homme/banner.webp" alt="Costume bleu marine, nœud papillon et boutons de manchette : détails d'une tenue de cérémonie" loading="lazy"></div><h3>Comment s'habiller pour un mariage quand on est invité ?</h3></a>
     <a class="card" href="/comment-choisir-un-costume-homme/"><div class="ph"><img src="/assets/uploads/comment-choisir-un-costume-homme/banner.webp" alt="Homme en costume bleu marine bien coupé marchant dans la rue" loading="lazy"></div><h3>Comment choisir un costume homme ?</h3></a>
   </div></div>
+  <div class="seotext">
+<h2>Un costume qui va, ça se vérifie en cabine</h2>
+<p>L'erreur classique consiste à juger un costume de face, immobile, dans le miroir de la boutique. Bougez. Levez les bras, asseyez-vous, boutonnez la veste : si le bouton tire, si la couture d'épaule dépasse l'os, si le col s'écarte de la chemise, changez de taille ou de coupe. Notre guide pour <a href="/comment-choisir-un-costume-homme/">choisir un costume homme</a> reprend ces vérifications une à une, du prêt-à-porter à la demi-mesure. Et pour un premier costume, prenez du <strong>marine ou du gris moyen</strong>. Le noir, presque tout le monde l'achète en premier, presque tout le monde le regrette : il ne sert qu'en soirée très habillée.</p>
+<h2>Invité à un mariage, pas figurant</h2>
+<p>Un mariage en juillet à 15 heures dans un jardin et un mariage en novembre dans une mairie de centre-ville n'appellent pas la même tenue, et c'est tout le propos de notre guide de <a href="/comment-s-habiller-pour-un-mariage-homme/">l'invité de mariage</a> : costume clair, <a href="/comment-porter-une-chemise-en-lin-homme/">chemise en lin</a> et mocassins soignés pour le premier, laine plus dense et couleurs profondes pour le second. Dans les deux cas, gardez les chaussures impeccables et le poignet discret. Sur ce dernier point, le guide de la <a href="/quelle-montre-porter-selon-sa-tenue/">montre selon la tenue</a> vous évitera le chrono de sport sur le costume trois-pièces.</p>
+<h2>Questions fréquentes</h2>
+<h3>Quelle couleur de costume choisir en premier ?</h3>
+<p>Le marine, sans hésiter, puis un gris moyen quand le premier est amorti. À eux deux ils couvrent l'entretien, le mariage et le bureau habillé, et tolèrent à peu près toutes les chemises. Résistez au noir : il paraît passe-partout en boutique et se retrouve cantonné aux enterrements et aux galas une fois chez vous.</p>
+<h3>Peut-on porter un costume sans cravate à un mariage ?</h3>
+<p>Oui, si le carton d'invitation n'impose pas de tenue formelle. Col ouvert soigné, pochette et chaussures impeccables compensent l'absence de cravate. En cérémonie religieuse ou en soirée habillée, la cravate ou le nœud papillon restent plus sûrs : notre guide de l'invité détaille les codes selon le type de mariage.</p>
+  </div>
 </main>
 <footer class="foot"><div class="wrap">
   <div class="brand"><a href="/">Quel Vêtement</a></div>

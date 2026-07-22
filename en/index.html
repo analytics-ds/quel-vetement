@@ -70,7 +70,7 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
 .hero:after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.72),rgba(0,0,0,.12) 55%,rgba(0,0,0,.28))}
 .hero .inner{position:relative;z-index:2;max-width:760px;padding:0 28px 64px;margin:0 auto;text-align:center;left:0;right:0}
 .hero .eyebrow{color:rgba(255,255,255,.85)}
-.hero h1{font-size:clamp(2.1rem,4.6vw,3.7rem);margin:.5rem 0 .9rem}
+.hero h1,.hero h2{font-size:clamp(2.1rem,4.6vw,3.7rem);margin:.5rem 0 .9rem}
 .hero p{font-size:1.12rem;color:rgba(255,255,255,.9);max-width:620px;margin:0 auto 1.6rem}
 .btn{display:inline-block;font-family:var(--sans);text-transform:uppercase;letter-spacing:.2em;font-size:.72rem;font-weight:600;border:1px solid rgba(255,255,255,.8);padding:13px 26px;transition:.25s}
 .btn:hover{background:#fff;color:#111}
@@ -109,6 +109,16 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
 .foot .copy a{color:#cfc9c0}
 @media(max-width:920px){.grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:600px){.grid{grid-template-columns:1fr}.hero{height:78vh}.nav{gap:18px}}
+.sitetitle{max-width:880px;margin:34px auto 0;padding:0 28px;text-align:center}
+.sitetitle h1{font-size:clamp(1.5rem,2.6vw,2rem);line-height:1.2;font-weight:500;margin:0}
+.sitetitle p{font-family:var(--sans);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:.55rem 0 0}
+.seotext{max-width:820px;margin:0 auto;padding:8px 28px 64px}
+.seotext h2{font-size:1.55rem;margin:40px 0 12px}
+.seotext h3{font-size:1.12rem;margin:24px 0 8px}
+.seotext p{margin:0 0 1rem;color:#26221c;font-size:1.02rem}
+.seotext a{text-decoration:underline;text-underline-offset:2px;text-decoration-thickness:1px}
+.seotext a:hover{color:var(--muted)}
+.seotext strong{font-weight:600}
 </style>
 </head>
 <body>
@@ -125,11 +135,15 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
   </div></div>
 </header>
 
+<div class="sitetitle">
+  <h1>Menswear: style guides and advice to dress well</h1>
+  <p>Buying guides and style advice, tested before being written</p>
+</div>
 <section class="hero">
   <div class="bg" style="background-image:url('/assets/uploads/comment-s-habiller-pour-un-mariage-homme/banner.webp')"></div>
   <div class="inner">
     <div class="eyebrow">Featured</div>
-    <h1>How should you dress for a wedding as a guest?</h1>
+    <h2>How should you dress for a wedding as a guest?</h2>
     <p>Light suit, shirt, shoes, accessories: the complete guide for the well-dressed guest, summer ceremonies included.</p>
     <a class="btn" href="/en/how-to-dress-for-a-wedding-men/">Read more</a>
   </div>
@@ -146,6 +160,14 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
   <div class="sec-head"><h2>More to read</h2><span class="eyebrow">Guides & inspiration</span></div>
   <div class="grid"><a class="card" href="/en/how-to-wear-a-white-shirt-men/"><div class="ph"><img src="/assets/uploads/comment-porter-une-chemise-blanche-homme/banner.webp" alt="How should men wear a white shirt?" loading="lazy"></div><h3>How should men wear a white shirt?</h3></a><a class="card" href="/en/how-to-wear-white-sneakers-men/"><div class="ph"><img src="/assets/uploads/comment-porter-des-sneakers-blanches-homme/banner.webp" alt="How should men wear white sneakers?" loading="lazy"></div><h3>How should men wear white sneakers?</h3></a><a class="card" href="/en/how-to-match-colours-in-an-outfit/"><div class="ph"><img src="/assets/uploads/comment-associer-les-couleurs-de-ses-vetements/banner.webp" alt="How do you match colours in an outfit?" loading="lazy"></div><h3>How do you match colours in an outfit?</h3></a><a class="card" href="/en/how-to-wear-chinos-men/"><div class="ph"><img src="/assets/uploads/comment-porter-un-chino-homme/banner.webp" alt="How should men wear chinos?" loading="lazy"></div><h3>How should men wear chinos?</h3></a><a class="card" href="/en/how-to-wear-a-polo-shirt-men/"><div class="ph"><img src="/assets/uploads/comment-porter-un-polo-homme/banner.webp" alt="How should men wear a polo shirt?" loading="lazy"></div><h3>How should men wear a polo shirt?</h3></a><a class="card" href="/en/how-to-wear-a-cardigan-men/"><div class="ph"><img src="/assets/uploads/comment-porter-un-cardigan-homme/banner.webp" alt="How should men wear a cardigan?" loading="lazy"></div><h3>How should men wear a cardigan?</h3></a></div>
 </div></section>
+<section class="seotext">
+  <h2>Dressing well is quicker to learn than you'd think</h2>
+  <p>Most men wear their clothes one size too big. It comes up in nearly every fitting we do, and it is often the only thing standing between an average outfit and one that actually sits right. No need to spend your weekends on it, or a paycheck: decent <a href="/en/how-to-wear-chinos-men/">chinos</a> cost under 60 euros, and <a href="/en/how-to-wear-jeans-men/">raw denim</a> lasts years if you resist washing it after every wear. Our guides start from the real morning question, the one you ask with the wardrobe open, and answer it with checks you can run in a fitting room.</p>
+  <h2>Three sections, no jargon</h2>
+  <p>Under <a href="/en/menswear/"><strong>Clothing</strong></a> we put the basics through their paces, polo to cardigan, with an admitted soft spot for the <a href="/en/how-to-wear-a-linen-shirt-men/">linen shirt</a> once the thermometer passes 24 degrees. <a href="/en/tailoring-occasions/"><strong>Tailoring &amp; occasions</strong></a> exists because weddings need preparing: it covers <a href="/en/how-to-choose-a-suit-men/">choosing a suit</a> that doesn't gape at the shoulders and what to wear as a <a href="/en/how-to-dress-for-a-wedding-men/">guest</a> without upstaging the groom. And <a href="/en/accessories-style/"><strong>Accessories &amp; style</strong></a> handles the details that give you away, the watch, the sneakers, the colours that clash.</p>
+  <h2>Behind the guides</h2>
+  <p><strong>Maxime Coste</strong> has written here from the start. A menswear writer, he keeps one rule: recommend nothing he hasn't worn for at least a season. It slows down publishing; it also keeps the cardboard advice out. His full introduction is on the <a href="/en/about/">about page</a>.</p>
+</section>
 <footer class="foot"><div class="wrap">
   <div class="brand"><a href="/en/">Quel Vêtement</a></div>
   <nav class="fnav"><a href="/en/menswear/">Clothing</a><a href="/en/tailoring-occasions/">Tailoring &amp; occasions</a><a href="/en/accessories-style/">Accessories &amp; style</a><a href="/en/about/">About</a><a href="/en/legal-notice/">Legal notice</a></nav>

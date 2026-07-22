@@ -49,7 +49,7 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
 .hero:after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.72),rgba(0,0,0,.12) 55%,rgba(0,0,0,.28))}
 .hero .inner{position:relative;z-index:2;max-width:760px;padding:0 28px 64px;margin:0 auto;text-align:center;left:0;right:0}
 .hero .eyebrow{color:rgba(255,255,255,.85)}
-.hero h1{font-size:clamp(2.1rem,4.6vw,3.7rem);margin:.5rem 0 .9rem}
+.hero h1,.hero h2{font-size:clamp(2.1rem,4.6vw,3.7rem);margin:.5rem 0 .9rem}
 .hero p{font-size:1.12rem;color:rgba(255,255,255,.9);max-width:620px;margin:0 auto 1.6rem}
 .btn{display:inline-block;font-family:var(--sans);text-transform:uppercase;letter-spacing:.2em;font-size:.72rem;font-weight:600;border:1px solid rgba(255,255,255,.8);padding:13px 26px;transition:.25s}
 .btn:hover{background:#fff;color:#111}
@@ -88,6 +88,16 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
 .foot .copy a{color:#cfc9c0}
 @media(max-width:920px){.grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:600px){.grid{grid-template-columns:1fr}.hero{height:78vh}.nav{gap:18px}}
+.sitetitle{max-width:880px;margin:34px auto 0;padding:0 28px;text-align:center}
+.sitetitle h1{font-size:clamp(1.5rem,2.6vw,2rem);line-height:1.2;font-weight:500;margin:0}
+.sitetitle p{font-family:var(--sans);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:.55rem 0 0}
+.seotext{max-width:820px;margin:0 auto;padding:8px 28px 64px}
+.seotext h2{font-size:1.55rem;margin:40px 0 12px}
+.seotext h3{font-size:1.12rem;margin:24px 0 8px}
+.seotext p{margin:0 0 1rem;color:#26221c;font-size:1.02rem}
+.seotext a{text-decoration:underline;text-underline-offset:2px;text-decoration-thickness:1px}
+.seotext a:hover{color:var(--muted)}
+.seotext strong{font-weight:600}
 </style></style>
 <style>
 .hubhead{max-width:880px;margin:0 auto;padding:56px 28px 8px;text-align:center}
@@ -97,6 +107,13 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
 .hubhead p{max-width:680px;margin:0 auto 6px;font-size:1.04rem;color:#3a352e}
 .hubgrid{max-width:1180px;margin:26px auto 0;padding:0 28px 66px}
 .hubcount{font-family:var(--sans);font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);text-align:center;margin-top:14px}
+.seotext{max-width:820px;margin:0 auto;padding:8px 28px 60px}
+.seotext h2{font-size:1.55rem;margin:40px 0 12px}
+.seotext h3{font-size:1.12rem;margin:24px 0 8px}
+.seotext p{margin:0 0 1rem;color:#26221c;font-size:1.02rem}
+.seotext a{text-decoration:underline;text-underline-offset:2px;text-decoration-thickness:1px}
+.seotext a:hover{color:var(--muted)}
+.seotext strong{font-weight:600}
 </style>
 <script type="application/ld+json">
 {
@@ -145,6 +162,30 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
   ]
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Which suit colour should come first?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Navy, no hesitation, then a mid-grey once the first has earned its keep. Between them they cover the interview, the wedding and the dressed-up office, and tolerate nearly any shirt. Resist black: it looks versatile in the shop and ends up reserved for funerals and galas once it's home."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you wear a suit without a tie to a wedding?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, when the invitation doesn't impose formal dress. A neat open collar, a pocket square and immaculate shoes make up for the missing tie. For a religious ceremony or a formal evening, a tie or bow tie stays the safer call."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
 <header>
@@ -163,13 +204,24 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
   <div class="hubhead">
     <div class="crumb"><a href="/en/">Home</a> &nbsp;/&nbsp; Tailoring & occasions</div>
     <h1>Tailoring and special occasions: dressing the part</h1>
-    <p>Some days leave no room for error: an interview, a ceremony, a wedding. An ill-fitting suit shows in every photo, and so does a poorly judged guest outfit. These guides focus on what actually matters on those days: shoulders that sit where they should, sleeve length, the right cloth for the season, and the dress codes hiding behind the invitation.</p>
+    <p>Nobody buys a suit on a random Tuesday. There's an interview behind it, a ceremony, a June wedding. And on the day, everything shows: the overhanging shoulder, the sleeve running long, the buttoned jacket pulling. These guides are for arriving prepared, in a suit that fits and a guest outfit that respects the invitation, without looking like it took you all week.</p>
     <div class="hubcount">2 guides</div>
   </div>
   <div class="hubgrid"><div class="grid">
     <a class="card" href="/en/how-to-dress-for-a-wedding-men/"><div class="ph"><img src="/assets/uploads/comment-s-habiller-pour-un-mariage-homme/banner.webp" alt="Navy suit, bow tie and cufflinks: the details of a ceremony outfit" loading="lazy"></div><h3>How should you dress for a wedding as a guest?</h3></a>
     <a class="card" href="/en/how-to-choose-a-suit-men/"><div class="ph"><img src="/assets/uploads/comment-choisir-un-costume-homme/banner.webp" alt="Man in a well-cut navy suit walking down the street" loading="lazy"></div><h3>How should you choose a suit?</h3></a>
   </div></div>
+  <div class="seotext">
+<h2>A suit that fits proves it in the fitting room</h2>
+<p>The classic mistake is judging a suit head-on, standing still, in the shop mirror. Move. Raise your arms, sit down, button the jacket: if the button pulls, if the shoulder seam overshoots the bone, if the collar gaps from the shirt, change size or cut. Our guide to <a href="/en/how-to-choose-a-suit-men/">choosing a suit</a> runs through these checks one by one, from ready-to-wear to made-to-measure. And for a first suit, go <strong>navy or mid-grey</strong>. Black is the one almost everyone buys first and almost everyone regrets: it only earns its keep at very formal evening events.</p>
+<h2>Wedding guest, not an extra</h2>
+<p>A July wedding at 3pm in a garden and a November wedding at a city-centre registry office don't call for the same outfit, which is the whole point of our <a href="/en/how-to-dress-for-a-wedding-men/">wedding guest guide</a>: light suit, <a href="/en/how-to-wear-a-linen-shirt-men/">linen shirt</a> and polished loafers for the first, denser wool and deeper colours for the second. Either way, keep the shoes immaculate and the wrist quiet. On that last point, the guide to <a href="/en/which-watch-with-which-outfit/">matching a watch to an outfit</a> will save you from the sports chrono on a three-piece suit.</p>
+<h2>Frequently asked questions</h2>
+<h3>Which suit colour should come first?</h3>
+<p>Navy, no hesitation, then a mid-grey once the first has earned its keep. Between them they cover the interview, the wedding and the dressed-up office, and tolerate nearly any shirt. Resist black: it looks versatile in the shop and ends up reserved for funerals and galas once it's home.</p>
+<h3>Can you wear a suit without a tie to a wedding?</h3>
+<p>Yes, when the invitation doesn't impose formal dress. A neat open collar, a pocket square and immaculate shoes make up for the missing tie. For a religious ceremony or a formal evening, a tie or bow tie stays the safer call.</p>
+  </div>
 </main>
 <footer class="foot"><div class="wrap">
   <div class="brand"><a href="/en/">Quel Vêtement</a></div>

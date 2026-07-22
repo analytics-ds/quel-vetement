@@ -49,7 +49,7 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
 .hero:after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.72),rgba(0,0,0,.12) 55%,rgba(0,0,0,.28))}
 .hero .inner{position:relative;z-index:2;max-width:760px;padding:0 28px 64px;margin:0 auto;text-align:center;left:0;right:0}
 .hero .eyebrow{color:rgba(255,255,255,.85)}
-.hero h1{font-size:clamp(2.1rem,4.6vw,3.7rem);margin:.5rem 0 .9rem}
+.hero h1,.hero h2{font-size:clamp(2.1rem,4.6vw,3.7rem);margin:.5rem 0 .9rem}
 .hero p{font-size:1.12rem;color:rgba(255,255,255,.9);max-width:620px;margin:0 auto 1.6rem}
 .btn{display:inline-block;font-family:var(--sans);text-transform:uppercase;letter-spacing:.2em;font-size:.72rem;font-weight:600;border:1px solid rgba(255,255,255,.8);padding:13px 26px;transition:.25s}
 .btn:hover{background:#fff;color:#111}
@@ -88,6 +88,16 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
 .foot .copy a{color:#cfc9c0}
 @media(max-width:920px){.grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:600px){.grid{grid-template-columns:1fr}.hero{height:78vh}.nav{gap:18px}}
+.sitetitle{max-width:880px;margin:34px auto 0;padding:0 28px;text-align:center}
+.sitetitle h1{font-size:clamp(1.5rem,2.6vw,2rem);line-height:1.2;font-weight:500;margin:0}
+.sitetitle p{font-family:var(--sans);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:.55rem 0 0}
+.seotext{max-width:820px;margin:0 auto;padding:8px 28px 64px}
+.seotext h2{font-size:1.55rem;margin:40px 0 12px}
+.seotext h3{font-size:1.12rem;margin:24px 0 8px}
+.seotext p{margin:0 0 1rem;color:#26221c;font-size:1.02rem}
+.seotext a{text-decoration:underline;text-underline-offset:2px;text-decoration-thickness:1px}
+.seotext a:hover{color:var(--muted)}
+.seotext strong{font-weight:600}
 </style></style>
 <style>
 .hubhead{max-width:880px;margin:0 auto;padding:56px 28px 8px;text-align:center}
@@ -97,6 +107,13 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
 .hubhead p{max-width:680px;margin:0 auto 6px;font-size:1.04rem;color:#3a352e}
 .hubgrid{max-width:1180px;margin:26px auto 0;padding:0 28px 66px}
 .hubcount{font-family:var(--sans);font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);text-align:center;margin-top:14px}
+.seotext{max-width:820px;margin:0 auto;padding:8px 28px 60px}
+.seotext h2{font-size:1.55rem;margin:40px 0 12px}
+.seotext h3{font-size:1.12rem;margin:24px 0 8px}
+.seotext p{margin:0 0 1rem;color:#26221c;font-size:1.02rem}
+.seotext a{text-decoration:underline;text-underline-offset:2px;text-decoration-thickness:1px}
+.seotext a:hover{color:var(--muted)}
+.seotext strong{font-weight:600}
 </style>
 <script type="application/ld+json">
 {
@@ -170,6 +187,30 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
   ]
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Which pieces should a wardrobe start with?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Beige or navy chinos, raw denim, a white shirt, a plain polo, a cardigan and a clean pair of sneakers cover most situations from office to weekend. A few well-cut pieces beat a full wardrobe: each of our guides details the fit and fabric to look for."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I know a garment fits?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Start with the shoulder seam: it should end exactly at the corner of the bone, no sooner, no later. Then slide a flat hand between fabric and body; if a fist fits, it's too big. And when torn between two sizes, take the closer fit: a tailor can take a garment in, not invent one."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
 <header>
@@ -188,7 +229,7 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
   <div class="hubhead">
     <div class="crumb"><a href="/en/">Home</a> &nbsp;/&nbsp; Clothing</div>
     <h1>Men's clothing: choosing and wearing your pieces well</h1>
-    <p>A solid wardrobe rests on a handful of pieces: well-cut chinos, raw denim, a crisp white shirt, a polo that sits right, a cardigan for mid-season. Buying them is easy; wearing them well is the real work. Each guide in this category takes one garment and covers what matters: the right fit for your build, the colours worth picking, what to pair it with and the mistakes that ruin an outfit.</p>
+    <p>We all own that pair of jeans that never leaves the wardrobe, and that sale-rack polo we never wear twice. This section exists to prevent the next ones. Each guide takes one everyday garment and answers the fitting-room questions: which cut for my build, which fabric lasts the day, what do I wear it with on Monday. Nothing about this season's trends, everything about the pieces you keep.</p>
     <div class="hubcount">7 guides</div>
   </div>
   <div class="hubgrid"><div class="grid">
@@ -200,6 +241,17 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
     <a class="card" href="/en/how-to-wear-a-polo-shirt-men/"><div class="ph"><img src="/assets/uploads/comment-porter-un-polo-homme/banner.webp" alt="How should men wear a polo shirt?" loading="lazy"></div><h3>How should men wear a polo shirt?</h3></a>
     <a class="card" href="/en/how-to-wear-chinos-men/"><div class="ph"><img src="/assets/uploads/comment-porter-un-chino-homme/banner.webp" alt="How should men wear chinos?" loading="lazy"></div><h3>How should men wear chinos?</h3></a>
   </div></div>
+  <div class="seotext">
+<h2>Eight hangers are enough</h2>
+<p>Try this on a Sunday: pull out of the wardrobe what you actually wore this month. For most men, that leaves <a href="/en/how-to-wear-chinos-men/">chinos</a>, <a href="/en/how-to-wear-jeans-men/">jeans</a>, two shirts including the <a href="/en/how-to-wear-a-white-shirt-men/">white one</a>, a tired <a href="/en/how-to-wear-a-polo-shirt-men/">polo</a> and the <a href="/en/how-to-wear-a-cardigan-men/">cardigan</a> that comes back out in October. The rest sleeps. Better to invest in those eight hangers and get them <strong>in the right size</strong>, because well-fitted 45-euro chinos will always dress you better than a designer jacket floating off your shoulders.</p>
+<h2>What we check before buying</h2>
+<p>In our guides, fit comes first. Not the model's fit on the product page, yours: shoulder width, leg length, thigh room if you cycle. Fabric comes next, and touch doesn't lie. A thin cotton that creases in the bag won't survive a summer, while <a href="/en/how-to-wear-a-linen-shirt-men/">washed linen</a> carries its wrinkles with some swagger. On colour we've held the same line since the first article: navy, ecru, grey and olive as a base, one coloured piece at a time. The full method sits in the <a href="/en/how-to-match-colours-in-an-outfit/">colour matching</a> guide.</p>
+<h2>Frequently asked questions</h2>
+<h3>Which pieces should a wardrobe start with?</h3>
+<p>Beige or navy chinos, raw denim, a white shirt, a plain polo, a cardigan and a clean pair of sneakers cover most situations from office to weekend. A few well-cut pieces beat a full wardrobe: each of our guides details the fit and fabric to look for.</p>
+<h3>How do I know a garment fits?</h3>
+<p>Start with the shoulder seam: it should end exactly at the corner of the bone, no sooner, no later. Then slide a flat hand between fabric and body; if a fist fits, it's too big. And when torn between two sizes, take the closer fit: a tailor can take a garment in, not invent one.</p>
+  </div>
 </main>
 <footer class="foot"><div class="wrap">
   <div class="brand"><a href="/en/">Quel Vêtement</a></div>
