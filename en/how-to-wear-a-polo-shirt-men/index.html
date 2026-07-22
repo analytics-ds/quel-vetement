@@ -124,6 +124,16 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
 .artbody th,.artbody td{padding:11px 13px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
 .artbody thead th{font-family:var(--sans);text-transform:uppercase;letter-spacing:.08em;font-size:.68rem;background:#f3efe9}
 .artbody .faq h3{font-size:1.12rem}
+.faq details{border-bottom:1px solid var(--line)}
+.faq details summary{cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:14px;padding:15px 0;list-style:none}
+.faq details summary::-webkit-details-marker{display:none}
+.faq details summary h3{margin:0;font-size:1.08rem}
+.faq details summary::after{content:"+";font-family:var(--sans);font-size:1.3rem;line-height:1;color:var(--muted);transition:transform .25s ease;flex:0 0 auto}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq .faqa{padding:0 0 16px}
+.faq .faqa p{margin:0 0 .8rem}
+.faq details[open] .faqa{animation:faqopen .28s ease}
+@keyframes faqopen{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
 .authorbox{max-width:760px;margin:40px auto 0;padding:22px 28px;display:flex;gap:18px;align-items:flex-start;border-top:1px solid var(--line)}
 .authorbox img{width:64px;height:64px;border-radius:50%;flex:0 0 auto}
 .authorbox .r{font-family:var(--sans);font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:.1rem 0 .5rem}
@@ -207,14 +217,10 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
 
 <h2 class="faqtitle">Frequently asked questions</h2>
 <div class="faq">
-<h3>Can you wear a polo shirt to the office?</h3>
-<p>Yes, as long as it is plain, fitted and in a sober colour (navy, white, grey). Tucked into tailored trousers with a leather belt and dress shoes, it replaces a shirt on hot days in a <strong>smart casual</strong> register that almost every workplace accepts.</p>
-<h3>Should a polo be tucked in?</h3>
-<p>Tucked in, a polo looks dressier and suits the office or a dinner. Untucked, it is more relaxed and right for the weekend, provided the hem stops at mid-fly and no lower.</p>
-<h3>Which polo colour should you buy first?</h3>
-<p>Navy, without hesitation: it flatters every skin tone and works with any trousers, from jeans to flannel. White and grey marl complete the base, and brown adds the style points later.</p>
-<h3>Short sleeves or long sleeves?</h3>
-<p>Short sleeves in classic piqué for summer. <strong>Long sleeves</strong> in a finer knit for spring and autumn, under an unstructured jacket or on their own with tailored trousers.</p>
+<details><summary><h3>Can you wear a polo shirt to the office?</h3></summary><div class="faqa"><p>Yes, as long as it is plain, fitted and in a sober colour (navy, white, grey). Tucked into tailored trousers with a leather belt and dress shoes, it replaces a shirt on hot days in a <strong>smart casual</strong> register that almost every workplace accepts.</p></div></details>
+<details><summary><h3>Should a polo be tucked in?</h3></summary><div class="faqa"><p>Tucked in, a polo looks dressier and suits the office or a dinner. Untucked, it is more relaxed and right for the weekend, provided the hem stops at mid-fly and no lower.</p></div></details>
+<details><summary><h3>Which polo colour should you buy first?</h3></summary><div class="faqa"><p>Navy, without hesitation: it flatters every skin tone and works with any trousers, from jeans to flannel. White and grey marl complete the base, and brown adds the style points later.</p></div></details>
+<details><summary><h3>Short sleeves or long sleeves?</h3></summary><div class="faqa"><p>Short sleeves in classic piqué for summer. <strong>Long sleeves</strong> in a finer knit for spring and autumn, under an unstructured jacket or on their own with tailored trousers.</p></div></details>
 </div>
 
   </div>

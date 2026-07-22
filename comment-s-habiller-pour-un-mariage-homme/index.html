@@ -124,6 +124,16 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
 .artbody th,.artbody td{padding:11px 13px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
 .artbody thead th{font-family:var(--sans);text-transform:uppercase;letter-spacing:.08em;font-size:.68rem;background:#f3efe9}
 .artbody .faq h3{font-size:1.12rem}
+.faq details{border-bottom:1px solid var(--line)}
+.faq details summary{cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:14px;padding:15px 0;list-style:none}
+.faq details summary::-webkit-details-marker{display:none}
+.faq details summary h3{margin:0;font-size:1.08rem}
+.faq details summary::after{content:"+";font-family:var(--sans);font-size:1.3rem;line-height:1;color:var(--muted);transition:transform .25s ease;flex:0 0 auto}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq .faqa{padding:0 0 16px}
+.faq .faqa p{margin:0 0 .8rem}
+.faq details[open] .faqa{animation:faqopen .28s ease}
+@keyframes faqopen{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
 .authorbox{max-width:760px;margin:40px auto 0;padding:22px 28px;display:flex;gap:18px;align-items:flex-start;border-top:1px solid var(--line)}
 .authorbox img{width:64px;height:64px;border-radius:50%;flex:0 0 auto}
 .authorbox .r{font-family:var(--sans);font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:.1rem 0 .5rem}
@@ -224,18 +234,12 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
 
 <h2 class="faqtitle">Questions fréquentes</h2>
 <div class="faq">
-<h3>Peut-on porter un costume noir à un mariage ?</h3>
-<p>Uniquement si le dress code est très formel ou si la réception se tient en soirée. En journée, le noir fait cérémonie funèbre : un bleu marine, un gris clair ou un beige rendent la tenue tout de suite plus juste.</p>
-<h3>Le costume est-il obligatoire pour un invité ?</h3>
-<p>Non, sauf code vestimentaire précisé sur le faire-part. Un blazer avec un <strong>chino habillé</strong>, une chemise repassée et des chaussures en cuir suffisent largement pour un mariage décontracté ou champêtre.</p>
-<h3>Comment s'habiller pour un mariage homme en hiver ?</h3>
-<p>Optez pour un costume en flanelle ou en laine épaisse, avec un gilet assorti pour la chaleur, un manteau en laine sombre par-dessus et une écharpe unie. Le trois pièces prend ici tout son sens : il isole et garde la tenue complète une fois le manteau au vestiaire.</p>
-<h3>Comment s'habille le témoin du marié ?</h3>
-<p>Le <strong>témoin</strong> se place un cran au-dessus des invités, souvent en trois pièces ou dans une couleur coordonnée avec le marié. La seule règle absolue : ne jamais être mieux habillé que le marié lui-même, on accompagne, on ne double pas.</p>
-<h3>Quelles couleurs éviter à un mariage ?</h3>
-<p>Le blanc et l'ivoire, réservés aux mariés, le total noir en journée, et tout imprimé criard qui attire l'objectif du photographe pour de mauvaises raisons.</p>
-<h3>Faut-il porter une cravate à un mariage ?</h3>
-<p>En cérémonie religieuse ou sous dress code formel, oui. Pour un mariage champêtre ou en plein été, un col ouvert soigné passe très bien, éventuellement relevé d'une pochette pour garder une touche habillée.</p>
+<details><summary><h3>Peut-on porter un costume noir à un mariage ?</h3></summary><div class="faqa"><p>Uniquement si le dress code est très formel ou si la réception se tient en soirée. En journée, le noir fait cérémonie funèbre : un bleu marine, un gris clair ou un beige rendent la tenue tout de suite plus juste.</p></div></details>
+<details><summary><h3>Le costume est-il obligatoire pour un invité ?</h3></summary><div class="faqa"><p>Non, sauf code vestimentaire précisé sur le faire-part. Un blazer avec un <strong>chino habillé</strong>, une chemise repassée et des chaussures en cuir suffisent largement pour un mariage décontracté ou champêtre.</p></div></details>
+<details><summary><h3>Comment s'habiller pour un mariage homme en hiver ?</h3></summary><div class="faqa"><p>Optez pour un costume en flanelle ou en laine épaisse, avec un gilet assorti pour la chaleur, un manteau en laine sombre par-dessus et une écharpe unie. Le trois pièces prend ici tout son sens : il isole et garde la tenue complète une fois le manteau au vestiaire.</p></div></details>
+<details><summary><h3>Comment s'habille le témoin du marié ?</h3></summary><div class="faqa"><p>Le <strong>témoin</strong> se place un cran au-dessus des invités, souvent en trois pièces ou dans une couleur coordonnée avec le marié. La seule règle absolue : ne jamais être mieux habillé que le marié lui-même, on accompagne, on ne double pas.</p></div></details>
+<details><summary><h3>Quelles couleurs éviter à un mariage ?</h3></summary><div class="faqa"><p>Le blanc et l'ivoire, réservés aux mariés, le total noir en journée, et tout imprimé criard qui attire l'objectif du photographe pour de mauvaises raisons.</p></div></details>
+<details><summary><h3>Faut-il porter une cravate à un mariage ?</h3></summary><div class="faqa"><p>En cérémonie religieuse ou sous dress code formel, oui. Pour un mariage champêtre ou en plein été, un col ouvert soigné passe très bien, éventuellement relevé d'une pochette pour garder une touche habillée.</p></div></details>
 </div>
 
   </div>

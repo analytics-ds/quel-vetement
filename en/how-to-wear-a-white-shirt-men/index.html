@@ -124,6 +124,16 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
 .artbody th,.artbody td{padding:11px 13px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
 .artbody thead th{font-family:var(--sans);text-transform:uppercase;letter-spacing:.08em;font-size:.68rem;background:#f3efe9}
 .artbody .faq h3{font-size:1.12rem}
+.faq details{border-bottom:1px solid var(--line)}
+.faq details summary{cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:14px;padding:15px 0;list-style:none}
+.faq details summary::-webkit-details-marker{display:none}
+.faq details summary h3{margin:0;font-size:1.08rem}
+.faq details summary::after{content:"+";font-family:var(--sans);font-size:1.3rem;line-height:1;color:var(--muted);transition:transform .25s ease;flex:0 0 auto}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq .faqa{padding:0 0 16px}
+.faq .faqa p{margin:0 0 .8rem}
+.faq details[open] .faqa{animation:faqopen .28s ease}
+@keyframes faqopen{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
 .authorbox{max-width:760px;margin:40px auto 0;padding:22px 28px;display:flex;gap:18px;align-items:flex-start;border-top:1px solid var(--line)}
 .authorbox img{width:64px;height:64px;border-radius:50%;flex:0 0 auto}
 .authorbox .r{font-family:var(--sans);font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:.1rem 0 .5rem}
@@ -213,14 +223,10 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
 
 <h2 class="faqtitle">Frequently asked questions</h2>
 <div class="faq">
-<h3>Should a white shirt be tucked in or worn untucked?</h3>
-<p>Tucked in whenever the outfit is dressed up or the shirt has long rounded tails. Untucked only if the <strong>hem is straight</strong> and stops at mid-fly, over jeans or casual chinos.</p>
-<h3>Which collar should you choose for a white shirt?</h3>
-<p>The spread collar is the most versatile: it works with or without a tie and suits most occasions. A button-down collar brings a more relaxed feel, ideal under a sweater or with jeans.</p>
-<h3>What should you wear under a white shirt?</h3>
-<p>A close-fitting invisible undershirt in heather grey or skin tone, never pure white and never with a visible crew neck. It absorbs sweat and removes any transparency.</p>
-<h3>How do you keep a white shirt truly white?</h3>
-<p>Wash at 40°C maximum with a gentle oxygen-based whitener once a month, air dry, and treat the collar with stain-removal soap before every cycle. Never tumble dry.</p>
+<details><summary><h3>Should a white shirt be tucked in or worn untucked?</h3></summary><div class="faqa"><p>Tucked in whenever the outfit is dressed up or the shirt has long rounded tails. Untucked only if the <strong>hem is straight</strong> and stops at mid-fly, over jeans or casual chinos.</p></div></details>
+<details><summary><h3>Which collar should you choose for a white shirt?</h3></summary><div class="faqa"><p>The spread collar is the most versatile: it works with or without a tie and suits most occasions. A button-down collar brings a more relaxed feel, ideal under a sweater or with jeans.</p></div></details>
+<details><summary><h3>What should you wear under a white shirt?</h3></summary><div class="faqa"><p>A close-fitting invisible undershirt in heather grey or skin tone, never pure white and never with a visible crew neck. It absorbs sweat and removes any transparency.</p></div></details>
+<details><summary><h3>How do you keep a white shirt truly white?</h3></summary><div class="faqa"><p>Wash at 40°C maximum with a gentle oxygen-based whitener once a month, air dry, and treat the collar with stain-removal soap before every cycle. Never tumble dry.</p></div></details>
 </div>
 
   </div>

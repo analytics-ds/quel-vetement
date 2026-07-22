@@ -124,6 +124,16 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
 .artbody th,.artbody td{padding:11px 13px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
 .artbody thead th{font-family:var(--sans);text-transform:uppercase;letter-spacing:.08em;font-size:.68rem;background:#f3efe9}
 .artbody .faq h3{font-size:1.12rem}
+.faq details{border-bottom:1px solid var(--line)}
+.faq details summary{cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:14px;padding:15px 0;list-style:none}
+.faq details summary::-webkit-details-marker{display:none}
+.faq details summary h3{margin:0;font-size:1.08rem}
+.faq details summary::after{content:"+";font-family:var(--sans);font-size:1.3rem;line-height:1;color:var(--muted);transition:transform .25s ease;flex:0 0 auto}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq .faqa{padding:0 0 16px}
+.faq .faqa p{margin:0 0 .8rem}
+.faq details[open] .faqa{animation:faqopen .28s ease}
+@keyframes faqopen{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
 .authorbox{max-width:760px;margin:40px auto 0;padding:22px 28px;display:flex;gap:18px;align-items:flex-start;border-top:1px solid var(--line)}
 .authorbox img{width:64px;height:64px;border-radius:50%;flex:0 0 auto}
 .authorbox .r{font-family:var(--sans);font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:.1rem 0 .5rem}
@@ -203,14 +213,10 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
 
 <h2 class="faqtitle">Frequently asked questions</h2>
 <div class="faq">
-<h3>Which fabric should you choose for a men's cardigan?</h3>
-<p>Fine merino wool for versatility ($70 to $140), cashmere for softness if the budget allows. A wool-majority blend is acceptable, pure acrylic is not: it pills and traps little warmth. Chunky knits belong to casual outfits only.</p>
-<h3>How do you wear a cardigan without looking old?</h3>
-<p>A clean cut that follows the body, a sober colour like navy, one or two buttons left open at the top. Over a white tee and raw denim, the piece instantly reads modern. Shapeless knits and piled-up layers are what age an outfit, not the garment itself.</p>
-<h3>When should you wear a cardigan?</h3>
-<p>Mostly in autumn and early winter, when temperatures sit between 40 and 60 °F (5 to 15 °C). A fine knit also works over a shirt on cool summer evenings, in the mountains for example.</p>
-<h3>Cardigan or regular jumper?</h3>
-<p>The cardigan gives you more flexibility thanks to its buttons: open it or close it as the temperature shifts, take it off without wrecking your hair. A closed jumper runs slightly warmer but layers less easily. Both earn their spot in a wardrobe.</p>
+<details><summary><h3>Which fabric should you choose for a men's cardigan?</h3></summary><div class="faqa"><p>Fine merino wool for versatility ($70 to $140), cashmere for softness if the budget allows. A wool-majority blend is acceptable, pure acrylic is not: it pills and traps little warmth. Chunky knits belong to casual outfits only.</p></div></details>
+<details><summary><h3>How do you wear a cardigan without looking old?</h3></summary><div class="faqa"><p>A clean cut that follows the body, a sober colour like navy, one or two buttons left open at the top. Over a white tee and raw denim, the piece instantly reads modern. Shapeless knits and piled-up layers are what age an outfit, not the garment itself.</p></div></details>
+<details><summary><h3>When should you wear a cardigan?</h3></summary><div class="faqa"><p>Mostly in autumn and early winter, when temperatures sit between 40 and 60 °F (5 to 15 °C). A fine knit also works over a shirt on cool summer evenings, in the mountains for example.</p></div></details>
+<details><summary><h3>Cardigan or regular jumper?</h3></summary><div class="faqa"><p>The cardigan gives you more flexibility thanks to its buttons: open it or close it as the temperature shifts, take it off without wrecking your hair. A closed jumper runs slightly warmer but layers less easily. Both earn their spot in a wardrobe.</p></div></details>
 </div>
 
   </div>

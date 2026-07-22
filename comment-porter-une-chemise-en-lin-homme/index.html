@@ -124,6 +124,16 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
 .artbody th,.artbody td{padding:11px 13px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
 .artbody thead th{font-family:var(--sans);text-transform:uppercase;letter-spacing:.08em;font-size:.68rem;background:#f3efe9}
 .artbody .faq h3{font-size:1.12rem}
+.faq details{border-bottom:1px solid var(--line)}
+.faq details summary{cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:14px;padding:15px 0;list-style:none}
+.faq details summary::-webkit-details-marker{display:none}
+.faq details summary h3{margin:0;font-size:1.08rem}
+.faq details summary::after{content:"+";font-family:var(--sans);font-size:1.3rem;line-height:1;color:var(--muted);transition:transform .25s ease;flex:0 0 auto}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq .faqa{padding:0 0 16px}
+.faq .faqa p{margin:0 0 .8rem}
+.faq details[open] .faqa{animation:faqopen .28s ease}
+@keyframes faqopen{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
 .authorbox{max-width:760px;margin:40px auto 0;padding:22px 28px;display:flex;gap:18px;align-items:flex-start;border-top:1px solid var(--line)}
 .authorbox img{width:64px;height:64px;border-radius:50%;flex:0 0 auto}
 .authorbox .r{font-family:var(--sans);font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:.1rem 0 .5rem}
@@ -205,14 +215,10 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
 
 <h2 class="faqtitle">Questions fréquentes</h2>
 <div class="faq">
-<h3>Faut-il repasser une chemise en lin ?</h3>
-<p>Légèrement, et jamais à mort. Un coup de fer vapeur sur col et poignets suffit : le tombé un peu <strong>froissé</strong> fait partie du charme du lin. Une chemise parfaitement lisse perd son naturel.</p>
-<h3>La chemise en lin est-elle transparente ?</h3>
-<p>Les grammages légers en blanc peuvent l'être. Choisissez un lin d'au moins 130 g/m², ou des teintes écrues et colorées qui masquent mieux. Un <strong>t-shirt invisible</strong> règle la question au bureau.</p>
-<h3>Chemise en lin rentrée ou sortie ?</h3>
-<p>Sortie sur un short ou un pantalon chino l'été, si l'ourlet est droit et court. Rentrée avec un pantalon habillé, où elle remplace la chemise en coton dès qu'il fait chaud.</p>
-<h3>Comment laver une chemise en lin ?</h3>
-<p>À 30 degrés, essorage doux, séchage sur cintre. Le lin sèche vite et se renforce au lavage, mais le sèche-linge le fait <strong>rétrécir</strong> et casse ses fibres.</p>
+<details><summary><h3>Faut-il repasser une chemise en lin ?</h3></summary><div class="faqa"><p>Légèrement, et jamais à mort. Un coup de fer vapeur sur col et poignets suffit : le tombé un peu <strong>froissé</strong> fait partie du charme du lin. Une chemise parfaitement lisse perd son naturel.</p></div></details>
+<details><summary><h3>La chemise en lin est-elle transparente ?</h3></summary><div class="faqa"><p>Les grammages légers en blanc peuvent l'être. Choisissez un lin d'au moins 130 g/m², ou des teintes écrues et colorées qui masquent mieux. Un <strong>t-shirt invisible</strong> règle la question au bureau.</p></div></details>
+<details><summary><h3>Chemise en lin rentrée ou sortie ?</h3></summary><div class="faqa"><p>Sortie sur un short ou un pantalon chino l'été, si l'ourlet est droit et court. Rentrée avec un pantalon habillé, où elle remplace la chemise en coton dès qu'il fait chaud.</p></div></details>
+<details><summary><h3>Comment laver une chemise en lin ?</h3></summary><div class="faqa"><p>À 30 degrés, essorage doux, séchage sur cintre. Le lin sèche vite et se renforce au lavage, mais le sèche-linge le fait <strong>rétrécir</strong> et casse ses fibres.</p></div></details>
 </div>
 
   </div>

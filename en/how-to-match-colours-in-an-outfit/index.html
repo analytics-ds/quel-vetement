@@ -124,6 +124,16 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
 .artbody th,.artbody td{padding:11px 13px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
 .artbody thead th{font-family:var(--sans);text-transform:uppercase;letter-spacing:.08em;font-size:.68rem;background:#f3efe9}
 .artbody .faq h3{font-size:1.12rem}
+.faq details{border-bottom:1px solid var(--line)}
+.faq details summary{cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:14px;padding:15px 0;list-style:none}
+.faq details summary::-webkit-details-marker{display:none}
+.faq details summary h3{margin:0;font-size:1.08rem}
+.faq details summary::after{content:"+";font-family:var(--sans);font-size:1.3rem;line-height:1;color:var(--muted);transition:transform .25s ease;flex:0 0 auto}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq .faqa{padding:0 0 16px}
+.faq .faqa p{margin:0 0 .8rem}
+.faq details[open] .faqa{animation:faqopen .28s ease}
+@keyframes faqopen{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
 .authorbox{max-width:760px;margin:40px auto 0;padding:22px 28px;display:flex;gap:18px;align-items:flex-start;border-top:1px solid var(--line)}
 .authorbox img{width:64px;height:64px;border-radius:50%;flex:0 0 auto}
 .authorbox .r{font-family:var(--sans);font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:.1rem 0 .5rem}
@@ -222,16 +232,11 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
 
 <h2 class="faqtitle">Frequently asked questions</h2>
 <div class="faq">
-<h3>How many colours can you wear at once?</h3>
-<p>Three maximum, accessories included. Two neutrals as the base, plus one accent colour if you feel like it. Beyond that, the outfit becomes hard to read, even when every individual pairing works.</p>
-<h3>Do navy blue and black go together?</h3>
-<p>Yes, as long as the difference is deliberate: a light navy jumper over black jeans works very well. What never gets forgiven is a navy and a black so close together they look like a laundry accident.</p>
-<h3>Which colours go with beige?</h3>
-<p>Almost all of them: white, navy, brown, khaki, burgundy, sky blue, pine green. Beige is the easiest neutral in menswear, the best base for learning to dress with colour.</p>
-<h3>What makes a monochrome outfit work?</h3>
-<p>One colour across the whole silhouette, with at least three different textures for relief: knit, denim, leather for example. Monochrome succeeds far more often in neutrals (grey, ecru, navy) than in a bright shade.</p>
-<h3>How do you wear a bright colour without overdoing it?</h3>
-<p>One bright piece at a time, surrounded by neutrals, or a desaturated version of the shade (rust instead of bright orange, sage instead of apple green). Two bright pieces together is a bet you have already lost.</p>
+<details><summary><h3>How many colours can you wear at once?</h3></summary><div class="faqa"><p>Three maximum, accessories included. Two neutrals as the base, plus one accent colour if you feel like it. Beyond that, the outfit becomes hard to read, even when every individual pairing works.</p></div></details>
+<details><summary><h3>Do navy blue and black go together?</h3></summary><div class="faqa"><p>Yes, as long as the difference is deliberate: a light navy jumper over black jeans works very well. What never gets forgiven is a navy and a black so close together they look like a laundry accident.</p></div></details>
+<details><summary><h3>Which colours go with beige?</h3></summary><div class="faqa"><p>Almost all of them: white, navy, brown, khaki, burgundy, sky blue, pine green. Beige is the easiest neutral in menswear, the best base for learning to dress with colour.</p></div></details>
+<details><summary><h3>What makes a monochrome outfit work?</h3></summary><div class="faqa"><p>One colour across the whole silhouette, with at least three different textures for relief: knit, denim, leather for example. Monochrome succeeds far more often in neutrals (grey, ecru, navy) than in a bright shade.</p></div></details>
+<details><summary><h3>How do you wear a bright colour without overdoing it?</h3></summary><div class="faqa"><p>One bright piece at a time, surrounded by neutrals, or a desaturated version of the shade (rust instead of bright orange, sage instead of apple green). Two bright pieces together is a bet you have already lost.</p></div></details>
 </div>
 
   </div>

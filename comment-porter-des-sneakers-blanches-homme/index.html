@@ -124,6 +124,16 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
 .artbody th,.artbody td{padding:11px 13px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
 .artbody thead th{font-family:var(--sans);text-transform:uppercase;letter-spacing:.08em;font-size:.68rem;background:#f3efe9}
 .artbody .faq h3{font-size:1.12rem}
+.faq details{border-bottom:1px solid var(--line)}
+.faq details summary{cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:14px;padding:15px 0;list-style:none}
+.faq details summary::-webkit-details-marker{display:none}
+.faq details summary h3{margin:0;font-size:1.08rem}
+.faq details summary::after{content:"+";font-family:var(--sans);font-size:1.3rem;line-height:1;color:var(--muted);transition:transform .25s ease;flex:0 0 auto}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq .faqa{padding:0 0 16px}
+.faq .faqa p{margin:0 0 .8rem}
+.faq details[open] .faqa{animation:faqopen .28s ease}
+@keyframes faqopen{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
 .authorbox{max-width:760px;margin:40px auto 0;padding:22px 28px;display:flex;gap:18px;align-items:flex-start;border-top:1px solid var(--line)}
 .authorbox img{width:64px;height:64px;border-radius:50%;flex:0 0 auto}
 .authorbox .r{font-family:var(--sans);font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:.1rem 0 .5rem}
@@ -212,14 +222,10 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
 
 <h2 class="faqtitle">Questions fréquentes</h2>
 <div class="faq">
-<h3>Cuir ou toile pour des sneakers blanches ?</h3>
-<p>Le cuir lisse pour la polyvalence : il s'habille avec un chino ou un pantalon de costume, se nettoie d'un coup d'éponge et se patine avec le temps. La toile, moins chère (30 à 70 euros), reste cantonnée aux tenues décontractées d'été et grisonne plus vite.</p>
-<h3>Peut-on porter des sneakers blanches avec un costume ?</h3>
-<p>Oui, avec un costume décontracté en coton, lin ou laine souple, porté sans cravate et col ouvert. Avec un costume d'affaires classique ou pour une cérémonie formelle, on reste sur des chaussures en cuir habillées, derbies ou richelieus.</p>
-<h3>Comment nettoyer des sneakers blanches en cuir ?</h3>
-<p>Éponge humide et savon doux ou savon de Marseille sur le cuir, gomme blanche sur les semelles, lacets lavés à part ou remplacés. Évitez la machine à laver, qui attaque la colle des semelles et cartonne le cuir. Un imperméabilisant tous les 2 à 3 mois protège des taches.</p>
-<h3>Quelles chaussettes avec des sneakers blanches ?</h3>
-<p>Invisibles l'été avec un short ou un ourlet court, unies et discrètes (marine, grises, noires) le reste de l'année. La chaussette blanche de sport montante reste sur le terrain, sauf parti pris mode très assumé.</p>
+<details><summary><h3>Cuir ou toile pour des sneakers blanches ?</h3></summary><div class="faqa"><p>Le cuir lisse pour la polyvalence : il s'habille avec un chino ou un pantalon de costume, se nettoie d'un coup d'éponge et se patine avec le temps. La toile, moins chère (30 à 70 euros), reste cantonnée aux tenues décontractées d'été et grisonne plus vite.</p></div></details>
+<details><summary><h3>Peut-on porter des sneakers blanches avec un costume ?</h3></summary><div class="faqa"><p>Oui, avec un costume décontracté en coton, lin ou laine souple, porté sans cravate et col ouvert. Avec un costume d'affaires classique ou pour une cérémonie formelle, on reste sur des chaussures en cuir habillées, derbies ou richelieus.</p></div></details>
+<details><summary><h3>Comment nettoyer des sneakers blanches en cuir ?</h3></summary><div class="faqa"><p>Éponge humide et savon doux ou savon de Marseille sur le cuir, gomme blanche sur les semelles, lacets lavés à part ou remplacés. Évitez la machine à laver, qui attaque la colle des semelles et cartonne le cuir. Un imperméabilisant tous les 2 à 3 mois protège des taches.</p></div></details>
+<details><summary><h3>Quelles chaussettes avec des sneakers blanches ?</h3></summary><div class="faqa"><p>Invisibles l'été avec un short ou un ourlet court, unies et discrètes (marine, grises, noires) le reste de l'année. La chaussette blanche de sport montante reste sur le terrain, sauf parti pris mode très assumé.</p></div></details>
 </div>
 
   </div>

@@ -124,6 +124,16 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
 .artbody th,.artbody td{padding:11px 13px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
 .artbody thead th{font-family:var(--sans);text-transform:uppercase;letter-spacing:.08em;font-size:.68rem;background:#f3efe9}
 .artbody .faq h3{font-size:1.12rem}
+.faq details{border-bottom:1px solid var(--line)}
+.faq details summary{cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:14px;padding:15px 0;list-style:none}
+.faq details summary::-webkit-details-marker{display:none}
+.faq details summary h3{margin:0;font-size:1.08rem}
+.faq details summary::after{content:"+";font-family:var(--sans);font-size:1.3rem;line-height:1;color:var(--muted);transition:transform .25s ease;flex:0 0 auto}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq .faqa{padding:0 0 16px}
+.faq .faqa p{margin:0 0 .8rem}
+.faq details[open] .faqa{animation:faqopen .28s ease}
+@keyframes faqopen{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
 .authorbox{max-width:760px;margin:40px auto 0;padding:22px 28px;display:flex;gap:18px;align-items:flex-start;border-top:1px solid var(--line)}
 .authorbox img{width:64px;height:64px;border-radius:50%;flex:0 0 auto}
 .authorbox .r{font-family:var(--sans);font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:.1rem 0 .5rem}
@@ -223,18 +233,12 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
 
 <h2 class="faqtitle">Frequently asked questions</h2>
 <div class="faq">
-<h3>Can you wear a black suit to a wedding?</h3>
-<p>Only if the dress code is very formal or the reception is in the evening. In daytime, black reads like a funeral: a <strong>navy</strong>, a light grey or a beige suit feels right straight away.</p>
-<h3>Is a suit mandatory for a guest?</h3>
-<p>No, unless the invitation says so. A blazer with <strong>smart chinos</strong>, a pressed shirt and leather shoes are plenty for a relaxed or countryside wedding.</p>
-<h3>How should a man dress for a winter wedding?</h3>
-<p>Go for a flannel or heavy-wool suit, a matching waistcoat for warmth, a dark wool coat over it and a plain scarf. The three-piece earns its place here: it insulates and keeps the outfit complete once the coat is checked in.</p>
-<h3>How does the best man dress?</h3>
-<p>The <strong>best man</strong> sits a notch above the guests, often in a three-piece or a colour coordinated with the groom. The one absolute rule: never be better dressed than the groom himself. You accompany, you do not upstage.</p>
-<h3>Which colours should you avoid at a wedding?</h3>
-<p>White and ivory, reserved for the couple, all-black in daytime, and any loud print that catches the photographer's lens for the wrong reasons.</p>
-<h3>Do you have to wear a tie to a wedding?</h3>
-<p>For a religious ceremony or a formal dress code, yes. For a countryside or summer wedding, a neat open collar works very well, perhaps lifted by a pocket square to keep a dressed-up touch.</p>
+<details><summary><h3>Can you wear a black suit to a wedding?</h3></summary><div class="faqa"><p>Only if the dress code is very formal or the reception is in the evening. In daytime, black reads like a funeral: a <strong>navy</strong>, a light grey or a beige suit feels right straight away.</p></div></details>
+<details><summary><h3>Is a suit mandatory for a guest?</h3></summary><div class="faqa"><p>No, unless the invitation says so. A blazer with <strong>smart chinos</strong>, a pressed shirt and leather shoes are plenty for a relaxed or countryside wedding.</p></div></details>
+<details><summary><h3>How should a man dress for a winter wedding?</h3></summary><div class="faqa"><p>Go for a flannel or heavy-wool suit, a matching waistcoat for warmth, a dark wool coat over it and a plain scarf. The three-piece earns its place here: it insulates and keeps the outfit complete once the coat is checked in.</p></div></details>
+<details><summary><h3>How does the best man dress?</h3></summary><div class="faqa"><p>The <strong>best man</strong> sits a notch above the guests, often in a three-piece or a colour coordinated with the groom. The one absolute rule: never be better dressed than the groom himself. You accompany, you do not upstage.</p></div></details>
+<details><summary><h3>Which colours should you avoid at a wedding?</h3></summary><div class="faqa"><p>White and ivory, reserved for the couple, all-black in daytime, and any loud print that catches the photographer's lens for the wrong reasons.</p></div></details>
+<details><summary><h3>Do you have to wear a tie to a wedding?</h3></summary><div class="faqa"><p>For a religious ceremony or a formal dress code, yes. For a countryside or summer wedding, a neat open collar works very well, perhaps lifted by a pocket square to keep a dressed-up touch.</p></div></details>
 </div>
 
   </div>

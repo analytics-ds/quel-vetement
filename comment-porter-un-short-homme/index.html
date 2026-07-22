@@ -124,6 +124,16 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
 .artbody th,.artbody td{padding:11px 13px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
 .artbody thead th{font-family:var(--sans);text-transform:uppercase;letter-spacing:.08em;font-size:.68rem;background:#f3efe9}
 .artbody .faq h3{font-size:1.12rem}
+.faq details{border-bottom:1px solid var(--line)}
+.faq details summary{cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:14px;padding:15px 0;list-style:none}
+.faq details summary::-webkit-details-marker{display:none}
+.faq details summary h3{margin:0;font-size:1.08rem}
+.faq details summary::after{content:"+";font-family:var(--sans);font-size:1.3rem;line-height:1;color:var(--muted);transition:transform .25s ease;flex:0 0 auto}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq .faqa{padding:0 0 16px}
+.faq .faqa p{margin:0 0 .8rem}
+.faq details[open] .faqa{animation:faqopen .28s ease}
+@keyframes faqopen{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
 .authorbox{max-width:760px;margin:40px auto 0;padding:22px 28px;display:flex;gap:18px;align-items:flex-start;border-top:1px solid var(--line)}
 .authorbox img{width:64px;height:64px;border-radius:50%;flex:0 0 auto}
 .authorbox .r{font-family:var(--sans);font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:.1rem 0 .5rem}
@@ -214,14 +224,10 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
 
 <h2 class="faqtitle">Questions fréquentes</h2>
 <div class="faq">
-<h3>Quelle longueur de short choisir ?</h3>
-<p>Entre 3 et 8 cm au-dessus du genou pour la plupart des morphologies. Plus court, il faut des jambes athlétiques et de l'assurance. Sous le genou, la silhouette se tasse immédiatement.</p>
-<h3>Peut-on porter un short en ville ?</h3>
-<p>Oui, à condition de monter le reste d'un cran : short chino net, polo ou chemise légère, chaussures propres. Le short de bain et les claquettes restent à la plage.</p>
-<h3>Quelles chaussures avec un short ?</h3>
-<p>Espadrilles, sneakers blanches en cuir, mocassins pieds nus ou sandales de qualité. Les chaussettes hautes avec un short habillé, c'est un pari de styliste, pas un réflexe.</p>
-<h3>Le short en jean est-il une bonne idée ?</h3>
-<p>Coupé net au-dessus du genou et non effiloché, il peut fonctionner en vacances. Pour la ville, un short chino ou en lin donne un rendu plus adulte.</p>
+<details><summary><h3>Quelle longueur de short choisir ?</h3></summary><div class="faqa"><p>Entre 3 et 8 cm au-dessus du genou pour la plupart des morphologies. Plus court, il faut des jambes athlétiques et de l'assurance. Sous le genou, la silhouette se tasse immédiatement.</p></div></details>
+<details><summary><h3>Peut-on porter un short en ville ?</h3></summary><div class="faqa"><p>Oui, à condition de monter le reste d'un cran : short chino net, polo ou chemise légère, chaussures propres. Le short de bain et les claquettes restent à la plage.</p></div></details>
+<details><summary><h3>Quelles chaussures avec un short ?</h3></summary><div class="faqa"><p>Espadrilles, sneakers blanches en cuir, mocassins pieds nus ou sandales de qualité. Les chaussettes hautes avec un short habillé, c'est un pari de styliste, pas un réflexe.</p></div></details>
+<details><summary><h3>Le short en jean est-il une bonne idée ?</h3></summary><div class="faqa"><p>Coupé net au-dessus du genou et non effiloché, il peut fonctionner en vacances. Pour la ville, un short chino ou en lin donne un rendu plus adulte.</p></div></details>
 </div>
 
   </div>

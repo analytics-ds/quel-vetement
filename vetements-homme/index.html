@@ -112,6 +112,16 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
 .seotext a{text-decoration:underline;text-underline-offset:2px;text-decoration-thickness:1px}
 .seotext a:hover{color:var(--muted)}
 .seotext strong{font-weight:600}
+.faq details{border-bottom:1px solid var(--line)}
+.faq details summary{cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:14px;padding:15px 0;list-style:none}
+.faq details summary::-webkit-details-marker{display:none}
+.faq details summary h3{margin:0;font-size:1.08rem}
+.faq details summary::after{content:"+";font-family:var(--sans);font-size:1.3rem;line-height:1;color:var(--muted);transition:transform .25s ease;flex:0 0 auto}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq .faqa{padding:0 0 16px}
+.faq .faqa p{margin:0 0 .8rem}
+.faq details[open] .faqa{animation:faqopen .28s ease}
+@keyframes faqopen{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
 </style>
 <script type="application/ld+json">
 {
@@ -245,10 +255,10 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
 <h2>Ce qu'on regarde avant d'acheter</h2>
 <p>Dans nos guides, la coupe passe en premier. Pas celle du mannequin de la fiche produit, la vôtre : largeur d'épaules, longueur de jambe, tour de cuisse si vous pédalez. Vient ensuite la matière, et là le toucher ne ment pas. Un coton fin qui se froisse dans le sac ne survivra pas à un été, quand un <a href="/comment-porter-une-chemise-en-lin-homme/">lin lavé</a> assume ses plis avec panache. Pour les couleurs, on garde une position simple depuis le premier article : du marine, de l'écru, du gris et de l'olive en base, et une pièce colorée à la fois. Le détail de la méthode est dans le guide des <a href="/comment-associer-les-couleurs-de-ses-vetements/">associations de couleurs</a>.</p>
 <h2>Questions fréquentes</h2>
-<h3>Quels vêtements posséder en priorité dans un vestiaire homme ?</h3>
-<p>Un chino beige ou marine, un jean brut, une chemise blanche, un polo uni, un cardigan et une paire de sneakers propres couvrent la majorité des situations, du bureau au week-end. Mieux vaut peu de pièces bien coupées qu'une armoire pleine : chacun de nos guides détaille la coupe et la matière à privilégier pour chaque pièce.</p>
-<h3>Comment savoir si un vêtement est à la bonne taille ?</h3>
-<p>Regardez d'abord la couture d'épaule : elle doit finir pile à l'angle de l'os, ni avant ni après. Ensuite glissez une main à plat entre le tissu et le corps ; si un poing passe, c'est trop grand. Et si vous hésitez entre deux tailles, prenez la plus ajustée : un retoucheur sait reprendre un vêtement près du corps, pas en inventer.</p>
+<div class="faq">
+<details><summary><h3>Quels vêtements posséder en priorité dans un vestiaire homme ?</h3></summary><div class="faqa"><p>Un chino beige ou marine, un jean brut, une chemise blanche, un polo uni, un cardigan et une paire de sneakers propres couvrent la majorité des situations, du bureau au week-end. Mieux vaut peu de pièces bien coupées qu'une armoire pleine : chacun de nos guides détaille la coupe et la matière à privilégier pour chaque pièce.</p></div></details>
+<details><summary><h3>Comment savoir si un vêtement est à la bonne taille ?</h3></summary><div class="faqa"><p>Regardez d'abord la couture d'épaule : elle doit finir pile à l'angle de l'os, ni avant ni après. Ensuite glissez une main à plat entre le tissu et le corps ; si un poing passe, c'est trop grand. Et si vous hésitez entre deux tailles, prenez la plus ajustée : un retoucheur sait reprendre un vêtement près du corps, pas en inventer.</p></div></details>
+</div>
   </div>
 </main>
 <footer class="foot"><div class="wrap">

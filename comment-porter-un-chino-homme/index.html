@@ -124,6 +124,16 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
 .artbody th,.artbody td{padding:11px 13px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
 .artbody thead th{font-family:var(--sans);text-transform:uppercase;letter-spacing:.08em;font-size:.68rem;background:#f3efe9}
 .artbody .faq h3{font-size:1.12rem}
+.faq details{border-bottom:1px solid var(--line)}
+.faq details summary{cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:14px;padding:15px 0;list-style:none}
+.faq details summary::-webkit-details-marker{display:none}
+.faq details summary h3{margin:0;font-size:1.08rem}
+.faq details summary::after{content:"+";font-family:var(--sans);font-size:1.3rem;line-height:1;color:var(--muted);transition:transform .25s ease;flex:0 0 auto}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq .faqa{padding:0 0 16px}
+.faq .faqa p{margin:0 0 .8rem}
+.faq details[open] .faqa{animation:faqopen .28s ease}
+@keyframes faqopen{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
 .authorbox{max-width:760px;margin:40px auto 0;padding:22px 28px;display:flex;gap:18px;align-items:flex-start;border-top:1px solid var(--line)}
 .authorbox img{width:64px;height:64px;border-radius:50%;flex:0 0 auto}
 .authorbox .r{font-family:var(--sans);font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:.1rem 0 .5rem}
@@ -219,14 +229,10 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
 
 <h2 class="faqtitle">Questions fréquentes</h2>
 <div class="faq">
-<h3>Quelle couleur de chino choisir en premier ?</h3>
-<p>Le beige, sans hésiter. Il se marie avec n'importe quel haut, clair comme foncé, et passe du bureau au week-end. Le <strong>chino bleu marine</strong> arrive juste derrière pour les occasions un peu plus habillées.</p>
-<h3>Peut-on porter un chino à un mariage ?</h3>
-<p>Oui, pour un mariage en journée, champêtre ou estival. Un chino beige clair ou bleu profond, avec chemise habillée, blazer et mocassins en cuir, reste élégant et bien plus confortable qu'un costume sombre sous le soleil.</p>
-<h3>Quelles chaussures avec un chino beige ?</h3>
-<p>Des mocassins ou derbies marron pour un rendu soigné, des sneakers blanches en cuir pour une version décontractée. On évite les baskets de sport trop techniques, qui cassent la silhouette.</p>
-<h3>Comment savoir si mon chino est à la bonne taille ?</h3>
-<p>Vous devez pouvoir glisser une main à plat dans la ceinture, pas votre poing. Le bas s'arrête juste au-dessus de la chaussure avec un seul petit pli, et la cuisse reste nette sans tirer.</p>
+<details><summary><h3>Quelle couleur de chino choisir en premier ?</h3></summary><div class="faqa"><p>Le beige, sans hésiter. Il se marie avec n'importe quel haut, clair comme foncé, et passe du bureau au week-end. Le <strong>chino bleu marine</strong> arrive juste derrière pour les occasions un peu plus habillées.</p></div></details>
+<details><summary><h3>Peut-on porter un chino à un mariage ?</h3></summary><div class="faqa"><p>Oui, pour un mariage en journée, champêtre ou estival. Un chino beige clair ou bleu profond, avec chemise habillée, blazer et mocassins en cuir, reste élégant et bien plus confortable qu'un costume sombre sous le soleil.</p></div></details>
+<details><summary><h3>Quelles chaussures avec un chino beige ?</h3></summary><div class="faqa"><p>Des mocassins ou derbies marron pour un rendu soigné, des sneakers blanches en cuir pour une version décontractée. On évite les baskets de sport trop techniques, qui cassent la silhouette.</p></div></details>
+<details><summary><h3>Comment savoir si mon chino est à la bonne taille ?</h3></summary><div class="faqa"><p>Vous devez pouvoir glisser une main à plat dans la ceinture, pas votre poing. Le bas s'arrête juste au-dessus de la chaussure avec un seul petit pli, et la cuisse reste nette sans tirer.</p></div></details>
 </div>
 
   </div>

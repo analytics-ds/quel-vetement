@@ -112,6 +112,16 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
 .seotext a{text-decoration:underline;text-underline-offset:2px;text-decoration-thickness:1px}
 .seotext a:hover{color:var(--muted)}
 .seotext strong{font-weight:600}
+.faq details{border-bottom:1px solid var(--line)}
+.faq details summary{cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:14px;padding:15px 0;list-style:none}
+.faq details summary::-webkit-details-marker{display:none}
+.faq details summary h3{margin:0;font-size:1.08rem}
+.faq details summary::after{content:"+";font-family:var(--sans);font-size:1.3rem;line-height:1;color:var(--muted);transition:transform .25s ease;flex:0 0 auto}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq .faqa{padding:0 0 16px}
+.faq .faqa p{margin:0 0 .8rem}
+.faq details[open] .faqa{animation:faqopen .28s ease}
+@keyframes faqopen{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
 </style>
 <script type="application/ld+json">
 {
@@ -215,10 +225,10 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
 <h2>Invité à un mariage, pas figurant</h2>
 <p>Un mariage en juillet à 15 heures dans un jardin et un mariage en novembre dans une mairie de centre-ville n'appellent pas la même tenue, et c'est tout le propos de notre guide de <a href="/comment-s-habiller-pour-un-mariage-homme/">l'invité de mariage</a> : costume clair, <a href="/comment-porter-une-chemise-en-lin-homme/">chemise en lin</a> et mocassins soignés pour le premier, laine plus dense et couleurs profondes pour le second. Dans les deux cas, gardez les chaussures impeccables et le poignet discret. Sur ce dernier point, le guide de la <a href="/quelle-montre-porter-selon-sa-tenue/">montre selon la tenue</a> vous évitera le chrono de sport sur le costume trois-pièces.</p>
 <h2>Questions fréquentes</h2>
-<h3>Quelle couleur de costume choisir en premier ?</h3>
-<p>Le marine, sans hésiter, puis un gris moyen quand le premier est amorti. À eux deux ils couvrent l'entretien, le mariage et le bureau habillé, et tolèrent à peu près toutes les chemises. Résistez au noir : il paraît passe-partout en boutique et se retrouve cantonné aux enterrements et aux galas une fois chez vous.</p>
-<h3>Peut-on porter un costume sans cravate à un mariage ?</h3>
-<p>Oui, si le carton d'invitation n'impose pas de tenue formelle. Col ouvert soigné, pochette et chaussures impeccables compensent l'absence de cravate. En cérémonie religieuse ou en soirée habillée, la cravate ou le nœud papillon restent plus sûrs : notre guide de l'invité détaille les codes selon le type de mariage.</p>
+<div class="faq">
+<details><summary><h3>Quelle couleur de costume choisir en premier ?</h3></summary><div class="faqa"><p>Le marine, sans hésiter, puis un gris moyen quand le premier est amorti. À eux deux ils couvrent l'entretien, le mariage et le bureau habillé, et tolèrent à peu près toutes les chemises. Résistez au noir : il paraît passe-partout en boutique et se retrouve cantonné aux enterrements et aux galas une fois chez vous.</p></div></details>
+<details><summary><h3>Peut-on porter un costume sans cravate à un mariage ?</h3></summary><div class="faqa"><p>Oui, si le carton d'invitation n'impose pas de tenue formelle. Col ouvert soigné, pochette et chaussures impeccables compensent l'absence de cravate. En cérémonie religieuse ou en soirée habillée, la cravate ou le nœud papillon restent plus sûrs : notre guide de l'invité détaille les codes selon le type de mariage.</p></div></details>
+</div>
   </div>
 </main>
 <footer class="foot"><div class="wrap">

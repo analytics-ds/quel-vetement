@@ -124,6 +124,16 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
 .artbody th,.artbody td{padding:11px 13px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
 .artbody thead th{font-family:var(--sans);text-transform:uppercase;letter-spacing:.08em;font-size:.68rem;background:#f3efe9}
 .artbody .faq h3{font-size:1.12rem}
+.faq details{border-bottom:1px solid var(--line)}
+.faq details summary{cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:14px;padding:15px 0;list-style:none}
+.faq details summary::-webkit-details-marker{display:none}
+.faq details summary h3{margin:0;font-size:1.08rem}
+.faq details summary::after{content:"+";font-family:var(--sans);font-size:1.3rem;line-height:1;color:var(--muted);transition:transform .25s ease;flex:0 0 auto}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq .faqa{padding:0 0 16px}
+.faq .faqa p{margin:0 0 .8rem}
+.faq details[open] .faqa{animation:faqopen .28s ease}
+@keyframes faqopen{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
 .authorbox{max-width:760px;margin:40px auto 0;padding:22px 28px;display:flex;gap:18px;align-items:flex-start;border-top:1px solid var(--line)}
 .authorbox img{width:64px;height:64px;border-radius:50%;flex:0 0 auto}
 .authorbox .r{font-family:var(--sans);font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:.1rem 0 .5rem}
@@ -205,14 +215,10 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
 
 <h2 class="faqtitle">Questions fréquentes</h2>
 <div class="faq">
-<h3>Peut-on porter une montre sportive avec un costume ?</h3>
-<p>Une plongeuse sobre sur bracelet acier passe avec un costume décontracté, c'est même un classique. En revanche, une <strong>montre connectée</strong> ou un chrono massif en résine dénote avec une tenue formelle : gardez-les pour le sport et les looks décontractés.</p>
-<h3>Le bracelet doit-il être assorti à la ceinture et aux chaussures ?</h3>
-<p>Pour le cuir, oui dans l'esprit : marron avec marron, noir avec noir. Pas besoin d'un ton identique, une même famille de couleurs suffit. L'<strong>acier</strong>, lui, se marie avec tout, du formel au décontracté.</p>
-<h3>Quelle taille de boîtier choisir ?</h3>
-<p>Entre 36 et 40 mm pour la plupart des poignets, jusqu'à <strong>42 mm</strong> pour les poignets forts. Les cornes ne doivent jamais dépasser la largeur du poignet, et un boîtier fin passe mieux sous une manchette.</p>
-<h3>Une seule montre peut-elle tout faire ?</h3>
-<p>Oui : une trois aiguilles sobre, boîtier acier de 38 à 40 mm, cadran blanc ou noir, avec deux bracelets interchangeables (acier et cuir). Elle suivra du bureau au week-end sans fausse note.</p>
+<details><summary><h3>Peut-on porter une montre sportive avec un costume ?</h3></summary><div class="faqa"><p>Une plongeuse sobre sur bracelet acier passe avec un costume décontracté, c'est même un classique. En revanche, une <strong>montre connectée</strong> ou un chrono massif en résine dénote avec une tenue formelle : gardez-les pour le sport et les looks décontractés.</p></div></details>
+<details><summary><h3>Le bracelet doit-il être assorti à la ceinture et aux chaussures ?</h3></summary><div class="faqa"><p>Pour le cuir, oui dans l'esprit : marron avec marron, noir avec noir. Pas besoin d'un ton identique, une même famille de couleurs suffit. L'<strong>acier</strong>, lui, se marie avec tout, du formel au décontracté.</p></div></details>
+<details><summary><h3>Quelle taille de boîtier choisir ?</h3></summary><div class="faqa"><p>Entre 36 et 40 mm pour la plupart des poignets, jusqu'à <strong>42 mm</strong> pour les poignets forts. Les cornes ne doivent jamais dépasser la largeur du poignet, et un boîtier fin passe mieux sous une manchette.</p></div></details>
+<details><summary><h3>Une seule montre peut-elle tout faire ?</h3></summary><div class="faqa"><p>Oui : une trois aiguilles sobre, boîtier acier de 38 à 40 mm, cadran blanc ou noir, avec deux bracelets interchangeables (acier et cuir). Elle suivra du bureau au week-end sans fausse note.</p></div></details>
 </div>
 
   </div>

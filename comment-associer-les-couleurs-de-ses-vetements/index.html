@@ -124,6 +124,16 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
 .artbody th,.artbody td{padding:11px 13px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
 .artbody thead th{font-family:var(--sans);text-transform:uppercase;letter-spacing:.08em;font-size:.68rem;background:#f3efe9}
 .artbody .faq h3{font-size:1.12rem}
+.faq details{border-bottom:1px solid var(--line)}
+.faq details summary{cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:14px;padding:15px 0;list-style:none}
+.faq details summary::-webkit-details-marker{display:none}
+.faq details summary h3{margin:0;font-size:1.08rem}
+.faq details summary::after{content:"+";font-family:var(--sans);font-size:1.3rem;line-height:1;color:var(--muted);transition:transform .25s ease;flex:0 0 auto}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq .faqa{padding:0 0 16px}
+.faq .faqa p{margin:0 0 .8rem}
+.faq details[open] .faqa{animation:faqopen .28s ease}
+@keyframes faqopen{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
 .authorbox{max-width:760px;margin:40px auto 0;padding:22px 28px;display:flex;gap:18px;align-items:flex-start;border-top:1px solid var(--line)}
 .authorbox img{width:64px;height:64px;border-radius:50%;flex:0 0 auto}
 .authorbox .r{font-family:var(--sans);font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:.1rem 0 .5rem}
@@ -222,16 +232,11 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
 
 <h2 class="faqtitle">Questions fréquentes</h2>
 <div class="faq">
-<h3>Combien de couleurs porter en même temps ?</h3>
-<p>Trois maximum, accessoires compris. Deux neutres qui forment la base, plus une couleur d'accent si vous en avez envie. Au-delà, la tenue devient difficile à lire, même quand chaque accord pris isolément fonctionne.</p>
-<h3>Le bleu marine et le noir vont-ils ensemble ?</h3>
-<p>Oui, à condition que la différence soit assumée : un pull marine clair sur un jean noir fonctionne très bien. Ce qui ne pardonne pas, c'est un marine et un noir si proches qu'on dirait un accident de lessive.</p>
-<h3>Quelles couleurs vont avec le beige ?</h3>
-<p>Presque toutes : blanc, marine, marron, kaki, bordeaux, bleu ciel, vert sapin. Le beige est le neutre le plus facile à porter du vestiaire masculin, la meilleure base pour apprendre à s'habiller en couleur.</p>
-<h3>Qu'est-ce qu'une tenue monochrome réussie ?</h3>
-<p>Une seule couleur déclinée sur toute la silhouette, avec au moins trois matières différentes pour créer du relief : maille, denim, cuir par exemple. Le monochrome réussit mieux en neutres (gris, écru, marine) qu'en teinte vive.</p>
-<h3>Comment porter une couleur vive sans en faire trop ?</h3>
-<p>Une seule pièce vive à la fois, entourée de neutres, ou une version désaturée de la teinte (rouille plutôt qu'orange vif, sauge plutôt que vert pomme). Deux pièces vives ensemble, c'est déjà un pari perdu d'avance.</p>
+<details><summary><h3>Combien de couleurs porter en même temps ?</h3></summary><div class="faqa"><p>Trois maximum, accessoires compris. Deux neutres qui forment la base, plus une couleur d'accent si vous en avez envie. Au-delà, la tenue devient difficile à lire, même quand chaque accord pris isolément fonctionne.</p></div></details>
+<details><summary><h3>Le bleu marine et le noir vont-ils ensemble ?</h3></summary><div class="faqa"><p>Oui, à condition que la différence soit assumée : un pull marine clair sur un jean noir fonctionne très bien. Ce qui ne pardonne pas, c'est un marine et un noir si proches qu'on dirait un accident de lessive.</p></div></details>
+<details><summary><h3>Quelles couleurs vont avec le beige ?</h3></summary><div class="faqa"><p>Presque toutes : blanc, marine, marron, kaki, bordeaux, bleu ciel, vert sapin. Le beige est le neutre le plus facile à porter du vestiaire masculin, la meilleure base pour apprendre à s'habiller en couleur.</p></div></details>
+<details><summary><h3>Qu'est-ce qu'une tenue monochrome réussie ?</h3></summary><div class="faqa"><p>Une seule couleur déclinée sur toute la silhouette, avec au moins trois matières différentes pour créer du relief : maille, denim, cuir par exemple. Le monochrome réussit mieux en neutres (gris, écru, marine) qu'en teinte vive.</p></div></details>
+<details><summary><h3>Comment porter une couleur vive sans en faire trop ?</h3></summary><div class="faqa"><p>Une seule pièce vive à la fois, entourée de neutres, ou une version désaturée de la teinte (rouille plutôt qu'orange vif, sauge plutôt que vert pomme). Deux pièces vives ensemble, c'est déjà un pari perdu d'avance.</p></div></details>
 </div>
 
   </div>

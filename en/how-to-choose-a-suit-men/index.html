@@ -124,6 +124,16 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
 .artbody th,.artbody td{padding:11px 13px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
 .artbody thead th{font-family:var(--sans);text-transform:uppercase;letter-spacing:.08em;font-size:.68rem;background:#f3efe9}
 .artbody .faq h3{font-size:1.12rem}
+.faq details{border-bottom:1px solid var(--line)}
+.faq details summary{cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:14px;padding:15px 0;list-style:none}
+.faq details summary::-webkit-details-marker{display:none}
+.faq details summary h3{margin:0;font-size:1.08rem}
+.faq details summary::after{content:"+";font-family:var(--sans);font-size:1.3rem;line-height:1;color:var(--muted);transition:transform .25s ease;flex:0 0 auto}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq .faqa{padding:0 0 16px}
+.faq .faqa p{margin:0 0 .8rem}
+.faq details[open] .faqa{animation:faqopen .28s ease}
+@keyframes faqopen{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
 .authorbox{max-width:760px;margin:40px auto 0;padding:22px 28px;display:flex;gap:18px;align-items:flex-start;border-top:1px solid var(--line)}
 .authorbox img{width:64px;height:64px;border-radius:50%;flex:0 0 auto}
 .authorbox .r{font-family:var(--sans);font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:.1rem 0 .5rem}
@@ -213,14 +223,10 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
 
 <h2 class="faqtitle">Frequently asked questions</h2>
 <div class="faq">
-<h3>Which colour for a first suit?</h3>
-<p>Navy, no hesitation. It covers the job interview, the wedding, the office and the dressed-up dinner. Mid-grey comes second; black stays confined to very formal evenings.</p>
-<h3>How do you know a suit is the right size?</h3>
-<p>The shoulder seam stops exactly on the shoulder bone, the jacket buttons without pulling, and the trouser hem breaks lightly on the shoe. If the shoulders sit wrong, change size or model: that is the one thing tailors barely touch.</p>
-<h3>What budget for a good suit?</h3>
-<p>From 300 to 400 euros off the rack in decent quality, alterations included. No need to chase the most expensive cloth: keep 40 to 80 euros for the tailor instead, since alterations are what make a suit hang properly.</p>
-<h3>Wool, cotton or linen for a suit?</h3>
-<p><strong>Fresco wool</strong> stays the year-round reference: it breathes, resists creasing and holds the trouser crease. Cotton and linen give more casual suits, great in summer but far quicker to wrinkle.</p>
+<details><summary><h3>Which colour for a first suit?</h3></summary><div class="faqa"><p>Navy, no hesitation. It covers the job interview, the wedding, the office and the dressed-up dinner. Mid-grey comes second; black stays confined to very formal evenings.</p></div></details>
+<details><summary><h3>How do you know a suit is the right size?</h3></summary><div class="faqa"><p>The shoulder seam stops exactly on the shoulder bone, the jacket buttons without pulling, and the trouser hem breaks lightly on the shoe. If the shoulders sit wrong, change size or model: that is the one thing tailors barely touch.</p></div></details>
+<details><summary><h3>What budget for a good suit?</h3></summary><div class="faqa"><p>From 300 to 400 euros off the rack in decent quality, alterations included. No need to chase the most expensive cloth: keep 40 to 80 euros for the tailor instead, since alterations are what make a suit hang properly.</p></div></details>
+<details><summary><h3>Wool, cotton or linen for a suit?</h3></summary><div class="faqa"><p><strong>Fresco wool</strong> stays the year-round reference: it breathes, resists creasing and holds the trouser crease. Cotton and linen give more casual suits, great in summer but far quicker to wrinkle.</p></div></details>
 </div>
 
   </div>

@@ -124,6 +124,16 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
 .artbody th,.artbody td{padding:11px 13px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
 .artbody thead th{font-family:var(--sans);text-transform:uppercase;letter-spacing:.08em;font-size:.68rem;background:#f3efe9}
 .artbody .faq h3{font-size:1.12rem}
+.faq details{border-bottom:1px solid var(--line)}
+.faq details summary{cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:14px;padding:15px 0;list-style:none}
+.faq details summary::-webkit-details-marker{display:none}
+.faq details summary h3{margin:0;font-size:1.08rem}
+.faq details summary::after{content:"+";font-family:var(--sans);font-size:1.3rem;line-height:1;color:var(--muted);transition:transform .25s ease;flex:0 0 auto}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq .faqa{padding:0 0 16px}
+.faq .faqa p{margin:0 0 .8rem}
+.faq details[open] .faqa{animation:faqopen .28s ease}
+@keyframes faqopen{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
 .authorbox{max-width:760px;margin:40px auto 0;padding:22px 28px;display:flex;gap:18px;align-items:flex-start;border-top:1px solid var(--line)}
 .authorbox img{width:64px;height:64px;border-radius:50%;flex:0 0 auto}
 .authorbox .r{font-family:var(--sans);font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:.1rem 0 .5rem}
@@ -213,16 +223,11 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
 
 <h2 class="faqtitle">Questions fréquentes</h2>
 <div class="faq">
-<h3>Quelle couleur pour un premier costume ?</h3>
-<p>Bleu marine, sans hésiter. Il couvre l'entretien d'embauche, le mariage, le bureau et le dîner habillé. Le gris moyen arrive en deuxième position, le noir reste cantonné aux soirées très formelles.</p>
-<h3>Comment savoir si un costume est à la bonne taille ?</h3>
-<p>La couture d'épaule s'arrête pile sur l'os de l'épaule, la veste se boutonne sans tirer, et l'ourlet du pantalon casse à peine sur la chaussure. Si les épaules tombent mal, changez de taille ou de modèle : ça ne se retouche presque pas.</p>
-<h3>Quel budget pour un bon costume ?</h3>
-<p>À partir de 300 à 400 euros en prêt-à-porter de qualité, retouches comprises. Inutile de viser le plus cher : gardez plutôt 40 à 80 euros pour le retoucheur, c'est lui qui fait tomber le costume parfaitement.</p>
-<h3>Laine, coton ou lin pour un costume ?</h3>
-<p>La <strong>laine froide</strong> reste la référence toute l'année : elle respire, se froisse peu et tient le pli. Le coton et le lin donnent des costumes plus décontractés, parfaits l'été mais nettement plus froissables.</p>
-<h3>Comment choisir un costume homme quand on est grand ou fort ?</h3>
-<p>Les silhouettes hors standard gagnent à passer en demi-mesure, où longueur de manche, carrure et tour de taille se règlent indépendamment. En prêt-à-porter, cherchez les enseignes qui proposent des longueurs de jambe et des demi-tailles : un homme grand privilégie une veste légèrement plus longue et un croisé qui structure, un homme fort une coupe droite qui ne marque pas la taille, avec un pantalon monté haut.</p>
+<details><summary><h3>Quelle couleur pour un premier costume ?</h3></summary><div class="faqa"><p>Bleu marine, sans hésiter. Il couvre l'entretien d'embauche, le mariage, le bureau et le dîner habillé. Le gris moyen arrive en deuxième position, le noir reste cantonné aux soirées très formelles.</p></div></details>
+<details><summary><h3>Comment savoir si un costume est à la bonne taille ?</h3></summary><div class="faqa"><p>La couture d'épaule s'arrête pile sur l'os de l'épaule, la veste se boutonne sans tirer, et l'ourlet du pantalon casse à peine sur la chaussure. Si les épaules tombent mal, changez de taille ou de modèle : ça ne se retouche presque pas.</p></div></details>
+<details><summary><h3>Quel budget pour un bon costume ?</h3></summary><div class="faqa"><p>À partir de 300 à 400 euros en prêt-à-porter de qualité, retouches comprises. Inutile de viser le plus cher : gardez plutôt 40 à 80 euros pour le retoucheur, c'est lui qui fait tomber le costume parfaitement.</p></div></details>
+<details><summary><h3>Laine, coton ou lin pour un costume ?</h3></summary><div class="faqa"><p>La <strong>laine froide</strong> reste la référence toute l'année : elle respire, se froisse peu et tient le pli. Le coton et le lin donnent des costumes plus décontractés, parfaits l'été mais nettement plus froissables.</p></div></details>
+<details><summary><h3>Comment choisir un costume homme quand on est grand ou fort ?</h3></summary><div class="faqa"><p>Les silhouettes hors standard gagnent à passer en demi-mesure, où longueur de manche, carrure et tour de taille se règlent indépendamment. En prêt-à-porter, cherchez les enseignes qui proposent des longueurs de jambe et des demi-tailles : un homme grand privilégie une veste légèrement plus longue et un croisé qui structure, un homme fort une coupe droite qui ne marque pas la taille, avec un pantalon monté haut.</p></div></details>
 </div>
 
   </div>

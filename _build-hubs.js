@@ -34,6 +34,16 @@ const HUB_CSS = `<style>
 .seotext a{text-decoration:underline;text-underline-offset:2px;text-decoration-thickness:1px}
 .seotext a:hover{color:var(--muted)}
 .seotext strong{font-weight:600}
+.faq details{border-bottom:1px solid var(--line)}
+.faq details summary{cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:14px;padding:15px 0;list-style:none}
+.faq details summary::-webkit-details-marker{display:none}
+.faq details summary h3{margin:0;font-size:1.08rem}
+.faq details summary::after{content:"+";font-family:var(--sans);font-size:1.3rem;line-height:1;color:var(--muted);transition:transform .25s ease;flex:0 0 auto}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq .faqa{padding:0 0 16px}
+.faq .faqa p{margin:0 0 .8rem}
+.faq details[open] .faqa{animation:faqopen .28s ease}
+@keyframes faqopen{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
 </style>`;
 
 const arts = JSON.parse(fs.readFileSync(path.join(ROOT, '_articles', 'articles.json'), 'utf8'));
@@ -164,7 +174,7 @@ function hubPage(hub, lang) {
   const sections = lang === 'fr' ? (hub.sectionsFr || '') : (hub.sectionsEn || '');
   const faq = (lang === 'fr' ? hub.faqFr : hub.faqEn) || [];
   const faqTitle = lang === 'fr' ? 'Questions fréquentes' : 'Frequently asked questions';
-  const faqHtml = faq.length ? `<h2>${faqTitle}</h2>\n` + faq.map(f => `<h3>${f.q}</h3>\n<p>${f.a}</p>`).join('\n') : '';
+  const faqHtml = faq.length ? `<h2>${faqTitle}</h2>\n<div class="faq">\n` + faq.map(f => `<details><summary><h3>${f.q}</h3></summary><div class="faqa"><p>${f.a}</p></div></details>`).join('\n') + `\n</div>` : '';
   const faqLd = faq.length ? `<script type="application/ld+json">\n${JSON.stringify({'@context':'https://schema.org','@type':'FAQPage',mainEntity:faq.map(f=>({'@type':'Question',name:f.q,acceptedAnswer:{'@type':'Answer',text:f.a}}))}, null, 2)}\n</script>` : '';
   return `<!DOCTYPE html>
 <html lang="${lang}">

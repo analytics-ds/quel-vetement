@@ -112,6 +112,16 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
 .seotext a{text-decoration:underline;text-underline-offset:2px;text-decoration-thickness:1px}
 .seotext a:hover{color:var(--muted)}
 .seotext strong{font-weight:600}
+.faq details{border-bottom:1px solid var(--line)}
+.faq details summary{cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:14px;padding:15px 0;list-style:none}
+.faq details summary::-webkit-details-marker{display:none}
+.faq details summary h3{margin:0;font-size:1.08rem}
+.faq details summary::after{content:"+";font-family:var(--sans);font-size:1.3rem;line-height:1;color:var(--muted);transition:transform .25s ease;flex:0 0 auto}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq .faqa{padding:0 0 16px}
+.faq .faqa p{margin:0 0 .8rem}
+.faq details[open] .faqa{animation:faqopen .28s ease}
+@keyframes faqopen{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
 </style>
 <script type="application/ld+json">
 {
@@ -245,10 +255,10 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
 <h2>What we check before buying</h2>
 <p>In our guides, fit comes first. Not the model's fit on the product page, yours: shoulder width, leg length, thigh room if you cycle. Fabric comes next, and touch doesn't lie. A thin cotton that creases in the bag won't survive a summer, while <a href="/en/how-to-wear-a-linen-shirt-men/">washed linen</a> carries its wrinkles with some swagger. On colour we've held the same line since the first article: navy, ecru, grey and olive as a base, one coloured piece at a time. The full method sits in the <a href="/en/how-to-match-colours-in-an-outfit/">colour matching</a> guide.</p>
 <h2>Frequently asked questions</h2>
-<h3>Which pieces should a wardrobe start with?</h3>
-<p>Beige or navy chinos, raw denim, a white shirt, a plain polo, a cardigan and a clean pair of sneakers cover most situations from office to weekend. A few well-cut pieces beat a full wardrobe: each of our guides details the fit and fabric to look for.</p>
-<h3>How do I know a garment fits?</h3>
-<p>Start with the shoulder seam: it should end exactly at the corner of the bone, no sooner, no later. Then slide a flat hand between fabric and body; if a fist fits, it's too big. And when torn between two sizes, take the closer fit: a tailor can take a garment in, not invent one.</p>
+<div class="faq">
+<details><summary><h3>Which pieces should a wardrobe start with?</h3></summary><div class="faqa"><p>Beige or navy chinos, raw denim, a white shirt, a plain polo, a cardigan and a clean pair of sneakers cover most situations from office to weekend. A few well-cut pieces beat a full wardrobe: each of our guides details the fit and fabric to look for.</p></div></details>
+<details><summary><h3>How do I know a garment fits?</h3></summary><div class="faqa"><p>Start with the shoulder seam: it should end exactly at the corner of the bone, no sooner, no later. Then slide a flat hand between fabric and body; if a fist fits, it's too big. And when torn between two sizes, take the closer fit: a tailor can take a garment in, not invent one.</p></div></details>
+</div>
   </div>
 </main>
 <footer class="foot"><div class="wrap">
