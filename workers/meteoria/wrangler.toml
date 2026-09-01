@@ -1,0 +1,9 @@
+name = "meteoria-quel-vetement"
+main = "src/index.js"
+compatibility_date = "2026-06-01"
+account_id = "e0dd71e4cd791925c9b37a85496aa259"
+
+routes = [
+  { pattern = "quel-vetement.com/*", zone_name = "quel-vetement.com" },
+  { pattern = "www.quel-vetement.com/*", zone_name = "quel-vetement.com" }
+]
